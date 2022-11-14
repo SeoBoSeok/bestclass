@@ -888,15 +888,15 @@ isMain = true;
 					<li class="item"><a href="content/provision.html">이용약관</a></li>
 				</ul>
 				<div class="info">
-					<span class="m_af_line">사업자등록번호 : 122-86-20732</span>
-					<span class="m_af_line">대우산업개발주식회사</span>
-					<span class="pc_af_line break"><span class="m_hide">주소 : </span>서울시 중구 세종대로 17 WISE TOWER 11층</span>
-					<span>고객센터: 032-831-8771</span>
+					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
+					<span class="m_af_line">베스트클래스개발주식회사</span>
+					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
+					<span>고객센터: 042-987-6620</span>
 				</div>
-				<P class="copyright">Copyright ⓒiaan. All Rights Reserved.</P>
+				<P class="copyright">CopyrightⓒBestclass. All Rights Reserved.</P>
 			</div>
 			<div class="right" id="family">
-				<div class="family_btn" id="family_btn">
+				<!-- <div class="family_btn" id="family_btn">
 					<a href="javascript:void(0);">
 						<span>FAMILY SITE</span>
 						<span class="arrow"><img src="_imgs/icon_select_arrow_w_dw.svg" alt="family site"></span>			
@@ -915,7 +915,7 @@ isMain = true;
 					<a href="https://www.airdays.co.kr" class="item" target="_blank">
 						<li>에어데이즈 공식몰</li>
 					</a>
-				</ul>
+				</ul> -->
 				<!-- <ul class="sns">
 					<li>
 						<a href="https://www.instagram.com/iaan_dw/" target="_blank">
