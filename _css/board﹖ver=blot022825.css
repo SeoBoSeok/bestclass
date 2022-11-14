@@ -1,0 +1,90 @@
+
+/* 커뮤니티 공통 */
+#contents > h2,
+section > .title {font-size: 38px;font-weight: 600;color: #000;margin: 0 0 80px;}
+
+/* 관리자는 타이틀 안보이게 (중복됨)*/
+.container_wr section > .title {display: none;}
+
+.board .search,
+.gallery .search{width:100%;max-width:500px;margin:0 auto;position:relative}
+.board .search .word,
+.gallery .search .word {width: 100%;height: 45px;outline: none;border: none;border-bottom: 2px solid #000;padding-bottom: 16px;font-size:22px;border-radius: 0;}
+
+.board .search .word:focus, .gallery .search .word:focus{border-color:#8bb929;
+-webkit-transition:border-color 0.6s ease-out;
+-moz-transition:border-color 0.6s ease-out;
+-o-transition:border-color 0.6s ease-out;
+transition:border-color 0.6s ease-out;
+
+}
+.order_num{font-size:40px;font-weight:700;color:#fff;position:absolute;left:10px;top:6px;z-index:1;line-height:1}
+
+.board .search .search-btn,
+.gallery .search .search-btn{position:absolute;right:0;padding: 8px;}
+.board .search .search-btn >  svg,
+.gallery .search .search-btn >svg{max-width: 20px; max-height: 20px;}
+.board .search .word::placeholder,
+.gallery .search .word::placeholder {font-size: 20px;font-weight: 300;text-align: left;color: #666666;}
+
+.board .other_list {width: 100%;display: flex;flex-flow: row wrap;justify-content: space-between;margin-top: 67px;margin-bottom: 138px;}
+.board .view .cont__wrap {text-align: center;}
+
+/* 게시판 공통 */
+.board .list {width: 100%;display: flex;flex-flow: row wrap;margin-top: 80px;margin-bottom: 80px;}
+.board .view {border-top: 2px solid #000;border-bottom: 1px solid #ccc;text-align: left;padding: 47px 0px 66px;margin-bottom: 80px;min-height:400px;}
+.board .view .date {margin: 11px 0px 44px;}
+.board .view .content {text-align: left;}
+.board .view__area,
+#news .list {margin-bottom: 0px !important;}
+.board .item img{width:100%;}
+.board .write {border-top: 2px solid #000;border-bottom: 1px solid #ccc;text-align: left;margin-bottom: 80.5px;display:table;border-collapse: collapse;width:100%;opacity:1 !important;}
+.board dl {display:table-row;}
+.board dl dt,
+.board dl dd{display:table-cell;border-bottom:1px solid #d8d8d8;}
+.board dl dt{background:#f9f9f9;font-weight:500;width:190px;padding:25px;vertical-align:top;}
+.board dl dt.required:after {content:'*';display:inline-block;color:#FF0000;padding-left:4px;}
+.board dl dd{padding:16px 25px;vertical-align:middle;}
+.board dl dd input[type=text], .board dl dd input[type=date]{width:auto;height:38px;font-size:16px;border:1px solid #ccc;padding:8px;background: transparent;color: #000;}
+.board dl dd select{}
+.board dl dd textarea{width:auto;height:350px;font-size:16px;border:1px solid #ccc;padding:8px;}
+.board dl dd select.full,
+.board dl dd textarea.full,
+.board dl dd input.full{width:100%;}
+.input-file-button{width:100%;height:38px;font-size:16px;border:1px solid #ccc;padding:8px;display:block;cursor:pointer;background:#f9f9f9 url(../_imgs/icon-feather-link.svg) no-repeat top 50% right 10px;color:#999;}
+
+/* 게시판 공통 세팅 */
+#bo_v_file h2 {position: absolute;font-size: 0;line-height: 0;overflow: hidden;}
+#bo_v_file ul {margin: 0;list-style: none;text-align:left;}
+#bo_v_file li {padding: 10px 12px;position: relative;margin: 10px 0;border: 1px solid #dfdfdf;display:inline-block;font-size:14px;}
+#bo_v_file li i {float: left;color: #b2b2b2;font-size: 2.35em;margin-right: 20px;display:none;}
+#bo_v_file a {float: left;display: block;text-decoration: none;word-wrap: break-word;color: #000;}
+#bo_v_file a:focus,
+#bo_v_file li:hover a,
+#bo_v_file a:active {text-decoration: underline;color: #000;}
+#bo_v_file img {float: left;margin: 0 10px 0 0;}
+#bo_v_file .bo_v_file_cnt {color: #b2b2b2;font-size: 0.92em;display:none;}
+#bo_v_file li:hover {border-color: #000;color: #000;}
+#bo_v_file li:hover i {color: #000;}
+#bo_v_file li:hover .bo_v_file_cnt {color: #e69494;}
+#bo_v_link h2 {position: absolute;font-size: 0;line-height: 0;overflow: hidden;}
+#bo_v_file ul {margin: 0;list-style: none;}
+#tab_area{margin-bottom:80px;}
+#tab_area ul{max-width:1050px;margin:0 auto;display:table;}
+#tab_area ul li {display:table-cell;text-align:center;padding:0 2px;min-width:150px;}
+#tab_area ul li a{padding:14px;border:1px solid #ccc;width:100%;display:inline-block;color:#000;}
+#tab_area ul li a:hover,
+#tab_area ul li a.active{background:#003744;border-color:#003744;color:#fff;}
+
+
+#bo_v_img {margin-top:20px;}
+#loadMoreBtn{display:inline-block !important}
+
+#contents table {margin-top:10px;}
+#contents table tr td {font-size:16px}
+
+#bo_v_file{margin-top:20px;}
+#sell .admin{display:none}
+
+.file_wr .file_info .frm_file{visibility:hidden;position:absolute}
+.insert_wrap.construct h3{text-align:left;font-size:30px;}

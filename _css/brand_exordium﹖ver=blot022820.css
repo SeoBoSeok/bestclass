@@ -1,0 +1,74 @@
+/* Brand */
+html { scroll-behavior: smooth; }
+
+.sub_visual.brand,
+#sub_nav.brand{display:none}
+.main .main__inner.brand{padding: 0 !important;max-width: 100%;}
+.main__inner.fixed{margin-top:0 !important}
+
+.main{background:none !important;}
+#brand .inner {width: 100%;height: 100%;overflow:hidden;}
+
+#brand .inner section {width: 100%;height: 200vh;position: relative;}
+#brand #bg_wrap {background:#000;width:100%;height:100%;position:fixed;z-index:-2;}
+#brand #bg_wrap > .inner {width:100%;height:100%;overflow:hidden;position:absolute;	top:50%;left: 50%;transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);}
+#brand #bg_wrap .bg {position:absolute;width:100%;height:100%;}
+
+#brand section {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+#brand .txt_wrap {position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);width: 100%;max-width: 1400px;color: #fff;z-index:-1;}
+#brand .txt_wrap .slogan {font-family:'Spectral', sans-serif;font-size: 76px;font-weight: 200;line-height: 1.5;letter-spacing: -1.3px;color: #fff;overflow:hidden;height:1.3em;position:relative;}
+#brand .txt_wrap .slogan b{font-weight:400;}
+#brand .txt_wrap .slogan .wrap {width:100%;position:absolute;transition:all 1.3s ease;margin:1.3em 0 0 0}
+#brand .txt_wrap .slogan .txt1{font-family:"Spoqa Han Sans Neo", sans-serif;font-size: 55px;font-weight:600}
+#brand .txt_wrap .slogan .text{width:100%;text-align:center;height:1.4em}
+#brand .txt_wrap .detail {font-size: 24px;text-align: center;color: #fff;}
+#brand .txt_wrap .detail .text{opacity:0;width:100%;text-align:center;position:absolute}
+#brand .txt_wrap .detail .txt1{opacity:1}
+#brand .txt_wrap .detail .txt1 .p2{padding-top:50px}
+#brand .txt_wrap .text {}
+
+#brand .txt_wrap .detail {font-size:22px;padding-top:20px}
+#brand .txt_wrap .text {opacity:1}
+#brand .bg_txt {right:0;top: 50%;transform: translate(100%, -50%); -webkit-transform: translate(100%, -50%); position: absolute;}
+
+/* #bg_wrap .bg img{min-width:100%;min-height:100%} */
+#bg_wrap .bg {  position: absolute;overflow: hidden;top: 0;transform: translate(0, 100%);}
+#bg_wrap .bg img{  top: 0;left:50%;transform: translate(-50%, -100%);min-width:100%;min-height:100%;position:absolute}
+#bg_wrap .bg.bg1 {transform: translate(0, 0);}
+#bg_wrap .bg.bg1 img{transform: translate(-50%, 0) scale(1.1);transition:transform 2s cubic-bezier(0, 0, 0.2, 1)}
+#bg_wrap .bg.bg1.on img{transform: translate(-50%, 0) scale(1);}
+
+#bg_wrap .bg .video{position: absolute; top: 0; left: 0;transform: translate(0, -100%); min-width: 100vw; min-height: 100vh;width: auto;height: auto;overflow: hidden;}
+
+#bg_wrap .bg.bg7{display:none}
+
+#brand #section4 .txt_wrap{position:relative}
+
+#brand #section3 {/* background: url(../_imgs/brand_bg3.jpg) center no-repeat */;background-size: cover;/* background-attachment:fixed */;height:100vh}
+/* #brand #section3_1 {  position: absolute;overflow: hidden;top: 0;transform: translate(0, 100%);}
+#brand #section3_1 img{  transform: translate(0, -100%);min-width:100%;min-height:100%}
+#brand #section3_2 {  position: absolute;overflow: hidden;top: 0;transform: translate(0, 100%);}
+#brand #section3_2 img{  transform: translate(0, -100%);min-width:100%;min-height:100%}
+ */
+#brand #section4 { background: url(../_imgs/brand/main_bg_exordium4.jpg) center no-repeat ;background-size: cover;height:1000px;background-attachment:fixed;}
+#brand #section4 {z-index:1}
+#brand #section4 .txt_wrap{z-index:2}
+#brand #section4 .btn_wrap {opacity:0}
+#brand #section4 .btn_wrap a{border: 1px solid #d1d1d1; font-size: 20px; font-weight: 500; display: inline-block; vertical-align: middle; text-align: center;	padding:15px 40px; margin-top:60px;}
+#brand #section4 .btn_wrap a:hover{background: #eee; color: #222;}
+#brand #section4 .logo{opacity:0}
+
+
+@media all and (max-width: 740px) {
+
+#brand .txt_wrap .slogan {font-size: 7.39vw;}
+#brand .txt_wrap .slogan .txt1{font-size: 5.91vw;}
+#brand .txt_wrap .detail {font-size: 3.94vw;}
+#brand .txt_wrap .detail {font-size:3.94vw;padding-top:4.93vw}
+#brand .txt_wrap .detail .txt1 .p2{padding-top:8vw}
+#brand .txt_wrap .detail .txt1 .p2 img{width:60vw}
+#brand #section4{height:120vw;background-attachment:initial}
+#brand #section4 .logo img{width:50vw}
+#brand #section4 .btn_wrap a{font-size: 3.69vw;padding:3.20vw 7.39vw;margin-top:9.36vw;}
+
+}

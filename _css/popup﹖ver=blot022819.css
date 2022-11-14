@@ -1,0 +1,17 @@
+#m_pop {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 100;right:auto;bottom:auto;}
+#m_pop.on {display: block; }
+#m_pop .bn_content {
+	position: absolute; top: 50%; left:50%;transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%);
+	width: calc(100% - 60px); min-height: 1px; background: #fff; z-index: 10; height:auto;
+	
+}
+#m_pop .bn_content .bn_img {width: 100%; height: auto; background: rgba(0,0,0,0.2);}
+#m_pop .bn_content .bn_btn {font-size: 0; }
+#m_pop .bn_content .bn_btn a {display: inline-block; width: 50%; height: 54px; line-height: 54px; text-align: center; font-size: 16px; }
+#m_pop .bn_content .bn_img a img{width:100%}
+#m_pop .bn_content .bn_btn a.go_away {background: #6a7780; color: #fff; }
+#m_pop .bn_content .bn_btn a.bn_close {background: #fff; color: #000; }
+#m_pop .bn_bg {position: relative; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 5; display:block}
+
+#m_pop .swiper-pagination {bottom:87px;height:auto;opacity:1}
+

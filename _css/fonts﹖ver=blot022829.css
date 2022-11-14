@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/gotham/gotham-light.eot');
+    src: url('fonts/gotham/gotham-light%EF%B9%96.eot#iefix') format('embedded-opentype'),
+         url('fonts/gotham/gotham-light.woff2') format('woff2'),
+         url('fonts/gotham/gotham-light.woff') format('woff'),
+         url('fonts/gotham/gotham-light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/gotham/gotham-book.eot');
+    src: url('fonts/gotham/gotham-book%EF%B9%96.eot#iefix') format('embedded-opentype'),
+         url('fonts/gotham/gotham-book.woff2') format('woff2'),
+         url('fonts/gotham/gotham-book.woff') format('woff'),
+         url('fonts/gotham/gotham-book.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/gotham/gotham-bold.eot');
+    src: url('fonts/gotham/gotham-bold%EF%B9%96.eot#iefix') format('embedded-opentype'),
+         url('fonts/gotham/gotham-bold.woff2') format('woff2'),
+         url('fonts/gotham/gotham-bold.woff') format('woff'),
+         url('fonts/gotham/gotham-bold.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff2') format('woff2'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff') format('woff'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 500;
+    src: local('Spoqa Han Sans Medium'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff2') format('woff2'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff') format('woff'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2') format('woff2'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff') format('woff'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff2') format('woff2'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff') format('woff'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Thin'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff2') format('woff2'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff') format('woff'),
+    url('fonts/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Iropke Batang';
+    src: url('fonts/IropkeBatangM/IropkeBatangM.eot');
+    src: url('fonts/IropkeBatangM/IropkeBatangM%EF%B9%96.eot#iefix') format('embedded-opentype'),
+        url('fonts/IropkeBatangM/IropkeBatangM.woff2') format('woff2'),
+        url('fonts/IropkeBatangM/IropkeBatangM.woff') format('woff'),
+        url('fonts/IropkeBatangM/IropkeBatangM.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-weight: 700;
+    src: local('Spectral Bold'),
+    url('fonts/Spectral/Spectral-Bold.woff2') format('woff2'),
+    url('fonts/Spectral/Spectral-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-weight: 500;
+    src: local('Spectral Medium'),
+    url('fonts/Spectral/Spectral-Medium.woff2') format('woff2'),
+    url('fonts/Spectral/Spectral-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-weight: 400;
+    src: local('Spectral Regular'),
+    url('fonts/Spectral/Spectral-Regular.woff2') format('woff2'),
+    url('fonts/Spectral/Spectral-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-weight: 300;
+    src: local('Spectral Light'),
+    url('fonts/Spectral/Spectral-Light.woff2') format('woff2'),
+    url('fonts/Spectral/Spectral-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Spectral';
+    font-weight: 200;
+    src: local('Spectral ExtraLight'),
+    url('fonts/Spectral/Spectral-ExtraLight.woff2') format('woff2'),
+    url('fonts/Spectral/Spectral-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'),
+		url('fonts/Ubuntu/Ubuntu-Regular.woff2') format('woff2'),
+		url('fonts/Ubuntu/Ubuntu-R.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu'),
+		url('fonts/Ubuntu/Ubuntu-Bold.woff2') format('woff2'),
+		url('fonts/Ubuntu/Ubuntu-B.ttf') format('truetype');
+}
+
+/* @font-face {
+    font-family: 'Newsreader';
+    font-weight: 700;
+    src: local('Spectral Medium'),
+    url('fonts/Newsreader/Newsreader-Bold.woff2') format('woff2'),
+    url('fonts/Newsreader/Newsreader-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    font-weight: 400;
+    src: local('Spectral Regular),
+    url('fonts/Newsreader/Newsreader-Regular.woff2') format('woff2'),
+    url('fonts/Newsreader/Newsreader-Regular.ttf') format('truetype');
+} */

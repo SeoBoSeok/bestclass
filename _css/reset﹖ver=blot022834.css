@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration:none;
+
+}
+a{color:inherit}
+*, :after, :before {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  outline:none;
+}
+
+ul, dl,dt,dd {margin:0;padding:0;list-style:none;}
+legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden;}
+
+select,input[type=input], button, label, img {vertical-align:middle;outline:none;-webkit-appearance:none;-webkit-border-radius:0;border-radius:0; font-family: "Spoqa Han Sans Neo", "sans-serif" !important;;}
+textarea, input, select {font-family: "Spoqa Han Sans Neo", "sans-serif" !important;}
+hr {display:none}
+pre {overflow:auto;font-size:1em;}
+p {margin:0;padding:0;word-break:break-all}
+
+legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden;}
+.msg_sound_only,
+.sound_only{display:none}
+.btn_cke_sc {display:none}
