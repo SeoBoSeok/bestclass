@@ -414,7 +414,7 @@ isMain = true;
                                         </div>
 										<div id="slide" class="slide2 swiper-slide">
                                             <div class="txt_wrap">
-                                                <p class="title"><span class="ani fadeInUp_L delay-0s"><b>가장 편안하고 이로운</b></span></p>
+                                                <p class="title"><span class="ani fadeInUp_L delay-0s"><b>가장 편안하고 BEST한</b></span></p>
                                                 <p class="title"><span class="ani fadeInUp_L delay-2s">라이프스타일을 만들어 갑니다.</span></p>
                                             </div>
 											<div class="swiper_btn_wrap">
@@ -430,8 +430,8 @@ isMain = true;
                                         </div> 
                                         <div id="slide" class="slide3 swiper-slide" >
                                             <div class="txt_wrap">
-												<p class="title"><span class="ani fadeInUp_L delay-0s">나는 <b>이로움</b>을 만듭니다.</span></p>
-                                                <p class="title"><span class="ani fadeInUp_L delay-2s">나는 <b>이안</b>입니다.</span></p>
+												<p class="title"><span class="ani fadeInUp_L delay-0s">나는 <b>BEST</b>를 만듭니다.</span></p>
+                                                <p class="title"><span class="ani fadeInUp_L delay-2s">나는 <b>BEST CLASS</b>입니다.</span></p>
                                             </div>
 											<div class="swiper_btn_wrap">
 												<div class="swiper-button-prev"></div>
@@ -519,21 +519,21 @@ isMain = true;
 							
 								<li>
 									<a href="news_notice/273.html" class="item">
-										<p class="title ellipsis_1">「이안 퍼스티엄 이천부발」 유상옵션 행사 알려드립니다.</p>
-										<p class="date ellipsis_1">2022-05-03</p>
+										<p class="title ellipsis_1">「둔곡 베스트클래스」 분양 정보 알려드립니다.</p>
+										<p class="date ellipsis_1">2022-11-03</p>
 									</a>
 								</li>
 							
 								<li>
 									<a href="news_notice/266.html" class="item">
-										<p class="title ellipsis_1">「이안 더 부천」 입주 안내 드립니다.</p>
-										<p class="date ellipsis_1">2021-11-30</p>
+										<p class="title ellipsis_1">「둔곡 베스트클래스」 입주 안내 드립니다.</p>
+										<p class="date ellipsis_1">2021-11-13</p>
 									</a>
 								</li>
 							
 								<li>
 									<a href="news_notice/267.html" class="item">
-										<p class="title ellipsis_1">「이안 동해 센트럴 」 입주안내</p>
+										<p class="title ellipsis_1">「둔곡 베스트클래스 」 입주안내</p>
 										<p class="date ellipsis_1">2021-11-18</p>
 									</a>
 								</li>
@@ -564,20 +564,20 @@ isMain = true;
 				                        <li class="item item1 swiper-slide" >
                             <div class="text_area animated delay-3s">
                                 <p class="state">분양중</p>
-                                <p class="title"><a href="apt/107%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">이안 더 센트로 의정부</a></p>
-                                <p class="subscr"><a href="apt/107%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">GTX 프리미엄과 중랑천 조망을 누리는 의정부 센트로 라이프의 완성</a></p>
-                                <p class="date">2021. 12</p>
+                                <p class="title"><a href="apt/107%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">둔곡 베스트클래스</a></p>
+                                <p class="subscr"><a href="apt/107%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">국제 과학벨트 지정단지와 둔곡 베스트클래스</a></p>
+                                <p class="date">2022. 11</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">
                                     <a href="http://www.xn--9m1bl9gz0imkeo7crtz.com/" class="hp" target="_blank">
-                                        <span>홈페이지</span>
+                                        <span>분양정보</span>
                                     </a>
-									<a href="javascript:void(0);" class="like" id="apt_remove_107" onClick="controllInterest('107', 'remove');" data-wr_id="107">
+									<!-- <a href="javascript:void(0);" class="like" id="apt_remove_107" onClick="controllInterest('107', 'remove');" data-wr_id="107">
 										<span>관심단지해제</span>
 									</a>
 									<a href="javascript:void(0);" class="like" id="apt_add_107" onClick="showInterestPopup('', '107', '');" data-wr_id="107">
 										<span>관심단지등록</span>
-									</a>
+									</a> -->
                                 </div>
 								<script>
 								$(function(){
@@ -590,21 +590,21 @@ isMain = true;
                         </li>
 					                        <li class="item item2 swiper-slide" >
                             <div class="text_area animated delay-6s">
-                                <p class="state">분양완료</p>
-                                <p class="title"><a href="apt/10%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">이안 퍼스티엄 이천부발</a></p>
-                                <p class="subscr"><a href="apt/10%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">900만원대 이안라이프로 갈아탈 시간</a></p>
-                                <p class="date">2021.11</p>
+                                <p class="state">분양예정</p>
+                                <p class="title"><a href="apt/10%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">아산 베스트클래스</a></p>
+                                <p class="subscr"><a href="apt/10%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">아산의 중심을 누리는 올인원 라이프</a></p>
+                                <p class="date">2023.01</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">
                                     <a href="http://iaanic.com/" class="hp" target="_blank">
-                                        <span>홈페이지</span>
+                                        <span>분양정보</span>
                                     </a>
-									<a href="javascript:void(0);" class="like" id="apt_remove_10" onClick="controllInterest('10', 'remove');" data-wr_id="10">
+									<!-- <a href="javascript:void(0);" class="like" id="apt_remove_10" onClick="controllInterest('10', 'remove');" data-wr_id="10">
 										<span>관심단지해제</span>
 									</a>
 									<a href="javascript:void(0);" class="like" id="apt_add_10" onClick="showInterestPopup('', '10', '');" data-wr_id="10">
 										<span>관심단지등록</span>
-									</a>
+									</a> -->
                                 </div>
 								<script>
 								$(function(){
@@ -617,21 +617,21 @@ isMain = true;
                         </li>
 					                        <li class="item item3 swiper-slide" >
                             <div class="text_area animated delay-9s">
-                                <p class="state">분양완료</p>
-                                <p class="title"><a href="apt/7%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">이안 테라디움 비산</a></p>
-                                <p class="subscr"><a href="apt/7%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">안양의 중심을 누리는 올인원 라이프!</a></p>
-                                <p class="date">2021.09</p>
+                                <p class="state">분양예정</p>
+                                <p class="title"><a href="apt/7%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">제천 베스트클래스</a></p>
+                                <p class="subscr"><a href="apt/7%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">제천의 중심을 누리는 올인원 라이프!</a></p>
+                                <p class="date">2023.03</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">
                                     <a href="http://iaan-bisan.com/" class="hp" target="_blank">
-                                        <span>홈페이지</span>
+                                        <span>분양정보</span>
                                     </a>
-									<a href="javascript:void(0);" class="like" id="apt_remove_7" onClick="controllInterest('7', 'remove');" data-wr_id="7">
+									<!-- <a href="javascript:void(0);" class="like" id="apt_remove_7" onClick="controllInterest('7', 'remove');" data-wr_id="7">
 										<span>관심단지해제</span>
 									</a>
 									<a href="javascript:void(0);" class="like" id="apt_add_7" onClick="showInterestPopup('', '7', '');" data-wr_id="7">
 										<span>관심단지등록</span>
-									</a>
+									</a> -->
                                 </div>
 								<script>
 								$(function(){
