@@ -7,19 +7,19 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta http-equiv="imagetoolbar" content="no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="이안아파트">
-<meta name="description" content="대우산업개발 이안 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta name="keywords" content="베스트클래스아파트">
+<meta name="description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <link rel="canonical" href="index.html">
 <meta property="og:image" content="_imgs/logo.png">
-<meta property="og:keywords" content="이안아파트">
-<meta property="og:title" content="이안아파트- 안이 다른 아파트 이안">
-<meta property="og:description" content="대우산업개발 이안 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta property="og:keywords" content="베스트클래스아파트">
+<meta property="og:title" content="베스트클래스아파트- 안이 다른 아파트 베스트클래스">
+<meta property="og:description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <meta property="og:url" content="index.html" />
 <meta property="og:type" content="website" />
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="이안아파트 - 안이 다른 아파트 이안">
-<meta name="twitter:description" content="대우산업개발 이안 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta name="twitter:title" content="베스트클래스아파트 - 안이 다른 아파트 베스트클래스">
+<meta name="twitter:description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <meta name="twitter:image" content="_imgs/logo.png">
 <meta name="twitter:url" content="index.html" />
 
@@ -190,18 +190,18 @@ function js_topBannerClose2(e){
 		-->							<li class="gnb_1dli gnb_al_li_plus" style="z-index:999">
 								<a href="brand/iaan.html" target="_self" class="gnb_1da">브랜드</a>
 								<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
-									<li class="gnb_2dli"><a href="brand/iaan.html" target="_self" class="gnb_2da">iaan</a></li>
+									<li class="gnb_2dli"><a href="brand/iaan.html" target="_self" class="gnb_2da">베스트 클래스</a></li>
 																	<!-- <li class="gnb_2dli"><a href="brand/exordium.html" target="_self" class="gnb_2da">Exordium</a></li> -->
 																	<!-- <li class="gnb_2dli"><a href="brand/terradium.html" target="_self" class="gnb_2da">Terradium</a></li> -->
 																	<!-- <li class="gnb_2dli"><a href="brand/premium.html" target="_self" class="gnb_2da">생활효율시스템</a></li> -->
 								</ul></div>
 							</li>
 														<li class="gnb_1dli gnb_al_li_plus" style="z-index:998">
-								<a href="apt%EF%B9%96ca_name=%E1%84%87%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_1da">단지정보</a>
+								<a href="apt%EF%B9%96ca_name=%E1%84%87%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_1da">분양정보</a>
 								<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
 									<li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%87%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">분양단지</a></li>
-																	<li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">공사단지</a></li>
-																	<li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">입주단지</a></li>
+																	<!-- <li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">공사단지</a></li> -->
+																	<!-- <li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">입주단지</a></li> -->
 								</ul></div>
 							</li>
 														<li class="gnb_1dli gnb_al_li_plus" style="z-index:997">
@@ -209,11 +209,11 @@ function js_topBannerClose2(e){
 								<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
 									<li class="gnb_2dli"><a href="news.html" target="_self" class="gnb_2da">뉴스룸</a></li>
 																	<li class="gnb_2dli"><a href="gallery.html" target="_self" class="gnb_2da">갤러리</a></li>
-																	<li class="gnb_2dli"><a href="iaanstory/index.html" target="_self" class="gnb_2da">이안스토리</a></li>
+																	<!-- <li class="gnb_2dli"><a href="iaanstory/index.html" target="_self" class="gnb_2da">베스트클래스스토리</a></li> -->
 																	<li class="gnb_2dli"><a href="event.html" target="_self" class="gnb_2da">이벤트</a></li>
 								</ul></div>
 							</li>
-														<li class="gnb_1dli gnb_al_li_plus" style="z-index:996">
+														<!-- <li class="gnb_1dli gnb_al_li_plus" style="z-index:996">
 								<a href="news_notice.html" target="_self" class="gnb_1da">고객서비스</a>
 								<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
 									<li class="gnb_2dli"><a href="news_notice.html" target="_self" class="gnb_2da">공지사항</a></li>
@@ -222,7 +222,7 @@ function js_topBannerClose2(e){
 																	<li class="gnb_2dli"><a href="subscription/index.html" target="_self" class="gnb_2da">청약가점계산</a></li>
 																	<li class="gnb_2dli"><a href="user/payment.html" target="_blank" class="gnb_2da">중도금 납부 조회</a></li>
 								</ul></div>
-							</li>
+							</li> -->
 													</ul>
 					</div>
 				</nav>
@@ -324,7 +324,7 @@ $(function(){
 					<ul>
 						<li><a href="news.html" target="_self">뉴스룸</a></li>
 											<li><a href="gallery.html" target="_self">갤러리</a></li>
-											<li><a href="iaanstory/index.html" target="_self">이안스토리</a></li>
+											<li><a href="iaanstory/index.html" target="_self">베스트클래스스토리</a></li>
 											<li><a href="event.html" target="_self">이벤트</a></li>
 					</ul>
 				</li>
@@ -375,6 +375,38 @@ $(function(){
 	  background-size: cover;
 	  background-position: center;
 	}
+    .bestchip {
+        padding: 10px;
+        display: block;
+        background-color: #f6f6f6;
+        border-radius: 5px;
+    }
+    .contact_wrap { width: 100%; height: 908px; background: url(../img/contact_bg.jpg) center no-repeat; background-size: cover; text-align: center; position: relative; }
+    .contact_box { width: 100%; height: 600px; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; transform: translateY(-40px); }
+
+    .contact_tit { transform: translateY(-30px); opacity: 0; }
+    .contact_tit h4 { font-size: 22px; line-height: 100%; color: #000; font-weight: 500; }
+    .contact_tit img { margin-top: 20px; }
+    .contact_map_box { width: 100%; height: 427px; position: relative; display: flex; justify-content: space-around; margin-top: 90px; }
+    .contact_map { width: 40%; height: 100%; box-shadow: 0 0 40px rgba(0,0,0,0.12) }
+    /* .contact_map:nth-child(1) { transform: translateX(-50px); opacity: 0; } */
+    /* .contact_map:nth-child(2) { transform: translateX(50px); opacity: 0; } */
+    .contact_txt_box { width: 100%; height: 53px; position: relative; overflow: hidden; background-color: #1b2536; }
+    .contact_txt_box h3 { float: left; font-size: 18px; line-height: 53px; color: #d6d6d6; position: relative; font-weight: 400; margin-left: 27px; padding-right: 22px; }
+    .contact_txt_box h3:after { content:''; width: 1px; height: 12px; background-color: #595f6b; position: absolute; right: 0; top: 0; bottom: 0; margin: auto; }
+    .contact_txt_box p { float: left; font-size: 16px; line-height: 53px; color: #98999a; font-weight: 300; margin-left: 18px; }
+    .contact_txt_box .contact_bt { height: 100%; float: right; }
+    .contact_txt_box .contact_bt a { width: 100%; height: 100%; display: block; padding-right: 60px; padding-left: 10px; }
+    .contact_txt_box .contact_bt a p {color: #fff; font-size: 12px; line-height: 53px; letter-spacing: -0.5px; margin-left: 0; }
+    .contact_bt .contact_plus { width: 13px; height: 13px; position: absolute; right: 26px; top: 0; bottom: 0; margin: auto; transition: 0.2s; }
+    .contact_bt .contact_plus:after { content:''; width: 100%; height: 1px; background-color: #fff; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; }
+    .contact_bt .contact_plus:before { content:''; width: 1px; height: 100%; background-color: #fff; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; }
+    .contact_map img {width: 100%;}
+    .contact_txt_box .contact_bt:hover .contact_plus { transform: rotate(90deg); }
+
+    .contact_wrap.active .contact_tit { transition: 1.2s 0s; transform: translateY(0px); opacity: 1; }
+    .contact_wrap.active .contact_map { transition: 1.2s 0.4s; transform: translateX(0px); opacity: 1; }
+
 </style>
 
 
@@ -672,20 +704,20 @@ isMain = true;
 					<ul class="animated delay-3s">						
 						<li>
 							<a href="https://www.youtube.com/c/%EB%8C%80%EC%9A%B0%EC%82%B0%EC%97%85%EA%B0%9C%EB%B0%9C/featured" target="_blank">
-								<span><img src="_imgs/txt_sns3.svg"></span>
-								<span><img src="_imgs/img_sns3.jpg"></span>
+								<span class="bestchip">제무재표 AAA( 1등급) 통과 베스트산업개발</span>
+								<span><img src="_imgs/img_sns7.png"></span>
 							</a>
 						</li>
 						<li>
 							<a href="https://www.youtube.com/c/%EB%8C%80%EC%9A%B0%EC%82%B0%EC%97%85%EA%B0%9C%EB%B0%9C/featured" target="_blank">
-								<span><img src="_imgs/txt_sns3.svg"></span>
-								<span><img src="_imgs/img_sns3.jpg"></span>
+								<span class="bestchip">살수록 커지는 만족, 살수록 느끼는 가치 베스트클래스 아산지구 최고거래가 갱신</span>
+								<span><img src="_imgs/img_sns6.png"></span>
 							</a>
 						</li>
 						<li>
 							<a href="https://pf.kakao.com/_Axcvcxb" target="_blank">
-								<span><img src="_imgs/txt_sns2-1.svg"></span>
-								<span><img src="_imgs/img_sns2.jpg"></span>
+								<span class="bestchip">살수록 커지는 만족, 살수록 느끼는 가치</span>
+								<span><img src="_imgs/img_sns5.png"></span>
 							</a>
 						</li>
 					</ul>
@@ -706,18 +738,64 @@ isMain = true;
 				</div>
 			</section>
 
+            <!-- -->
+            <section class="panel panel2" id="community" data-section-name="third">
+            <div id="contact" class="contact_wrap" data-active>
+		
+                <div class="contact_box">
+
+                    <div class="contact_tit">
+                        <h4>옥동 경남아너스빌 ubc</h4>
+                        <img src="img/contact_tit.png" alt="">
+                    </div>
+
+                    <div class="contact_map_box">
+                        <div class="contact_map">
+                            <img src="img/contact1.png" alt="">
+                            <div class="contact_txt_box">
+                                <h3>모델하우스</h3>
+                                <p>대전광역시</p>
+                                <div class="contact_bt">
+                                    <a href="https://naver.me/xEqjDNwZ" target="blank">
+                                        <p>견본주택 네이버 지도</p>
+                                        <div class="contact_plus"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact_map">
+                            <img src="img/contact2.png" alt="">
+                            <div class="contact_txt_box">
+                                <h3>현&nbsp;&nbsp;&nbsp;장</h3>
+                                <p>대전광역시</p>
+                                <div class="contact_bt">
+                                    <a href="https://naver.me/GBlDs4AG" target="blank">
+                                        <p>현장 네이버 지도</p>
+                                        <div class="contact_plus"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            </section>
+            <!-- -->
+
             <section class="panel panel2" id="community" data-section-name="third" style="display:none">
                 <div class="inner">
-					<h2 class="title">이안 SNS</h2>
+					<h2 class="title">베스트클래스 SNS</h2>
 					<span class="desc">
-						이안은 사람, 삶, 공간에 대한 깊이 있는 이해를 바탕으로<br>
+						베스트클래스은 사람, 삶, 공간에 대한 깊이 있는 이해를 바탕으로<br>
 						가장 편안하고 이로운 라이프스타일을 실현하는 주거 문화 공간을 만들어 갑니다					
 					</span>
 					<div class="boxes">
 						<a class="box box_01 animated delay-3s" href="gallery.html" target="_self">
 							<div class="img_block"><img src="_imgs/cmnty_img_01.png" alt="Gallery Image" class="image"></div>
 							<span class="title">Gallery</span>
-							<p class="desc">사진으로 만나보는 이안</p>
+							<p class="desc">사진으로 만나보는 베스트클래스</p>
 						</a>
 						<a class="box box_02 animated delay-6s" href="news_notice.html" target="_self">
 							<div class="img_block"><img src="_imgs/cmnty_img_02.jpg" alt="Gallery Image" class="image"></div>
@@ -727,12 +805,12 @@ isMain = true;
 						<a class="box box_03 animated delay-9s" href="iaanstory/index.html" target="_self">
 							<div class="img_block"><img src="_imgs/cmnty_img_03.png" alt="Gallery Image" class="image"></div>
 							<span class="title">iaan Story</span>
-							<p class="desc">소셜 속 이안의 이야기</p>
+							<p class="desc">소셜 속 베스트클래스의 이야기</p>
 						</a>
 						<a class="box box_04 animated delay-12s" href="event.html" target="_self">
 							<div class="img_block"><img src="_imgs/cmnty_img_04.png" alt="Gallery Image" class="image"></div>
 							<span class="title">Event</span>
-							<p class="desc">이안 가족을 위한 색다른 이벤트</p>
+							<p class="desc">베스트클래스 가족을 위한 색다른 이벤트</p>
 						</a>
 						<a class="box box_05 animated delay-12s" href="faq.html" target="_self">
 							<div class="img_block"><img src="_imgs/cmnty_img_05.jpg" alt="Gallery Image" class="image"></div>
@@ -768,7 +846,7 @@ isMain = true;
 				<div class="wrap left">
 					<div class="img_holder"><img src="_imgs/help_bg1.jpg" alt="backgorund-image"></div>
 					<div class="text_area animated delay-3s">
-						<p class="title">이안에 대한 모든 것을 알려드려요</p>
+						<p class="title">BEST CLASS에 대한 모든 것을 알려드려요</p>
 						<p class="subscr">공지사항, 뉴스, 이벤트 소식 등을 만나보세요</p>
 						<ul class="list">
 							<li class="item">
@@ -785,12 +863,6 @@ isMain = true;
 								<a href="gallery.html">
 									<span>- 갤러리</span>
 								</a>
-							</li>
-							<li class="item">
-								<a href="iaanstory/index.html">
-									<span>- 이안스토리</span>
-								</a>
-							
 							</li>
 							<!-- <li class="item">
 								<a href="/csr">
@@ -809,7 +881,7 @@ isMain = true;
 					<div class="wrap rtop">
 						<div class="img_holder"><img src="_imgs/help_bg2.jpg" alt="backgorund-image"></div>
 						<div class="text_area animated delay-3s">
-							<p class="title">고객님과 이안의<br /> 아름다운 소통 창구</p>
+							<p class="title">고객님과 BEST CLASS의<br /> 아름다운 소통 창구</p>
 							<!-- <p class="subscr">고객문의, A/S신청은 환영입니다</p> -->
 							<ul class="list">
 								<li class="item">
