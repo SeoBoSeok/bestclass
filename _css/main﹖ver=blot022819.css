@@ -362,7 +362,7 @@
 	#location .list .item .date {font-size: 3.38vw;margin:0}
 	#location .list .item .buttons{margin-top:6vw}
 	#location .list .item .buttons > a {display: inline-block;width: 25.41vw;font-size: 3.51vw;margin: 0 0.54vw 0 0;padding: 1.35vw 1.35vw;}
-	#location .list .item img{width:100%;transform: translate(-50%,-59%);top: 50%;}
+	#location .list .item img{width:100%;transform: translate(-50%,-55%);top: 50%;}
 	#location .list .item .text_area {top: 12.16vw;}
 	#location .list .item .state {width: 17.84vw;height: 8.11vw;font-size: 3.24vw;line-height: 2.6;padding:0}
 	#location .paging .stick {width: 81px;height: 2px;background-color: #ccc;margin: 0 20px;position: relative;float:left;margin-top: 6px;}
@@ -387,12 +387,17 @@
 	#board .text_area .list {margin-top:0;}
 	#board .title {font-size: 5.54vw;margin-bottom: 1.76vw;}
 
+	.contact_wrap {height: auto!important;}
+	.contact_box {position: relative!important; height: auto !important;}
+	.contact_map_box {height: auto!important; display: block!important;}
+	.contact_map_box .contact_map {width: 100%; margin-bottom: 30px;}
+
 	/* visual */
 
 	#home .top_slide .absolute.paging .stick{width:10vw}
-	#iaan {transform:translate(4vw, 0px)}
-	#iaan.swiper-slide-active {transform:translate(-4vw, 0px)}
-	#exordium {transform:translate(-4vw, 0px)}
+	/* #iaan {transform:translate(4vw, 0px)} */
+	/* #iaan.swiper-slide-active {transform:translate(-4vw, 0px)} */
+	/* #exordium {transform:translate(-4vw, 0px)} */
 	#exordium.swiper-slide-active {transform:translate(4vw, 0px)}
 	#iaan #slide .txt_wrap,
 	#iaan #slide .swiper_btn_wrap{margin-left:4vw;}

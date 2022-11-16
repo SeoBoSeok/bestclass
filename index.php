@@ -188,31 +188,31 @@ function js_topBannerClose2(e){
 			depth DESC
 		LIMIT 1
 		-->							<li class="gnb_1dli gnb_al_li_plus" style="z-index:999">
-								<a href="brand/iaan.html" target="_self" class="gnb_1da">브랜드</a>
+								<a href="brand/bestclass.html" target="_self" class="gnb_1da">브랜드</a>
 								<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
-									<li class="gnb_2dli"><a href="brand/iaan.html" target="_self" class="gnb_2da">베스트 클래스</a></li>
+									<li class="gnb_2dli"><a href="brand/bestclass.html" target="_self" class="gnb_2da">베스트 클래스</a></li>
 																	<!-- <li class="gnb_2dli"><a href="brand/exordium.html" target="_self" class="gnb_2da">Exordium</a></li> -->
 																	<!-- <li class="gnb_2dli"><a href="brand/terradium.html" target="_self" class="gnb_2da">Terradium</a></li> -->
 																	<!-- <li class="gnb_2dli"><a href="brand/premium.html" target="_self" class="gnb_2da">생활효율시스템</a></li> -->
 								</ul></div>
 							</li>
-														<li class="gnb_1dli gnb_al_li_plus" style="z-index:998">
+														<!-- <li class="gnb_1dli gnb_al_li_plus" style="z-index:998">
 								<a href="apt%EF%B9%96ca_name=%E1%84%87%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_1da">분양정보</a>
 								<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
 									<li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%87%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">분양단지</a></li>
-																	<!-- <li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">공사단지</a></li> -->
-																	<!-- <li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">입주단지</a></li> -->
+																	<li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">공사단지</a></li>
+																	<li class="gnb_2dli"><a href="apt%EF%B9%96ca_name=%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self" class="gnb_2da">입주단지</a></li>
 								</ul></div>
-							</li>
-														<li class="gnb_1dli gnb_al_li_plus" style="z-index:997">
+							</li> -->
+														<!-- <li class="gnb_1dli gnb_al_li_plus" style="z-index:997">
 								<a href="news.html" target="_self" class="gnb_1da">커뮤니티</a>
 								<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
 									<li class="gnb_2dli"><a href="news.html" target="_self" class="gnb_2da">뉴스룸</a></li>
 																	<li class="gnb_2dli"><a href="gallery.html" target="_self" class="gnb_2da">갤러리</a></li>
-																	<!-- <li class="gnb_2dli"><a href="iaanstory/index.html" target="_self" class="gnb_2da">베스트클래스스토리</a></li> -->
+																	<li class="gnb_2dli"><a href="iaanstory/index.html" target="_self" class="gnb_2da">베스트클래스스토리</a></li>
 																	<li class="gnb_2dli"><a href="event.html" target="_self" class="gnb_2da">이벤트</a></li>
 								</ul></div>
-							</li>
+							</li> -->
 														<!-- <li class="gnb_1dli gnb_al_li_plus" style="z-index:996">
 								<a href="news_notice.html" target="_self" class="gnb_1da">고객서비스</a>
 								<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
@@ -289,12 +289,12 @@ $(function(){
 						브랜드						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</a> -->
 					<div class="gnb_al_a ar">
-						<a href="brand/iaan.html" target="_self">브랜드</a>
+						<a href="brand/bestclass.html" target="_self">브랜드</a>
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 					<ul>
-						<li><a href="brand/iaan.html" target="_self">iaan</a></li>
-											<li><a href="brand/exordium.html" target="_self">BEST CLASS</a></li>
+						<li><a href="brand/bestclass.html" target="_self">베스트클래스</a></li>
+											<li><a href="brand/exordium.html" target="_self">베스트클래스</a></li>
 											<!-- <li><a href="brand/terradium.html" target="_self">Terradium</a></li> -->
 											<!-- <li><a href="brand/premium.html" target="_self">생활효율시스템</a></li> -->
 					</ul>
@@ -601,9 +601,9 @@ isMain = true;
                                 <p class="date">2022. 11</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">
-                                    <a href="http://www.xn--9m1bl9gz0imkeo7crtz.com/" class="hp" target="_blank">
+                                    <!-- <a href="http://www.xn--9m1bl9gz0imkeo7crtz.com/" class="hp" target="_blank">
                                         <span>분양정보</span>
-                                    </a>
+                                    </a> -->
 									<!-- <a href="javascript:void(0);" class="like" id="apt_remove_107" onClick="controllInterest('107', 'remove');" data-wr_id="107">
 										<span>관심단지해제</span>
 									</a>
@@ -628,9 +628,9 @@ isMain = true;
                                 <p class="date">2023.01</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">
-                                    <a href="http://iaanic.com/" class="hp" target="_blank">
+                                    <!-- <a href="http://iaanic.com/" class="hp" target="_blank">
                                         <span>분양정보</span>
-                                    </a>
+                                    </a> -->
 									<!-- <a href="javascript:void(0);" class="like" id="apt_remove_10" onClick="controllInterest('10', 'remove');" data-wr_id="10">
 										<span>관심단지해제</span>
 									</a>
@@ -655,9 +655,9 @@ isMain = true;
                                 <p class="date">2023.03</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">
-                                    <a href="http://iaan-bisan.com/" class="hp" target="_blank">
+                                    <!-- <a href="http://iaan-bisan.com/" class="hp" target="_blank">
                                         <span>분양정보</span>
-                                    </a>
+                                    </a> -->
 									<!-- <a href="javascript:void(0);" class="like" id="apt_remove_7" onClick="controllInterest('7', 'remove');" data-wr_id="7">
 										<span>관심단지해제</span>
 									</a>
@@ -739,7 +739,7 @@ isMain = true;
 			</section>
 
             <!-- -->
-            <section class="panel panel2" id="community" data-section-name="third">
+            <section class="panel panel2" id="" data-section-name="third">
             <div id="contact" class="contact_wrap" data-active>
 		
                 <div class="contact_box">
@@ -955,10 +955,10 @@ isMain = true;
 		<footer class="footer">
 			<span class="logo"><img src="_imgs/logo.png" alt="logo"></span>
 			<div class="middle">            
-				<ul class="list">
+				<!-- <ul class="list">
 					<li class="item cl_white"><a href="content/privacy.html">개인정보처리방침</a></li>
 					<li class="item"><a href="content/provision.html">이용약관</a></li>
-				</ul>
+				</ul> -->
 				<div class="info">
 					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
 					<span class="m_af_line">베스트클래스개발주식회사</span>
@@ -1065,8 +1065,8 @@ wcs_do();
                 <h3 class="title">로그인해주세요</h3>
                 <p class="descr">회원가입하시고 다양한 혜택 및 소식을 누리세요.</p>
                 <div class="login_btn">
-                    <a href="user/login.html"><span class="white">로그인</span></a>
-                    <a href="user/register.html"><span class="navy">회원가입</span></a>
+                    <a href="#"><span class="white">로그인</span></a>
+                    <a href="#"><span class="navy">회원가입</span></a>
                 </div>
             </div>
 		            <span class="close" id="my_close">
