@@ -1,6 +1,6 @@
 /* Global */
 @import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-/* :root {Color--color-green: #8bb929;--color-darkgreen: #6a9b00;--color-navy: #003744;--color-darknavy: #1f2329;--color-darkwhite: #ddd;--color-grey: #ccc;--color-darkgrey: #999;--color-lightgrey: #d8d8d8;--color-black: #000;--color-skin: #ecc9a5;--color-red: #ff0000;--color-white: #fff;Font size--font-size-xxlarge: 24px;--font-size-xlarge: 20px;--font-size-large: 18px;--font-size-regular: 16px;--font-size-small: 15px;--font-size-tiny: 14px;--font-size-micro: 11px;Font weight--weight-bold: 700;--weight-semibold: 500;--weight-regular: 400;Size--basis-space: 10px;--size-border-radius: 4px;Animation duration--animation-duration: 300ms;height--header-height: 100px;} */
+/* :root {Color--color-green: #8bb929;--color-darkgreen: #6a9b00;--color-navy: #01123f;--color-darknavy: #1f2329;--color-darkwhite: #ddd;--color-grey: #ccc;--color-darkgrey: #999;--color-lightgrey: #d8d8d8;--color-black: #000;--color-skin: #ecc9a5;--color-red: #ff0000;--color-white: #fff;Font size--font-size-xxlarge: 24px;--font-size-xlarge: 20px;--font-size-large: 18px;--font-size-regular: 16px;--font-size-small: 15px;--font-size-tiny: 14px;--font-size-micro: 11px;Font weight--weight-bold: 700;--weight-semibold: 500;--weight-regular: 400;Size--basis-space: 10px;--size-border-radius: 4px;Animation duration--animation-duration: 300ms;height--header-height: 100px;} */
 
 /* Universal tags */
 /* {box-sizing: border-box;margin: 0;padding: 0;} */
@@ -17,35 +17,35 @@ h4 {font-size: 20px;}
 h5 {font-size: 15px;}
 
 /* Buttons */
-.btn-large-navy {width: 380px;height: 60px;border: 1px solid #003744;background-color: #003744;color: #fff;font-size: 18px;font-weight: 500;display:inline-block;vertical-align:top;-webkit-transition:all 0.6s ease-out;-moz-transition:all 0.6s ease-out;-o-transition:all 0.6s ease-out;transition:all 0.6s ease-out;}
+.btn-large-navy {width: 380px;height: 60px;border: 1px solid #01123f;background-color: #01123f;color: #fff;font-size: 18px;font-weight: 500;display:inline-block;vertical-align:top;-webkit-transition:all 0.6s ease-out;-moz-transition:all 0.6s ease-out;-o-transition:all 0.6s ease-out;transition:all 0.6s ease-out;}
 .btn-basic-navy:hover,.btn-large-navy:hover{border: 1px solid #8bb929;background-color: #8bb929;color: #fff;}
 .btn-large-green {width: 380px;height: 60px;border: 1px solid #6a9b00;background-color: #6a9b00;color: #fff;font-size: 18px;font-weight: 500;padding: 14px 0px;display:inline-block;vertical-align:top;}
 .btn-large-white {width: 380px;height: 60px;border: 1px solid #ccc;background-color: #fff;color: #000;font-size: 18px;font-weight: 500;/* padding: 14px 0px; */display:inline-block;vertical-align:top;-webkit-transition:all 0.6s ease-out;-moz-transition:all 0.6s ease-out;-o-transition:all 0.6s ease-out;transition:all 0.6s ease-out;}
-/* .btn-large-white:hover {border: 1px solid #003744;background-color: #003744;color: #fff;}
- */.btn-basic-navy {width: 195px;height: 60px;border: 1px solid #003744;background-color: #003744;color: #fff;padding: 17px 0px;font-size: 18px;font-weight: 500;display:inline-block;vertical-align:top;}
+/* .btn-large-white:hover {border: 1px solid #01123f;background-color: #01123f;color: #fff;}
+ */.btn-basic-navy {width: 195px;height: 60px;border: 1px solid #01123f;background-color: #01123f;color: #fff;padding: 17px 0px;font-size: 18px;font-weight: 500;display:inline-block;vertical-align:top;}
 .btn-basic-white {width: 195px;height: 60px;border: 1px solid #ccc;background-color: #fff;color: #000;padding: 17px 0px;font-size: 18px;font-weight: 500;display:inline-block;}
-.btn-small-navy {width: 120px;height: 40px;border: 1px solid #fff;background-color: #003744;color: #fff;display:inline-block;}
-.btn-small-white {width: 120px;height: 40px;border: 1px solid #003744;background-color: #fff;color: #003744;display:inline-block;}
-.btn-tiny-navy {width: 114px;height: 40px;border: 1px solid #003744;background-color: #003744;color: #fff;display:inline-block;}
-.btn-tiny-white {width: 114px;height: 40px;border: 1px solid #ccc;background-color: #fff;color: #003744;display:inline-block;}
+.btn-small-navy {width: 120px;height: 40px;border: 1px solid #fff;background-color: #01123f;color: #fff;display:inline-block;}
+.btn-small-white {width: 120px;height: 40px;border: 1px solid #01123f;background-color: #fff;color: #01123f;display:inline-block;}
+.btn-tiny-navy {width: 114px;height: 40px;border: 1px solid #01123f;background-color: #01123f;color: #fff;display:inline-block;}
+.btn-tiny-white {width: 114px;height: 40px;border: 1px solid #ccc;background-color: #fff;color: #01123f;display:inline-block;}
 
 /* Tabs */
 /* 로그인 탭 */
 .tab-login {display: flex;flex-flow: row nowrap;justify-content: center;margin-bottom: 10px;}
 .tab-login .item {width: 225px;font-size: 20px;font-weight: bold;color: #999;padding-bottom: 20px;border-bottom: 1px solid #ccc;}
-.tab-login .item.active {border-bottom: 2px solid #003744;color: #003744;}
+.tab-login .item.active {border-bottom: 2px solid #01123f;color: #01123f;}
 
 /* 단계 탭 (ex. 회원가입) */
 .tab-step {width: 100%;display: flex;flex-direction: row;justify-content: center;align-items: stretch;}
 .tab-step .item {flex-grow: 1;border-bottom: 1px solid #ccc;padding-right: 33px;padding-bottom: 20px;}
-.tab-step .item.active {border-bottom: 2px solid #003744;}
+.tab-step .item.active {border-bottom: 2px solid #01123f;}
 .tab-step .item .num {margin-right: 14px;}
 .tab-step .item .txt {font-size: 20px;font-weight: 500;margin-right: 14px;}
 
 /* 버튼 탭 */
 .tab-btn {display: flex;flex-flow: row nowrap;justify-content: center;margin-bottom: 10px;}
 .tab-btn .item .btn {width: 146px;height: 50px;margin-right: 4px;padding: 13px 0;border: solid 1px #cccccc;font-size: 16px;font-weight: 500;text-align: center;color: #000000;}
-.tab-btn .item.active {border: solid 1px #003744;background-color: #003744;color: #ffffff;}
+.tab-btn .item.active {border: solid 1px #01123f;background-color: #01123f;color: #ffffff;}
 
 /* custom radio button - radio*/
 .radio_wrap {display: flex;flex-flow: row nowrap;justify-content: center;}
@@ -53,7 +53,7 @@ h5 {font-size: 15px;}
 [type="radio"]:checked,[type="radio"]:not(:checked) {position: absolute;left: -9999px;}
 [type="radio"]:checked + label,[type="radio"]:not(:checked) + label {position: relative;padding-left: 28px;cursor: pointer;line-height: 1;display: inline-block;color: #666;}
 [type="radio"]:checked + label:before,[type="radio"]:not(:checked) + label:before {content: "";position: absolute;left: 0;top: 0;width: 18px;height: 18px;border: 1px solid #ccc;border-radius: 100%;background: #fff;}
-[type="radio"]:checked + label:after,[type="radio"]:not(:checked) + label:after {content: "";width: 19px;height: 18px;border: 5px solid #003744;position: absolute;top: 0px;left: 0px;border-radius: 100%;-webkit-transition: all 0.2s ease;transition: all 0.2s ease;}
+[type="radio"]:checked + label:after,[type="radio"]:not(:checked) + label:after {content: "";width: 19px;height: 18px;border: 5px solid #01123f;position: absolute;top: 0px;left: 0px;border-radius: 100%;-webkit-transition: all 0.2s ease;transition: all 0.2s ease;}
 [type="radio"]:not(:checked) + label:after {opacity: 0;-webkit-transform: scale(0);transform: scale(0);}
 [type="radio"]:checked + label:after {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
 
@@ -62,7 +62,7 @@ h5 {font-size: 15px;}
 .radio_container input {position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0;}
 .checkmark {position: absolute;top: 2px;left: 12px;height: 18px;width: 18px;background-color: #eee;border-radius: 50%;}
 .radio_container:hover input ~ .checkmark {background-color: #ccc;}
-.radio_container input:checked ~ .checkmark {background-color: #003744;}
+.radio_container input:checked ~ .checkmark {background-color: #01123f;}
 .checkmark:after {content: "";position: absolute;display: none;}
 .radio_container input:checked ~ .checkmark:after {display: inline;}
 .radio_container .checkmark:after {top: 4.5px;left: 4.5px;width: 9px;height: 9px;border-radius: 50%;background: white;}
@@ -72,16 +72,16 @@ h5 {font-size: 15px;}
 .txt-xxlarge-semibold-black {font-size: 24px;font-weight: 500;color: #000;}
 .txt-xlarge-bold-black {font-size: 20px;font-weight: 700;color: #000;}
 .txt-xlarge-semibold-black {font-size: 20px;font-weight: 500;color: #000;}
-.txt-xlarge-semibold-navy {font-size: 20px;font-weight: 600;color: #003744;}
+.txt-xlarge-semibold-navy {font-size: 20px;font-weight: 600;color: #01123f;}
 .txt-xlarge-semibold-grey {font-size: 20px;font-weight: 500;color: #ccc;}
 .txt-large-bold-black {font-size: 18px;font-weight: 700;color: #000;}
-.txt-large-semibold-navy {font-size: 18px;font-weight: 600;color: #003744;}
+.txt-large-semibold-navy {font-size: 18px;font-weight: 600;color: #01123f;}
 .txt-large-semibold-dkgrey {font-size: 18px;font-weight: 500;color: #999;}
 .txt-regular-bold-darkgreen {font-size: 16px;font-weight: 700;color: var(--color-darkgreen);}
 .txt-regular-bold-grey {font-size: 16px;font-weight: 700;color: #ccc;}
-.txt-regular-semibold-navy {font-size: 16px;font-weight: 500;color: #003744;}
+.txt-regular-semibold-navy {font-size: 16px;font-weight: 500;color: #01123f;}
 .txt-regular-regular-black {font-size: 16px;font-weight: 400;color: #000;}
-.txt-regular-regular-navy {font-size: 16px;font-weight: 400;color: #003744;}
+.txt-regular-regular-navy {font-size: 16px;font-weight: 400;color: #01123f;}
 .txt-regular-regular-666 {font-size: 16px;font-weight: 400;color: #666;}
 .txt-small-regular-black {font-size: 15px;font-weight: 400;color: #000;line-height: 8px;}
 .txt-tiny-regular-black {font-size: 14px;font-weight: 400;color: #000;}
@@ -122,7 +122,7 @@ button {background-color: transparent;cursor: pointer;border: none;outline: none
 /* .pc_af_line:after{width:0.5px;content:"|"; margin:0 0 0 15px;} */
 /* textarea */
  textarea::-webkit-scrollbar {width: 10px;}
-textarea::-webkit-scrollbar-thumb {background-color: #003744;}
+textarea::-webkit-scrollbar-thumb {background-color: #01123f;}
 textarea::-webkit-scrollbar-track {background-color: #f2f2f2;/* box-shadow: inset 0px 0px 5px white; */}
 
 /* header */header.search_on {}
@@ -148,7 +148,7 @@ header.search_on #gnb {display:none;}
 
 #hd header .header__inner{transition: all .5s ease;}
 #hd header{top:0;-webkit-transition:top 1s ease;-moz-transition: top 1s ease;-ms-transition: top 1s ease;-o-transition: top 1s ease;transition: top 1s ease;}
-#hd header:before{top:-80px;content:'';height:80px;width:100%;background:#003744;position:absolute;z-index:-1;display:block;-webkit-transition:top 1s ease;-moz-transition: top 1s ease;-ms-transition: top 1s ease;-o-transition: top 1s ease;transition: top 1s ease;}
+#hd header:before{top:-80px;content:'';height:80px;width:100%;background:#01123f;position:absolute;z-index:-1;display:block;-webkit-transition:top 1s ease;-moz-transition: top 1s ease;-ms-transition: top 1s ease;-o-transition: top 1s ease;transition: top 1s ease;}
 #hd.top header .gnb_1da{padding:40px 0 !important;;transition: all .5s ease;}
 /* #hd.top header {height:102px !important;} */
 /* #hd.top header .header__inner{height:102px !important;} */
@@ -271,8 +271,8 @@ select::-ms-expand {display: none;}
 #rm .bf_login .login_btn span {width: 100%;height: 100%;border: 1px solid #d1d1d1;/* padding: 14px; */font-family: 'Spoqa Han Sans Neo', sans-serif;font-size: 16px;font-weight: 500;display: inline-block;vertical-align: middle;text-align: center;line-height: 3;}
 #rm .bf_login .login_btn .white {background-color: #fff;border-color:#fff;color: #000;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
 #rm .bf_login .login_btn .white:hover{background-color: #8bb929;border-color: #8bb929;color: #fff;}
-#rm .bf_login .login_btn .navy {background-color: #003744;color: #fff;}
-/* #rm .bf_login .login_btn .navy:hover{background-color: #002f3a;border-color:#003744;color: #8bb929;} */
+#rm .bf_login .login_btn .navy {background-color: #01123f;color: #fff;}
+/* #rm .bf_login .login_btn .navy:hover{background-color: #002f3a;border-color:#01123f;color: #8bb929;} */
 #rm .aft_login {width: 100%;margin: 0px 0 50px;text-align: left;}
 #rm .aft_login .mypage {font-family: 'Spectral', serif;font-size: 20px;font-weight: 500;letter-spacing: -1.04px;line-height:1;color: #8bb929;}
 #rm .aft_login .name {font-family: 'Spoqa Han Sans Neo', sans-serif;font-size: 30px;color: #fff;margin: 50px 0 0px;}
@@ -455,7 +455,7 @@ transition:all 0.3s ease-out;
 #pop.result .added.on, #pop.result .removed.on {display: block;}
 
 /* 팝업 버튼 */
-#pop.interest .btn, #pop.result .btn {width: 195px; height: 50px; border: solid 1px #003744; font-size: 18px; font-weight: 500; color: #fff; background-color: #003744;}
+#pop.interest .btn, #pop.result .btn {width: 195px; height: 50px; border: solid 1px #01123f; font-size: 18px; font-weight: 500; color: #fff; background-color: #01123f;}
 #pop.interest .btn.add_btn {position: absolute; bottom: 50px; left: 50%; transform: translate(-50%, 0);}
 #pop.result .btn.close_btn {margin-top: 50px;}
 

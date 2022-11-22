@@ -67,14 +67,14 @@ html { scroll-behavior: smooth; }
 
 #brand #section7 {height:100vh;max-height:1100px;min-height:750px;display:flex;align-items:center;background: url("../_imgs/brand_bg4.jpg") center / cover no-repeat;}
 #brand #section7 > .inner{height:auto;padding: 150px 0;width:100%;max-width:1200px;margin: 0 auto;}
-#brand #section7 .awards_title {font-family: 'Ubuntu', serif;font-size: 50px;font-weight: 400;letter-spacing: -2px;;margin-bottom: 53px;color: #003744;;opacity:0}
+#brand #section7 .awards_title {font-family: 'Ubuntu', serif;font-size: 50px;font-weight: 400;letter-spacing: -2px;;margin-bottom: 53px;color: #01123f;;opacity:0}
 #brand #section7 ul {border-top: 1px solid rgba(204, 204, 204, 0.5);margin: 0 auto;}
 #brand #section7 li {border-bottom: 1px solid rgba(204, 204, 204, .5);display:flex;align-items:center;opacity:0}
-#brand #section7 .date {width:160px;font-size: 30px;font-weight: 700;color: #003744;}
+#brand #section7 .date {width:160px;font-size: 30px;font-weight: 700;color: #01123f;}
 #brand #section7 .date.active {color: #6a9b00;}
 #brand #section7 .line span {border-left: 1px solid rgba(0, 55, 68, .5);height: 52px;text-indent: -999999px;opacity: 0.5;}
 #brand #section7 .wrap {padding: 25px 38px;text-align: left;}
-#brand #section7 .title {font-size: 20px;font-weight: 700;text-align: left;color: #003744;}
+#brand #section7 .title {font-size: 20px;font-weight: 700;text-align: left;color: #01123f;}
 #brand #section7 .award {font-size: 16px;text-align: left;color: #000;}
 
 

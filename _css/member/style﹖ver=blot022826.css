@@ -319,7 +319,7 @@
 transform:skew(8deg) rotate(3deg);}
 .mbskin .mbskin_box{position:relative;width:100%;height:auto;}
 .mbskin .frm_input {width:100%}
-.mbskin .btn_submit {width:100%;margin:0;padding:11px 30px;line-height:1;font-size:18px;font-weight:400;border: 1px solid #003744;background-color: #003744;color: #fff;}
+.mbskin .btn_submit {width:100%;margin:0;padding:11px 30px;line-height:1;font-size:18px;font-weight:400;border: 1px solid #01123f;background-color: #01123f;color: #fff;}
 .mbskin h1 {}
 
 /* 기본테이블 */
@@ -509,7 +509,7 @@ transform:skew(8deg) rotate(3deg);}
 	text-align: left;
     font-size: 16px;
     font-weight: 500;
-    color: #003744;
+    color: #01123f;
 }
 #find_info #info_fs textarea {
 	width: 100%;
@@ -554,7 +554,7 @@ transform:skew(8deg) rotate(3deg);}
 }
 #find_info .win_btn .btn_submit {
     float:right;    
-    background:#003744;
+    background:#01123f;
     margin-left:10px;
 }
 

@@ -377,9 +377,12 @@ $(function(){
 	}
     .bestchip {
         padding: 10px;
-        display: block;
-        background-color: #f6f6f6;
+        display: flex;
+        background-color: #fff;
         border-radius: 5px;
+		height: 80px;
+		justify-content: center;
+		align-items: center;
     }
     .contact_wrap { width: 100%; height: 908px; background: url(../img/contact_bg.jpg) center no-repeat; background-size: cover; text-align: center; position: relative; }
     .contact_box { width: 100%; height: 600px; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; transform: translateY(-40px); }
@@ -645,7 +648,7 @@ isMain = true;
 																	});
 								</script>
                             </div>
-								<img src="data/file/apt/2087697396_SGmidD6F_c353e68409c72f3f1cbf977f5136c935b8ec66a3.jpg" alt="background image">
+								<img src="data/file/apt/group2.jpg" alt="background image">
                         </li>
 					                        <li class="item item3 swiper-slide" >
                             <div class="text_area animated delay-9s">
@@ -672,7 +675,7 @@ isMain = true;
 																	});
 								</script>
                             </div>
-								<img src="data/file/apt/2087697396_dhXCxTB9_092cc3918023c8041d4c31412d0fc4ff43b0a3ed.jpg" alt="background image">
+								<img src="data/file/apt/group3.png" alt="background image">
                         </li>
 					                    </ul>
 					<div class="paging">
@@ -704,20 +707,20 @@ isMain = true;
 					<ul class="animated delay-3s">						
 						<li>
 							<a href="https://www.youtube.com/c/%EB%8C%80%EC%9A%B0%EC%82%B0%EC%97%85%EA%B0%9C%EB%B0%9C/featured" target="_blank">
-								<span class="bestchip">제무재표 AAA( 1등급) 통과 베스트산업개발</span>
 								<span><img src="_imgs/img_sns7.png"></span>
+								<span class="bestchip">제무재표 AAA( 1등급) 통과 베스트산업개발</span>
 							</a>
 						</li>
 						<li>
 							<a href="https://www.youtube.com/c/%EB%8C%80%EC%9A%B0%EC%82%B0%EC%97%85%EA%B0%9C%EB%B0%9C/featured" target="_blank">
-								<span class="bestchip">살수록 커지는 만족, 살수록 느끼는 가치 베스트클래스 아산지구 최고거래가 갱신</span>
 								<span><img src="_imgs/img_sns6.png"></span>
+								<span class="bestchip">살수록 커지는 만족, 살수록 느끼는 가치 베스트클래스 아산지구 최고거래가 갱신</span>
 							</a>
 						</li>
 						<li>
 							<a href="https://pf.kakao.com/_Axcvcxb" target="_blank">
-								<span class="bestchip">살수록 커지는 만족, 살수록 느끼는 가치</span>
 								<span><img src="_imgs/img_sns5.png"></span>
+								<span class="bestchip">살수록 커지는 만족, 살수록 느끼는 가치</span>
 							</a>
 						</li>
 					</ul>

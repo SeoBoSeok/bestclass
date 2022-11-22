@@ -19,21 +19,21 @@ li {list-style: none;}
 #login .inner > h2 {margin-bottom: 63px;}
 #login .way {display: flex;flex-flow: row nowrap;justify-content: center;margin-bottom: 35px;}
 #login .way .item {width: 225px;font-size: 20px;font-weight: bold;color: #999;padding-bottom: 20px;border-bottom: 1px solid #ccc;cursor: pointer;}
-#login .way .item.active {border-bottom: 2px solid #003744;color: #003744;}
+#login .way .item.active {border-bottom: 2px solid #01123f;color: #01123f;}
 #login .login_area {width: 380px;margin: 0 auto;}
 #sns_login,
 #hp_login {display: none;}
 
-#login .tel {text-align: left;font-size: 16px;font-weight: 500;color: #003744;}
+#login .tel {text-align: left;font-size: 16px;font-weight: 500;color: #01123f;}
 #login .tel input {max-width: 126px;/* height: 50px; */border: none;border-bottom: 2px solid #d8d8d8;font-size: 16px;font-weight: 700;color: #d8d8d8;/* margin-bottom: 37px; */border-radius: 0;}
 #login .tel > div {margin-top: 10px;}
-#login .boxwrap label {text-align: left;font-size: 16px;font-weight: 500;color: #003744; margin-top: 30px;}
+#login .boxwrap label {text-align: left;font-size: 16px;font-weight: 500;color: #01123f; margin-top: 30px;}
 #login .boxwrap input {width: 380px;height: 50px;border: none;border-bottom: 2px solid #d8d8d8;margin-bottom: 37px;font-size: 16px;font-weight: 700;color: #d8d8d8;border-radius: 0;}
 
 #login .btn_join {margin: 6px 0px 40px 0px;}
 #login .find {display: flex;flex-flow: row nowrap;justify-content: center;}
 #login .mb_63 {margin-bottom: 63px;}
-#login .find .item {color: #003744;}
+#login .find .item {color: #01123f;}
 #login .find .line {margin: 0 38px 0 38px;}
 #login .sns_btn button {margin-bottom: 10px;}
 #login .sns_btn span {margin-top: -5px;}
@@ -65,7 +65,7 @@ li {list-style: none;}
 #join .subtitle {margin:-40px 0px 84px 0px;}
 #join .step {width: 100%;display: flex;flex-direction: row;justify-content: center;align-items: stretch;}
 #join .step .item {width: 25%;flex-grow: 1;border-bottom: 1px solid #ccc;padding-right: 33px;padding-bottom: 20px;}
-#join .step .item.active {border-bottom: 2px solid #003744;}
+#join .step .item.active {border-bottom: 2px solid #01123f;}
 #join .step .item .num {margin-right: 14px;}
 #join .rule {margin: 80px 0 77px 0;}
 #join .rule h4 {text-align: left;}
@@ -73,7 +73,7 @@ li {list-style: none;}
 #join .agree {width: 100%;display: flex;flex-direction: row;align-items: baseline;justify-content: space-between;}
 #join .agree .radio {margin-right: 6px;}
 #join .agree .radio input[type="radio"] {border: 1px solid #ccc;}
-#join .agree .radio input[type="radio"]:checked {border: 5px solid #003744;}
+#join .agree .radio input[type="radio"]:checked {border: 5px solid #01123f;}
 #join .buttons {margin-top: 100px;}
 #join .btns .next {display: inline;}
 #join .certify .subtitle {margin: 81px 0px 17px;word-break: break-all;}
@@ -88,7 +88,7 @@ li {list-style: none;}
 #join .certify #cert_submit.show {display: block;}
 
 #join .write .subtitle {display: flex;flex-direction: row;align-items: baseline;justify-content: space-between;margin: 80px 0 24px;}
-#join .write .table {border-top: 2px solid #003744;font-size: 15px;color: #000;border-collapse: collapse;margin-bottom: 71px;}
+#join .write .table {border-top: 2px solid #01123f;font-size: 15px;color: #000;border-collapse: collapse;margin-bottom: 71px;}
 #join .write .table tr {width: 100%;height: 69px;border-bottom: 1px solid #d8d8d8;}
 #join .write .table th {width: 190px;background-color: #f9f9f9;font-size: 15px;font-weight: 400;text-align: left;color: #000;padding-left: 25px;border: none;outline: none;}
 #join .write .table td {width: calc(100%-190px);padding-left: 25px;text-align: left;display: table-cell;vertical-align: middle;}
@@ -106,8 +106,8 @@ li {list-style: none;}
 #join .write .table .select_email {width: 171px;height: 40px;border: 1px solid #dbdbdb;padding-left: 10px;}
 #join .write .table .select_tel {width: 105px;height: 40px;border: 1px solid #dbdbdb;padding-left: 10px;margin-right: 10px;}
 #join .txt_tiny {font-size: 13px;text-align: left;color: #666;}
-#join .btn_confm {width: 84px;height: 40px;background-color: #003744;color: #fff;font-size: 15px;font-weight: 400;vertical-align:top}
-#join .btn_zipcode {width: 114px;height: 40px;background-color: #003744;color: #fff;font-size: 15px;font-weight: 400;vertical-align:top}
+#join .btn_confm {width: 84px;height: 40px;background-color: #01123f;color: #fff;font-size: 15px;font-weight: 400;vertical-align:top}
+#join .btn_zipcode {width: 114px;height: 40px;background-color: #01123f;color: #fff;font-size: 15px;font-weight: 400;vertical-align:top}
 #join .write .table .list {width: 100%;height: 71px;display: flex;flex-flow: row nowrap;align-items: center;}
 #join .write .toggle {cursor: pointer;}
 #join .write button.next {margin-top: 71px;}
@@ -128,7 +128,7 @@ li {list-style: none;}
 #sub_nav {width: 100%;height: 76px;border-bottom: 1px solid #d1d1d1;background:#fff;}
 #sub_nav .list {width: 100%;max-width:1200px;display: flex;flex-direction: row;justify-content: flex-start;align-items: stretch;margin: 0 auto;}
 #sub_nav .item {flex-grow: 1;padding: 24px 28px;}
-#sub_nav .item.active {border-bottom: 2px solid #003744;}
+#sub_nav .item.active {border-bottom: 2px solid #01123f;}
 
 
 /* sub_visual */
@@ -219,7 +219,7 @@ fieldset {border: none;}
 #subscription .total ul li .data{display:flex; flex-grow: 2;margin-left:50px}
 #subscription .total ul li .score{}
 #subscription .total ul li.total_score {font-size:22px;}
-#subscription .total ul li.total_score .score{color:#003744;font-weight:600}
+#subscription .total ul li.total_score .score{color:#01123f;font-weight:600}
 #subscription .total ul li.total_score .score b{color:#6A9B00}
 
 
@@ -240,7 +240,7 @@ fieldset {border: none;}
 #bi section {}
 #bi .sec_01 {max-width: 1200px; margin: 20px auto 0; background: url(../_imgs/sub_bi_img_1.jpg) no-repeat center; padding: 100px 200px;}
 #bi .sec_01 .wrap {background: #fff; text-align: center; padding: 80px 170px;}
-#bi .sec_01 .tit {font-family: 'PT Sans', sans-serif; font-size: 42px; font-weight: 700; color: #003744;}
+#bi .sec_01 .tit {font-family: 'PT Sans', sans-serif; font-size: 42px; font-weight: 700; color: #01123f;}
 #bi .sec_01 .desc {font-family: 'Spoqa Han Sans Neo', sans-serif; font-size: 18px; font-weight: 400; color: #666; word-break: keep-all; margin-top: 25px;}
 
 #bi .sec_02 {max-width: 1200px; margin: 180px auto 0; position: relative;}
@@ -307,7 +307,7 @@ fieldset {border: none;}
 #premium .sec_00 .desc {font-family: 'Spoqa Han Sans Neo', sans-serif; font-size: 17px; color: #666; margin-top: 12px;word-break:keep-all;}
 
 
-#premium section > .wrap {max-width: 990px; height: 380px; background: #003744;display:flex;align-items:end; position: relative;display: block;}
+#premium section > .wrap {max-width: 990px; height: 380px; background: #01123f;display:flex;align-items:end; position: relative;display: block;}
 #premium section > .wrap:before {content:'';width:100%;height:100%;background:#fff;position:absolute;right:0;transition:all .8s ease-in-out;}
 #premium section:nth-child(odd) > .wrap:before {left:0;}
 #premium section > .wrap.on:before {width:0%;}

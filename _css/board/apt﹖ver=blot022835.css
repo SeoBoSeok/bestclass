@@ -23,7 +23,7 @@
 
 #sell .img {width: 100%;}
 #sell .content {padding: 33px 20px 0 20px;}
-#sell .item .content .state {width: 68px;height: 30px;background-color: #003744;font-size: 14px;font-weight: 500;text-align: center;color: #fff;}
+#sell .item .content .state {width: 68px;height: 30px;background-color: #01123f;font-size: 14px;font-weight: 500;text-align: center;color: #fff;}
 #sell .item .content .title {font-size: 26px;font-weight: 500;color: #000;margin: 8px 0 20px;}
 #sell .item .content .description {font-size: 16px;text-align: left;color: #666;display:none}
 #sell .item .content > .line {width: 100%;height: 1px;border-bottom: 2px solid #000;margin: 16px 0 20px;text-indent: -99999px;}
@@ -52,16 +52,16 @@
 #sell #select_area > li {opacity: 0.5;pointer-events: none;}
 #sell #select_area > li.on {opacity: 1;pointer-events: auto;}
 
-/* ³ªÀÇ °ü½É´ÜÁö */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½É´ï¿½ï¿½ï¿½ */
 #sell.my_place {width: 100%;max-width: 1200px;margin: 0 auto;min-height: 400px;}
 
-/* ¾²±â ÆäÀÌÁö */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 #apt .write .latlng {max-width: 70%;}
 #apt .write .latlng > span {float: left;display: inline-block;}
 #apt .write .latlng:after {clear: both; content: ''; display: none;}
 #apt .write .example_img {width: 100%; height: auto; border: 1px solid #444; display: none;}
 
-/* »ó¼¼ÆäÀÌÁö */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 #board_view .title > h2 {font-size: 34px; font-weight: 500; text-align: left;}
 #board_view .title > p {font-size: 18px; font-weight: 500; text-align: left; color: #666; padding-bottom: 40px; border-bottom: 2px solid #000;}
 /* #board_view .detail {width: 100%; padding: 40px 0 90px;} */
@@ -101,7 +101,7 @@
 #board_view .construct .images > ul  li > h4 {font-size: 18px; font-weight: 500; text-align: left; color: #000; margin-top: 20px;}
 #board_view .btn_area{margin-top:70px;overflow:hidden;text-align:center;}
 
-#board_view .btn.navy {width: 290px; min-height: 65px; margin: 0 0 50px; background-color: #003744;font-size: 19px; font-weight: 500; text-align: center; color: #fff;}
+#board_view .btn.navy {width: 290px; min-height: 65px; margin: 0 0 50px; background-color: #01123f;font-size: 19px; font-weight: 500; text-align: center; color: #fff;}
 
 #board_view .homepage svg,
 #board_view .cancel_int svg,
@@ -157,7 +157,7 @@
 	#board_view .btn.navy {width: 35vw; min-height: 11.78vw; margin: 0;font-size: 3.57vw;}
 
 
-	/* °ø»ç´ÜÁö > »ó¼¼ÆäÀÌÁö */
+	/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ > ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 	#board_view .title > h2 {font-size: 5.41vw; border-bottom: 2px solid #000; padding-bottom: 5.41vw}
 	#board_view .title > p {font-size: 3.5vw; padding-bottom: 5.41vw; display: none;}
 	#board_view .info {flex-flow: row wrap;}

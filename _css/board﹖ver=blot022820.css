@@ -74,7 +74,7 @@ transition:border-color 0.6s ease-out;
 #tab_area ul li {display:table-cell;text-align:center;padding:0 2px;min-width:150px;}
 #tab_area ul li a{padding:14px;border:1px solid #ccc;width:100%;display:inline-block;color:#000;}
 #tab_area ul li a:hover,
-#tab_area ul li a.active{background:#003744;border-color:#003744;color:#fff;}
+#tab_area ul li a.active{background:#01123f;border-color:#01123f;color:#fff;}
 
 
 #bo_v_img {margin-top:20px;}

@@ -9,7 +9,7 @@
 #news .item .content {word-break: break-all; margin-top: 17px;}
 #news .item .date, #gallery .item .address {margin-top: 30px;}
 #news .item .state {font-size: 16px;font-weight: 400;position: absolute;bottom: 30px; right: 35px;text-align: right; border: 1px solid #d8d8d8; padding: 8px; cursor: pointer;}
-#news .item .state.on {background-color: #003744;color: #fff;}
+#news .item .state.on {background-color: #01123f;color: #fff;}
 #news .more {cursor: pointer;display: block;}
 #news .more .icon {transition: all 300ms ease-in-out;}
 #news .more .icon:hover {transform: rotate(180deg);}
@@ -24,8 +24,8 @@
 #my_inquiry .item .content,#my_inquiry .item .date, #gallery .item .address {width: 82%;font-size: 16px;font-weight: 400;color: #666666;text-align: left;}
 #my_inquiry .item .content {word-break: break-all; margin-top: 17px;}
 #my_inquiry .item .date, #gallery .item .address {margin-top: 30px;}
-#my_inquiry .item .state {font-size: 16px;color: #003744;font-weight: 400;position: absolute;bottom: 30px; right: 35px;text-align: right; border: 1px solid #d8d8d8; padding: 8px; cursor: pointer;}
-#my_inquiry .item .state.on {background-color: #003744;color: #fff;}
+#my_inquiry .item .state {font-size: 16px;color: #01123f;font-weight: 400;position: absolute;bottom: 30px; right: 35px;text-align: right; border: 1px solid #d8d8d8; padding: 8px; cursor: pointer;}
+#my_inquiry .item .state.on {background-color: #01123f;color: #fff;}
 #my_inquiry .more {cursor: pointer;display: block;}
 #my_inquiry .more .icon {transition: all 300ms ease-in-out;}
 #my_inquiry .more .icon:hover {transform: rotate(180deg);}

@@ -19,7 +19,7 @@ html[color-theme='dark'] select {background-image: url(../_imgs/icon_arrow_down.
 
 /* Buttons */
 /* html[color-theme='dark'] .btn-large-navy {border: 1px solid #6A9B00;background-color: #6A9B00;color: #fff;}
-html[color-theme='dark'] .btn-basic-navy:hover,.btn-large-navy:hover{border: 1px solid #003744;background-color: #003744;color: #fff;}
+html[color-theme='dark'] .btn-basic-navy:hover,.btn-large-navy:hover{border: 1px solid #01123f;background-color: #01123f;color: #fff;}
 html[color-theme='dark'] .btn-large-green {border: 1px solid #6a9b00;background-color: #6a9b00;color: #fff;}
 html[color-theme='dark'] .btn-large-white {border: 1px solid #ccc;background-color: #1f2329;color: #fff;}
 html[color-theme='dark'] .btn-basic-navy {border: 1px solid #6A9B00;background-color: #6A9B00;color: #fff;}
@@ -103,8 +103,8 @@ html[color-theme='dark'] .select_white .box .slist {border: 1px solid #ccc;; bac
 html[color-theme='dark'] .select_white .box .slist > li:hover {background-color: #f3f3f3;}
 
 /* 셀렉트박스 커스텀2 */
-html[color-theme='dark'] .select_navy .box .select {background-color: #003744; color: #fff; border: 1px solid #003744;}
-html[color-theme='dark'] .select_navy .box .slist {background-color: #003744; color: #fff; border: 1px solid #003744;}
+html[color-theme='dark'] .select_navy .box .select {background-color: #01123f; color: #fff; border: 1px solid #01123f;}
+html[color-theme='dark'] .select_navy .box .slist {background-color: #01123f; color: #fff; border: 1px solid #01123f;}
 html[color-theme='dark'] .select_navy .box .slist > li:hover {color: #8bb929;}
 
 /* swiper */
@@ -113,7 +113,7 @@ html[color-theme='dark'] #rm .swiper-container {background: transparent;}
 html[color-theme='dark'] #story .swiper-container {background: transparent;}
 
 /* header */
-html[color-theme='dark'] #hd.hd_zindex header{background-color:#003744 !important; color:#fff !important;}
+html[color-theme='dark'] #hd.hd_zindex header{background-color:#01123f !important; color:#fff !important;}
 html[color-theme='dark'] #hd.hd_zindex #gnb .gnb_1dli .gnb_1da{color:#fff; }
 html[color-theme='dark'] #hd.hd_zindex #gnb_all_bg {background-color: #00252E;color: #ccc;}
 html[color-theme='dark'] #hd.hd_zindex .header_icon #btn_search{background:url('../_imgs/icon_search.svg') no-repeat center;}
@@ -151,7 +151,7 @@ html[color-theme='dark'] #location .list.hover .item:after {opacity: .7;}
 html[color-theme='dark'] #location .list.hover .item.on:after {opacity: .1;}
 
 /* 그누보드 */
-/* html[color-theme='dark'] #rm .mypage {color: #003744;} */
+/* html[color-theme='dark'] #rm .mypage {color: #01123f;} */
 html[color-theme='dark'] #rm .bf_login {color: #fff;}
 html[color-theme='dark'] #rm .bf_login .title {color: #fff;}
 html[color-theme='dark'] #rm .bf_login .login_btn span {border: 1px solid #ccc;;}
@@ -159,7 +159,7 @@ html[color-theme='dark'] #rm .bf_login .login_btn span {border: 1px solid #ccc;;
 html[color-theme='dark'] #rm .bf_login .login_btn .white:hover{background-color: #6A9B00;border-color: #6A9B00;color: #fff;}
 html[color-theme='dark'] #rm .bf_login .login_btn .navy {background-color: transparent;color: #fff;}
 html[color-theme='dark'] #rm .bf_login .login_btn .navy:hover {background-color: #6A9B00;color: #fff;} */
-/* html[color-theme='dark'] #rm .aft_login .mypage {color: #003744;} */
+/* html[color-theme='dark'] #rm .aft_login .mypage {color: #01123f;} */
 html[color-theme='dark'] #rm .aft_login .name {color: #fff;}
 html[color-theme='dark'] #rm .aft_login .descr {color: #ccc;}
 html[color-theme='dark'] #rm .aft_login .menu {background-color: #052F39;}
@@ -169,8 +169,8 @@ html[color-theme='dark'] #rm h5 {color: #fff;}
 html[color-theme='dark'] #rm .more {color: #ccc; 0 !important;}
 html[color-theme='dark'] #rm .inquiry .list > li {border: solid 1px #1a5d6d; color: #ccc;}
 html[color-theme='dark'] #rm .inquiry .list .title {color: #fff;}
-html[color-theme='dark'] #rm .inquiry .list > li.reply {border: solid 1px #003744;}
-html[color-theme='dark'] #rm .inquiry .list > li.reply .state{color: #003744;}
+html[color-theme='dark'] #rm .inquiry .list > li.reply {border: solid 1px #01123f;}
+html[color-theme='dark'] #rm .inquiry .list > li.reply .state{color: #01123f;}
 html[color-theme='dark'] #rm .apt .list .title {color: #fff;}
 html[color-theme='dark'] #rm .apt .list .date {color: #999;}
 html[color-theme='dark'] #rm .customer h6 {color: #fff;}
@@ -225,7 +225,7 @@ html[color-theme='dark'] .main {background: #1f2329;}
 
 /* sub nav */
 /* html[color-theme='dark'] #sub_nav {background: #1f2329;border-bottom: 1px solid #666;} */
-/* html[color-theme='dark'] #sub_nav .item.active {border-bottom: 2px solid #003744;} */
+/* html[color-theme='dark'] #sub_nav .item.active {border-bottom: 2px solid #01123f;} */
 html[color-theme='dark'] .sub_visual:before{opacity:.6;}
 html[color-theme='dark'] .sub_visual.basic {opacity:.7;}
 
@@ -275,7 +275,7 @@ html[color-theme='dark'] #find.inner {background-color: #1f2329;}
 html[color-theme='dark'] #find_info .email_info .frm_input {background-color: #1f2329; color: #fff;}
 html[color-theme='dark'] #find_info #info_fs>dl>dt {color: #6a9b00;}
 html[color-theme='dark'] #find_info .win_btn .btn_submit {background:#6a9b00;}
-html[color-theme='dark'] #find_info .win_btn .btn_submit:hover {background:#003744;}
+html[color-theme='dark'] #find_info .win_btn .btn_submit:hover {background:#01123f;}
 html[color-theme='dark'] #find_info .email_info>*:nth-child(2) {color:#fff;}
 
 /* 커뮤니티 */
@@ -289,7 +289,7 @@ html[color-theme='dark'] .sub_visual:before{opacity: .6;}
 /* z-index: 21; */
 html[color-theme='dark'] #search_top .center .wrap h2 {color: #fff;}
 html[color-theme='dark'] #search_top .center .wrap .word {border: solid 1px #a8a8a8; color: #fff;}
-html[color-theme='dark'] #search_top .center .wrap .word:focus{border-color: #003744;background-color: #00303B;}
+html[color-theme='dark'] #search_top .center .wrap .word:focus{border-color: #01123f;background-color: #00303B;}
 html[color-theme='dark'] #search_top .center .wrap .word.on { border-color: #8BB929;background-color: #00303B;}
 
 /* brand  */
@@ -303,11 +303,11 @@ html[color-theme='dark'] #brand #section7 .date,
 html[color-theme='dark'] #brand #section7 .title {color: #fff;}
 
 /* Brand > bi */
-/*html[color-theme='dark'] #bi .txt_green {color: #003744;/*}*/
+/*html[color-theme='dark'] #bi .txt_green {color: #01123f;/*}*/
 html[color-theme='dark'] #bi .sec_01 .wrap {background: #1F2329;}
 /*html[color-theme='dark'] #bi .sec_01 .tit {color: #6A9B00;/*}/*
 html[color-theme='dark'] #bi .sec_01 .desc {color: #ccc;}
-/*html[color-theme='dark'] #bi .txt_green {color: #003744;/*}*/
+/*html[color-theme='dark'] #bi .txt_green {color: #01123f;/*}*/
 
 html[color-theme='dark'] #bi .sec_02 .txtArea .tit {color: #fff;}
 html[color-theme='dark'] #bi .sec_02 .txtArea .desc {color: #fff;}
@@ -383,7 +383,7 @@ html[color-theme='dark'] #sell .search_wrap .search {border: solid 1px #999;; ba
 html[color-theme='dark'] #sell .search_wrap .word {background:#1f2329;color: #fff;}
 
 /* html[color-theme='dark'] #sell .item {border: solid 1px #ccc;} */
-html[color-theme='dark'] #sell .item .content .state {background-color: #003744; color: #fff;}
+html[color-theme='dark'] #sell .item .content .state {background-color: #01123f; color: #fff;}
 html[color-theme='dark'] #sell .item .content .title {color: #ccc;}
 html[color-theme='dark'] #sell .item .content .description {color: #ccc;}
 html[color-theme='dark'] #sell .item .content > .line {border-bottom: 2px solid #666;}
@@ -409,7 +409,7 @@ html[color-theme='dark'] #board_view .construct .date {color: #fff;}
 html[color-theme='dark'] #board_view .construct .subject {color: #ccc;}
 html[color-theme='dark'] #board_view .descr {color: #ccc;}
 html[color-theme='dark'] #board_view .construct .images > ul  li > h4 {color: #fff;}
-html[color-theme='dark'] #board_view .btn.navy {background-color: #003744; color: #fff;}
+html[color-theme='dark'] #board_view .btn.navy {background-color: #01123f; color: #fff;}
 
 /* board basic */
 html[color-theme='dark'] #news .item {border: solid 1px #666;}
@@ -420,7 +420,7 @@ html[color-theme='dark'] #news .item .content,
 html[color-theme='dark'] #news .item .date,
 html[color-theme='dark'] #gallery .item .address {color: #ccc;}
 html[color-theme='dark'] #news .item .state {border: 1px solid #666;}
-html[color-theme='dark'] #news .item .state.on {background-color: #003744; color: #fff;}
+html[color-theme='dark'] #news .item .state.on {background-color: #01123f; color: #fff;}
 html[color-theme='dark'] #gallery .item {border: solid 1px #999;}
 
 /* board event */
@@ -469,7 +469,7 @@ html[color-theme='dark'] #mb_confirm fieldset .confirm_info {color: #fff;}
 html[color-theme='dark'] #mb_confirm fieldset .confirm_info_box,
 html[color-theme='dark'] #mb_confirm fieldset .frm_input {background: #1f2329 !important; color: #fff;}
 html[color-theme='dark'] #mb_confirm fieldset .btn_submit{background: #6a9b00;color: #fff; border: none;}
-html[color-theme='dark'] #mb_confirm fieldset .btn_submit:hover{background: #003744;}
+html[color-theme='dark'] #mb_confirm fieldset .btn_submit:hover{background: #01123f;}
 
 /* 약관 */
 html[color-theme='dark'] #contents b {color: #fff;}
@@ -501,7 +501,7 @@ html[color-theme='dark'] #board_view .enroll_int path {stroke: #fff; fill: #1f23
 	--colorccc: #ccc;
   --colorddd: #ddd;
   --coloreee: #eee;
-	--colorLimeGreen : #003744;
+	--colorLimeGreen : #01123f;
 	--colorDeepGreen : #6a9b00;
 	--colorNavy : #6A9B00;
 	--colorBlack : #fff;;
@@ -511,10 +511,10 @@ html[color-theme='dark'] #board_view .enroll_int path {stroke: #fff; fill: #1f23
 @media all and (max-width:740px){
 	/* html[color-theme='dark'] #hd.top header .header__inner {background: #00252E;} */
 	html[color-theme='dark'] #board_view .title > h2 {border-bottom: 2px solid #fff;}
-  html[color-theme='dark'] #hd.m_hd_zindex header .header__inner {background: #003744;}
+  html[color-theme='dark'] #hd.m_hd_zindex header .header__inner {background: #01123f;}
 	html[color-theme='dark'] #hd.m_hd_zindex .logo {display: inline-block !important;}
 	html[color-theme='dark'] #hd.m_hd_zindex .logo_ori {display: none !important;}
-	html[color-theme='dark'] #gnb_all .gnb_al_li.active ul {background: #003744;}
+	html[color-theme='dark'] #gnb_all .gnb_al_li.active ul {background: #01123f;}
 
 	html[color-theme='dark'] #ft .mode {right: 5.41vw;}
 }

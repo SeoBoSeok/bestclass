@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+form.form_width {width: 100%; margin: 0 auto; margin-bottom: 100px; }
+
+#interestwrap {
+	position:relative;
+	width:100%;
+	margin:50px auto 0 auto;
+	font-size: 13px;
+	}
+
+.privacy{background:#f0f0f0; padding:20px; margin: 0 auto 40px auto; }
+.document{height: 300px; overflow:auto; background:#fff; border:1px solid #ccc; font-size: 13px; padding:15px; color:#666; line-height: 140%; }
+.document h3,
+.document h4,
+.document h5,
+.document h6 { font-weight: normal; }
+.document h2 { font-size: 18px; margin-bottom: 10px; }
+.document h3 { font-size: 15px; margin-bottom: 40px; }
+.document h4 { font-size: 14px; margin-bottom: 5px; color: #000; }
+.document h5 { font-size: 13px; margin-bottom: 5px; }
+.document h6 { font-size: 13px; }
+.document_list { margin-bottom: 35px; }
+.document_list ol { padding-left: 10px; }
+.document_list ol > li { margin-bottom: 8px; }
+.document_list ul { padding-left: 20px; }
+
+.agree_btn{ position:relative; margin-top:15px;}
+.agree_btn input { margin:0 2px 0 10px; vertical-align:-3px; }
+.agree_btn .notice { position: absolute; font-size: 12px; right:0; display: inline-block; margin-top: 3px; color: #da1717; }
+.interestNotice {color: #2c2637; font-weight: bold; font-size: 16px; margin:20px auto; width:100%;}
+.table2{ width:100%; border-top:2px solid #636363; font-size:14px; margin:20px auto;}
+.table2 th{padding:10px 0; border-bottom:1px solid #ececec; background:#676b6e; color:#fff; font-weight: normal; }
+.table2 td{padding:10px 0 10px 10px; text-align:left; height:55px; border-bottom:1px solid #ececec; font-size:14px}
+.table2 td .input_radio { height: 30px; margin-right: 3px; }
+.table2 td .input_txt1{border:1px solid #ececec; height:30px; width:200px;}
+.table2 td .input_txt2{border:1px solid #ececec; height:30px; width:80px;}
+.table2 td .input_txt3{border:1px solid #ececec; height:30px; width:450px;}
+.table2 td .input_txt4{border:1px solid #ececec; height:30px; width:120px;}
+.table2 td select {border:1px solid #ececec; height:30px; width:100px;}
+.table2 td p{margin:3px 0}
+.table2 td textarea{border:1px solid #ececec; height:150px; width:600px;}
+.table2 td .btn_style1{background: #313131; color:#fff; font-size:13px; border:1px solid #ececec; padding:5px 10px; height:30px; cursor:pointer; }
+p.btn{text-align:center; margin-top:20px; /*margin-bottom:50px;*/}
+.btn_style2{background:#000; color:#fff; font-size:14px; border:1px solid #ececec; padding:10px 20px; cursor:pointer;}
+.btn_style3{background:#ebebec; color:#6d6e71; font-size:14px; border:1px solid #ececec; padding:10px 20px; cursor:pointer;}
+
+
+input {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	appearance: none;
+}
+input[type='checkbox'] { -webkit-appearance: checkbox; }
+input:checked[type='checkbox'] { background-color: #ccc; -webkit-appearance: checkbox; }
+input[type='radio'] { -webkit-appearance: radio; }
+input[type='button'] { -webkit-border-radius: 0; }
+
+@media screen and (max-width: 1000px) {
+	.privacy { padding: 10px 10px 20px 10px; }
+	.agree_btn{ line-height:120%; }
+	.agree_btn .notice { position: relative !important; left: 0 !important; margin-top: 20px !important; }
+	.table2 th { width: 60px; text-align: center; }
+	.table2 td { padding-left: 7px !important; }
+	.table2 td select { width:80px;}
+	.table2 td .input_txt1 { width: auto !important; }
+	.table2 td .input_txt2 { width: 60px; }
+	.table2 td .input_txt3 { width: 95% !important; }
+	.table2 td textarea { width: 95% !important; }
+}

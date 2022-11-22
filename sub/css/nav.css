@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.headerWrap {position:fixed; height:80px; top:0; z-index:1000; width:100%; min-width:1200px; background:#fff;}
+.headerWrap_active{background:#fff !important; transition:background-color 0.4s; border-bottom:1px solid rgba(0,0,0,0.1)}
+.logo{position: absolute; z-index:99999; left:100px; top:50%; transform:translateY(-50%);}
+.header{position: relative; width: 100%; height:80px;}
+
+/*subheader*/
+.headerWrap{transition:all 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940);}
+.sub_header_active{background:#fff !important; height:80px; transition:all 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940); border-bottom:1px solid rgba(0,0,0,0.1)}
+/*.logo img{transition:all 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940);}*/
+
+.top_tip div img{transition:all 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940);}
+.img_active2{transform:scale(0.7); transition:all 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940); position:relative; top:-7px;}
+.img_active3{transform:scale(0.82); transition:all 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940); position:relative; top:-7px;}
+
+.top_tip{position:absolute; right:90px; top:0; display:flex; align-items:center;}
+.top_tip > p{position: relative; font-family: 'Lato' !important; font-size:30px; color:#e8e7e0; font-weight:400; padding-right:15px; left:0}
+.top_tip > p img{position: relative; top:-4px;}
+.top_tip > span{transition:all 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940)}
+
+.top_tipimg{opacity:0; transition:all 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940)}
+.top_tip_tel{transition:all 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940);  transform:translateX(180px)}
+
+
+/* 대메뉴 */
+#gnb {position: absolute; width:100%; height:100%; text-align:center; padding-top:10px; left:50%; transform:translateX(-50%);}
+#gnb > li { display: inline-block; text-align: center; width:115px; letter-spacing: -1px;}
+#gnb > li a { display: inline-block; color:#333; font-size:16px; font-weight:400; position: relative; width: 100%; height:100%; padding: 20px 0 23px 0; }
+#gnb > li a:hover,
+#gnb > li.currentGnb a { color: #515f51 !important;  font-weight: 400; }
+#gnb > li.tel a{font-size:21px; font-weight:700}
+
+.tag{font-size:0; position:absolute; right:100px; top:50%; transform:translateY(-50%);}
+.tag li{display: inline-block; margin-left:30px;}
+.tag .tel a{color:#9d7553; font-size:31px; font-weight:600;}
+.tag .tel a span{font-size:21px; margin-right:10px;}
+
+/* 서브메뉴 */
+.snbWrap { display:none; position:absolute; width:100%; left:50%; transform:translateX(-50%); top:80px; padding-top: 25px; padding-bottom: 22px; background-color: #fff; z-index:1; border-top:1px solid rgba(0,0,0,0.1);}
+.snbWrap #snb { position: relative; text-align:center; }
+.snbWrap #snb > li { position: relative; display: inline-block; vertical-align: top; width:115px;}
+.snbWrap #snb li ul { width:auto;}
+.snbWrap #snb li ul li { margin-bottom:3px; text-align:center; }
+
+.snbWrap #snb li ul li a { display:block; width:100%; padding: 6px 0; font-size:15px; letter-spacing: -1px; color:#676b6e; }
+.snbWrap #snb li ul li a:hover,
+.snbWrap #snb li ul li.currentSnb a { color: #000; font-weight: 500; }
+.snbWrap.scroll_style { background-color: rgba(0,0,0,0.7) }
+.snbWrap.scroll_style #snb li ul li a { color: #eee }
+.snbWrap.scroll_style #snb li ul li a:hover,
+.snbWrap.scroll_style #snb li ul li.currentSnb a { color: #fff }
+
+.snb_quick { position: absolute; top: 26px; left: 135px; }
+.snb_quick a { display: block; text-indent: 35px; height: 28px; line-height: 28px; color: #959595; font-size: 15px; margin-bottom: 6px; background-repeat: no-repeat; }
+.snb_quick a:hover { color: #000; font-weight: bolder; }
+.snb_quick .quick1 { background-image: url(http://logosimg.cafe24.com/ossgFinal/image/common/quick1_off.png); }
+.snb_quick .quick2 { background-image: url(http://logosimg.cafe24.com/ossgFinal/image/common/quick2_off.png); }
+.snb_quick .quick1:hover { background-image: url(http://logosimg.cafe24.com/ossgFinal/image/common/quick1.png); }
+.snb_quick .quick2:hover { background-image: url(http://logosimg.cafe24.com/ossgFinal/image/common/quick2.png); }
+
+.gnbBg { display:none; position:fixed; width:100%; height:100%; top:0; left:0; background:rgba(0, 0, 0, 0.6); z-index:998; }
+
+@media (max-width:1530px){
+	.logo{position: absolute; z-index:99999; left:30px; top:50%; transform:translateY(-50%);}
+	.tag{font-size:0; position:absolute; right:30px; top:50%; transform:translateY(-50%);}
+	#gnb{width:100%;}
+}

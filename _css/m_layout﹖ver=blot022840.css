@@ -142,10 +142,10 @@
 	#hd.top header:before{top:-25.53vw  !important}
 	nav.gnb {display:none}
  	#hd.top header .header__inner{height:17vw}
-	#hd.top header.search_on .header__inner {background: #003744;}
+	#hd.top header.search_on .header__inner {background: #01123f;}
 	#hd.top header .header__inner.on .search{display:inline-block;}
 	#hd.top header .header__inner.on .member{display:none;}
-	#hd.top header.active {background:#003744;}
+	#hd.top header.active {background:#01123f;}
 	body.up #sub_nav.fixed{top: 12.77vw}
 
 	#nav{height:58.65vw;}

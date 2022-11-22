@@ -75,7 +75,7 @@
 	#join .step .item .num {margin-right: 2.55vw;}
 	.txt-xlarge-bold-black, .txt-xlarge-semibold-black, .txt-xlarge-semibold-navy, .txt-xlarge-semibold-grey {font-size: 3.19vw;font-weight:600}
 	#join .write .table {font-size: 3.19vw;margin-bottom: 10.64vw;}
-	#join .write .table {border: none !important;border-top: 2px solid #003744 !important;font-size: 3.40vw;margin-bottom: 10.64vw;}
+	#join .write .table {border: none !important;border-top: 2px solid #01123f !important;font-size: 3.40vw;margin-bottom: 10.64vw;}
 	#join .write .table tr {display: block;padding: 3.4vw 0;border-bottom: 1px solid #d8d8d8;height:auto;}
 	#join .step .item{text-align:left;}
 	#join .txt_tiny {font-size: 3.19vw;color: #666666;display: block;margin-top: 1.49vw;}
@@ -93,7 +93,7 @@
 	#join .certify .txt {margin-top: 2.70vw;font-size: 2.70vw;}
 
 
-	#join .btn_confirm {width: 17.87vw;height: 9.57vw;background-color: #003744;color: #fff;font-size: 3.19vw;font-weight: 400;vertical-align: top;}
+	#join .btn_confirm {width: 17.87vw;height: 9.57vw;background-color: #01123f;color: #fff;font-size: 3.19vw;font-weight: 400;vertical-align: top;}
 	#join .write .table .select_tel {width: 22.34vw;height: 8.51vw;border: 1px solid #dbdbdb;padding-left: 2.13vw;margin-right: 1.06vw;}
 
 	#reg_mb_zip{width:23.40vw !important;}
