@@ -1,6 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-
-
+<!DOCTYPE HTML>
 <html lang="ko" color-theme="">
 <head>
 <meta charset="utf-8">
@@ -58,11 +56,6 @@
 <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <script src="js/common%EF%B9%96ver=blot022819.js" /></script>
 <script src="_js/common%EF%B9%96ver=blot022819.js" /></script>
-
-
-<script>
-eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0 g="1://2.3.4.5";0 7="1://2.3.4.5/9";0 8="";0 a="";0 b="";0 c="";0 d="";0 e="";0 f="";0 6="";',17,17,'var|https|www|iaanapt|co|kr|g5_member|g5_bbs_url|g5_is_member|user|g5_is_admin|g5_is_mobile|g5_bo_table|g5_sca|g5_editor|g5_cookie_domain|g5_url'.split('|'),0,{}))
-</script>
 
 <!--[if lte IE 8]>
 <script src="https://www.iaanapt.co.kr/js/html5.js"></script>
