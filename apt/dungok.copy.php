@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML>
 
 
 <html lang="ko" color-theme="">
@@ -24,7 +24,7 @@
 <meta name="twitter:url" content="www.베스트클래스.com" />
 
 <meta name="naver-site-verification" content="5f12603bfbaa32862e9dfaf621d29d1f75737aa7" />
-<title>베스트클래스 테라디움 검단101 > 단지정보 | iaan</title>
+<title>베스트클래스 | 둔곡지구</title>
  
 <link rel="shortcut icon" href="../_imgs/favicon.png" />
 <link rel="stylesheet" href="../_css/mode%EF%B9%96ver=%3C%EF%B9%96php%20echo%20G5_CSS_VER%EF%B9%94%20%EF%B9%96%3E.css" />
@@ -56,13 +56,8 @@
 <script src="../theme/blot/js/utility%EF%B9%96ver=blot022821.js"></script>
 <script src="../theme/blot/js/jquery-ui.js"></script>
 <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-<script src="../js/common%EF%B9%96ver=blot022821.js" /></script>
-<script src="../_js/common%EF%B9%96ver=blot022821.js" /></script>
-
-
-<script>
-eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0 h="1://2.3.4.5";0 7="1://2.3.4.5/8";0 9="";0 a="";0 b="";0 c="d";0 e="";0 f="";0 g="";0 6="";',18,18,'var|https|www|iaanapt|co|kr|g5_member|g5_bbs_url|user|g5_is_member|g5_is_admin|g5_is_mobile|g5_bo_table|apt|g5_sca|g5_editor|g5_cookie_domain|g5_url'.split('|'),0,{}))
-</script>
+<script src="../js/common%EF%B9%96ver=blot022821.js"></script>
+<script src="../_js/common%EF%B9%96ver=blot022821.js"></script>
 
 <!--[if lte IE 8]>
 <script src="www.베스트클래스.com/js/html5.js"></script>
@@ -293,7 +288,7 @@ $(function(){
 				</div>
 			</div> -->
 
-        <div class="main__inner aptinfo .">
+        <div class="main__inner aptinfo">
 
             
 

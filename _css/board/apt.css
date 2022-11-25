@@ -108,6 +108,9 @@
 #board_view .enroll_int svg,
 #board_view .map svg {fill: #000;vertical-align: middle;}
 
+.apt_info {width: 100%;}
+.apt_info img {width: 100%;}
+
 @media all and (max-width:740px){
 
 	#sell .item{margin:0}
