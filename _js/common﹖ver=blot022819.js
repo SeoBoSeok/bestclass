@@ -106,13 +106,13 @@ $(function() {
 
 
 	/* dark mode */
-	if(isMain === '' || isMain === undefined || isMain === null){
-		$(".select_mode").addClass("on");
-	}else{
-		setTimeout(function() {
-			$(".select_mode").addClass("on");
-		}, 3000);
-	}
+	// if(isMain === '' || isMain === undefined || isMain === null){
+	// 	$(".select_mode").addClass("on");
+	// }else{
+	// 	setTimeout(function() {
+	// 		$(".select_mode").addClass("on");
+	// 	}, 3000);
+	// }
 
 	$(".select_mode > a").click(function(){
 		$(".select_mode").removeClass("on");
