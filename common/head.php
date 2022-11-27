@@ -50,6 +50,7 @@
                             <a href="/news.php" target="_self" class="gnb_1da">커뮤니티</a>
                             <span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
                                 <li class="gnb_2dli"><a href="/news.php" target="_self" class="gnb_2da">뉴스룸</a></li>
+                                <li class="gnb_2dli"><a href="/bbs/content.php?co_id=forms" target="_self" class="gnb_2da">청약신청</a></li>
                             </ul></div>
                         </li>
                                                 </ul>
@@ -135,6 +136,7 @@
 					</div>
 					<ul>
 						<li><a href="news.php" target="_self">뉴스룸</a></li>
+						<li><a href="/bbs/content.php?co_id=forms" target="_self">청약신청</a></li>
 											<!-- <li><a href="gallery.html" target="_self">갤러리</a></li>
 											<li><a href="iaanstory/index.html" target="_self">베스트클래스스토리</a></li>
 											<li><a href="event.html" target="_self">이벤트</a></li> -->

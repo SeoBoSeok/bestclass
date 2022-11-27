@@ -8,3 +8,6 @@
 #ctt_con img{max-width:100%;height:auto}
 .ctt_img {text-align:center}
 
+.dblock {display: block;}
+.bluewrap {background: #3d69b7; color: white; padding: 5px 10px; display: inline-block;}
+
