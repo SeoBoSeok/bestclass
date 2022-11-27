@@ -47,9 +47,9 @@
                             </ul></div>
                         </li>
                                                     <li class="gnb_1dli gnb_al_li_plus" style="z-index:997">
-                            <a href="/news.html" target="_self" class="gnb_1da">커뮤니티</a>
+                            <a href="/news.php" target="_self" class="gnb_1da">커뮤니티</a>
                             <span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
-                                <li class="gnb_2dli"><a href="/news.html" target="_self" class="gnb_2da">뉴스</a></li>
+                                <li class="gnb_2dli"><a href="/news.php" target="_self" class="gnb_2da">뉴스룸</a></li>
                             </ul></div>
                         </li>
                                                 </ul>
@@ -101,12 +101,12 @@
 						브랜드						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</a> -->
 					<div class="gnb_al_a ar">
-						<a href="brand/bestclass.html" target="_self">브랜드</a>
+						<a href="brand/bestclass.php" target="_self">브랜드</a>
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 					<ul>
-						<li><a href="brand/bestclass.html" target="_self">베스트클래스</a></li>
-											<li><a href="brand/exordium.html" target="_self">베스트클래스</a></li>
+						<li><a href="brand/bestclass.php" target="_self">베스트클래스</a></li>
+											<!-- <li><a href="brand/exordium.html" target="_self">베스트클래스</a></li> -->
 											<!-- <li><a href="brand/terradium.html" target="_self">Terradium</a></li> -->
 											<!-- <li><a href="brand/premium.html" target="_self">생활효율시스템</a></li> -->
 					</ul>
@@ -116,13 +116,13 @@
 						단지정보						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</a> -->
 					<div class="gnb_al_a ar">
-						<a href="apt%EF%B9%96ca_name=%E1%84%87%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self">단지정보</a>
+						<a href="/apt/dungok.php" target="_self">단지정보</a>
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 					<ul>
-						<li><a href="apt%EF%B9%96ca_name=%E1%84%87%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self">분양단지</a></li>
-											<li><a href="apt%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self">공사단지</a></li>
-											<li><a href="apt%EF%B9%96ca_name=%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self">입주단지</a></li>
+						<li><a href="/apt/dungok.php" target="_self">분양단지</a></li>
+											<!-- <li><a href="apt%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self">공사단지</a></li>
+											<li><a href="apt%EF%B9%96ca_name=%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self">입주단지</a></li> -->
 					</ul>
 				</li>
 								<li class="gnb_al_li ar">
@@ -130,30 +130,14 @@
 						커뮤니티						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</a> -->
 					<div class="gnb_al_a ar">
-						<a href="news.html" target="_self">커뮤니티</a>
+						<a href="news.php" target="_self">커뮤니티</a>
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 					<ul>
-						<li><a href="news.html" target="_self">뉴스룸</a></li>
-											<li><a href="gallery.html" target="_self">갤러리</a></li>
+						<li><a href="news.php" target="_self">뉴스룸</a></li>
+											<!-- <li><a href="gallery.html" target="_self">갤러리</a></li>
 											<li><a href="iaanstory/index.html" target="_self">베스트클래스스토리</a></li>
-											<li><a href="event.html" target="_self">이벤트</a></li>
-					</ul>
-				</li>
-								<li class="gnb_al_li ar">
-<!-- 					<a href="/news_notice" target="_self" class="gnb_al_a ar">
-						고객서비스						<i class="fa fa-angle-down" aria-hidden="true"></i>
-					</a> -->
-					<div class="gnb_al_a ar">
-						<a href="news_notice.html" target="_self">고객서비스</a>
-						<i class="fa fa-angle-down" aria-hidden="true"></i>
-					</div>
-					<ul>
-						<li><a href="news_notice.html" target="_self">공지사항</a></li>
-											<li><a href="faq.html" target="_self">자주묻는 질문</a></li>
-											<li><a href="inquiry/write.html" target="_self">고객문의</a></li>
-											<li><a href="subscription/index.html" target="_self">청약가점계산</a></li>
-											<li><a href="user/payment.html" target="_blank">중도금 납부 조회</a></li>
+											<li><a href="event.html" target="_self">이벤트</a></li> -->
 					</ul>
 				</li>
 								

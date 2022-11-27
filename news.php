@@ -24,7 +24,7 @@
 <meta name="twitter:url" content="https://www.iaanapt.co.kr" />
 
 <meta name="naver-site-verification" content="5f12603bfbaa32862e9dfaf621d29d1f75737aa7" />
-<title>뉴스룸 | iaan</title>
+<title>뉴스룸 | bestclass</title>
  
 <link rel="shortcut icon" href="_imgs/favicon.png" />
 <link rel="stylesheet" href="_css/mode%EF%B9%96ver=%3C%EF%B9%96php%20echo%20G5_CSS_VER%EF%B9%94%20%EF%B9%96%3E.css" />
@@ -59,10 +59,6 @@
 <script src="_js/common%EF%B9%96ver=blot022820.js" /></script>
 
 
-<script>
-eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0 h="1://2.3.4.5";0 7="1://2.3.4.5/8";0 9="";0 a="";0 b="";0 c="d";0 e="";0 f="";0 g="";0 6="";',18,18,'var|https|www|iaanapt|co|kr|g5_member|g5_bbs_url|user|g5_is_member|g5_is_admin|g5_is_mobile|g5_bo_table|news|g5_sca|g5_editor|g5_cookie_domain|g5_url'.split('|'),0,{}))
-</script>
-
 <!--[if lte IE 8]>
 <script src="https://www.iaanapt.co.kr/js/html5.js"></script>
 <![endif]-->
@@ -83,7 +79,7 @@ let isMain;
     <div id="hd_wrapper">
 		
 		<?php
-		include_once('../common.php');
+		include_once('./common.php');
 		include_once(G5_PATH.'/common/head.php');
 		?>
 
@@ -161,14 +157,14 @@ $(function(){
 						커뮤니티						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</a> -->
 					<div class="gnb_al_a ar">
-						<a href="news.html" target="_self">커뮤니티</a>
+						<a href="news.html" target="_self">뉴스룸</a>
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 					<ul>
 						<li><a href="news.html" target="_self">뉴스룸</a></li>
-											<li><a href="gallery.html" target="_self">갤러리</a></li>
+											<!-- <li><a href="gallery.html" target="_self">갤러리</a></li>
 											<li><a href="iaanstory/index.html" target="_self">베스트클래스스토리</a></li>
-											<li><a href="event.html" target="_self">이벤트</a></li>
+											<li><a href="event.html" target="_self">이벤트</a></li> -->
 					</ul>
 				</li>
 								<li class="gnb_al_li ar">
@@ -221,7 +217,7 @@ $(function(){
 
 
 
-			<div id="sub_nav" class="gnb community animated">
+			<!-- <div id="sub_nav" class="gnb community animated">
 				<div class="list col4">
 
 					                            <a href="news.html" class="item  active" >
@@ -238,7 +234,7 @@ $(function(){
 							</a>
 										
 				</div>
-			</div>
+			</div> -->
 
 
         <div class="main__inner community .">
@@ -320,88 +316,11 @@ $(function(){
 			<div class="list" id="ajax_data">
 
 			<!-- 게시판 페이지 정보 및 버튼 시작 { -->
-								<a href="https://www.yna.co.kr/view/AKR20220113035100007?input=1195m" target="_blank">
+								<a href="http://www.newstnt.com/news/articleView.html?idxno=231558" target="_blank">
 									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->대우산업개발 골프단 정지민·최혜진, 미국서 동계 훈련</p>
-						<p class="content ellipsis_3" style="display:none">대우산업개발 골프단 정지민·최혜진, 미국서 동계 훈련</p>
-						<p class="date">2022-01-13</p>
-					</article>
-				</a>
-								<a href="https://biz.chosun.com/real_estate/real_estate_general/2022/01/12/2MGMDVUIOJGFJKWLNYXABIILAI/?utm_source=naver&amp;utm_medium=original&amp;utm_campaign=biz" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->대우산업개발, 주거브랜드 ‘베스트클래스’ 홈페이지 개편</p>
-						<p class="content ellipsis_3" style="display:none">대우산업개발, 주거브랜드 ‘베스트클래스’ 홈페이지 개편</p>
-						<p class="date">2022-01-12</p>
-					</article>
-				</a>
-								<a href="https://www.hankyung.com/realestate/article/202112291645i" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->대우산업개발, 나눔과 공유를 실천하는 ‘찾아가는 에어데이즈 캠페인’ 전개</p>
-						<p class="content ellipsis_3" style="display:none">대우산업개발, 나눔과 공유를 실천하는 ‘찾아가는 에어데이즈 캠페인’ 전개</p>
-						<p class="date">2021-12-29</p>
-					</article>
-				</a>
-								<a href="https://www.fnnews.com/news/202112161331426613" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->한재준 대우산업개발 대표 '2021 주택건설의 날' 산업포장</p>
-						<p class="content ellipsis_3" style="display:none">한재준 대우산업개발 대표 '2021 주택건설의 날' 산업포장</p>
-						<p class="date">2021-12-16</p>
-					</article>
-				</a>
-								<a href="http://www.munhwa.com/news/view.html?no=20211207MW150356417739" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->대우산업개발, 부천 송내동 성우아파트 소규모재건축정비사업 수주</p>
-						<p class="content ellipsis_3" style="display:none">대우산업개발, 부천 송내동 성우아파트 소규모재건축정비사업 수주</p>
-						<p class="date">2021-12-07</p>
-					</article>
-				</a>
-								<a href="https://www.dnews.co.kr/uhtml/view.jsp?idxno=202112011013018600882" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->대우산업개발, 천안 쌍용연립 소규모재건축 수주</p>
-						<p class="content ellipsis_3" style="display:none">대우산업개발, 천안 쌍용연립 소규모재건축 수주</p>
-						<p class="date">2021-12-01</p>
-					</article>
-				</a>
-								<a href="http://news.heraldcorp.com/view.php?ud=20211018000369" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->대우산업개발, 서울·경기 주택공사 4건 수주</p>
-						<p class="content ellipsis_3" style="display:none">대우산업개발이 ‘이천 부발읍 공동주택 신축공사’를 포함, 총 4건의 공사계약을 체결했다.</p>
-						<p class="date">2021-10-18</p>
-					</article>
-				</a>
-								<a href="https://www.mk.co.kr/news/business/view/2021/10/943014/" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->청소연구소, 대우산업개발 제휴 매주 1회 집청소 복지 지원</p>
-						<p class="content ellipsis_3" style="display:none">홈클리닝 서비스 플랫폼 '청소연구소'를 운영하는 생활연구소(대표 연현주)가 대우산업개발과 업무 협약을 맺고 전 직원의 가정에 청소 서비스를 제공한다고 5일 밝혔다.</p>
-						<p class="date">2021-10-05</p>
-					</article>
-				</a>
-								<a href="http://www.joongdo.co.kr/web/view.php?key=20210613010003150" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- [언론보도]  -->대전시체육회, '에어데이즈' 마스크 전문·생활체육인에게 전달</p>
-						<p class="content ellipsis_3" style="display:none">대전시체육회는 대우산업개발(계열사 DW바이오)로부터 '에어데이즈(airdays)' 마스크 10만장(2500만원상당)을 기탁 받아, 전문·생활체육인에 방역활동에 사용한다.</p>
-						<p class="date">2021-06-13</p>
-					</article>
-				</a>
-								<a href="https://www.yna.co.kr/view/AKR20210609150100003?input=1195m" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->대우산업개발 골프단 창단 KLPGA 골퍼 4명으로 출발</p>
-						<p class="content ellipsis_3" style="display:none">대우산업개발은 한국여자프로골프(KLPGA) 소속 프로 골퍼 4명을 갖춘 골프단을 창단했다고 9일 밝혔다.</p>
-						<p class="date">2021-06-09</p>
-					</article>
-				</a>
-								<a href="https://www.sedaily.com/NewsView/22MG45AU2T" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->대우산업개발, 한국천주교살레시오회에 마스크 10만장 전달</p>
-						<p class="content ellipsis_3" style="display:none">한국천주교살레시오회는 지난 20일 대우산업개발과 계열사 DW바이오가 자사 상품인 마스크 10만 장을 기부했다고 21일 밝혔다.</p>
-						<p class="date">2021-05-21</p>
-					</article>
-				</a>
-								<a href="https://www.edaily.co.kr/news/read?newsId=02040166629048920&amp;mediaCodeNo=257" target="_blank">
-									<article class="item animated">
-						<p class="title ellipsis_2"><!-- []  -->대우산업개발, '인천신항 컨테이너 공사' 수주</p>
-						<p class="content ellipsis_3" style="display:none">대우산업개발이 대규모 항만공사 수주에 성공했다. 대우산업개발은 지난 6일 조달청에서 발주한 ‘인천신항 1-2단계 컨테이너 부두 하부공 축조공사’ 계약을 성사시켰다고 14일 밝혔다.</p>
-						<p class="date">2021-05-14</p>
+						<p class="title ellipsis_2"><!-- []  -->유성 둔곡지구 초등학교 통학구역 설정 확정 공고</p>
+						<p class="content ellipsis_3" style="display:none">대전교육청, 유성 둔곡지구 초등학교 통학구역 설정 확정 공고</p>
+						<p class="date">2022-10-18</p>
 					</article>
 				</a>
 										 </div>
@@ -516,80 +435,20 @@ $( document ).ready(function(){
 		<!-- //다크모드 출력 -->
 
 		<!-- 푸터 -->
+		<!-- 푸터 -->
 		<footer class="footer">
-			<span class="logo"><img src="_imgs/logo.svg" alt="logo"></span>
+			<span class="logo"><img src="/_imgs/logo.png" alt="logo"></span>
 			<div class="middle">            
-				<ul class="list">
-					<li class="item cl_white"><a href="content/privacy.html">개인정보처리방침</a></li>
-					<li class="item"><a href="content/provision.html">이용약관</a></li>
-				</ul>
 				<div class="info">
-					<span class="m_af_line">사업자등록번호 : 122-86-20732</span>
-					<span class="m_af_line">대우산업개발주식회사</span>
-					<span class="pc_af_line break"><span class="m_hide">주소 : </span>서울시 중구 세종대로 17 WISE TOWER 11층</span>
-					<span>고객센터: 032-831-8771</span>
+					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
+					<span class="m_af_line">베스트클래스개발주식회사</span>
+					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
+					<span>고객센터: 042-987-6620</span>
 				</div>
-				<P class="copyright">Copyright ⓒiaan. All Rights Reserved.</P>
-			</div>
-			<div class="right" id="family">
-				<div class="family_btn" id="family_btn">
-					<a href="javascript:void(0);">
-						<span>FAMILY SITE</span>
-						<span class="arrow"><img src="_imgs/icon_select_arrow_w_dw.svg" alt="family site"></span>			
-					</a>
-				</div>
-				<ul class="flist" style="display:none;">
-					<a href="http://www.dwconstruction.co.kr" class="item" target="_blank">
-						<li>대우산업개발</li>
-					</a>
-					<a href="http://briochedoree.co.kr" class="item" target="_blank">
-						<li>브리오슈도레</li>
-					</a>
-					<a href="http://www.dwbio.co.kr" class="item" target="_blank">
-						<li>DW바이오</li>
-					</a>
-					<a href="https://www.airdays.co.kr" class="item" target="_blank">
-						<li>에어데이즈 공식몰</li>
-					</a>
-				</ul>
-				<!-- <ul class="sns">
-					<li>
-						<a href="https://www.instagram.com/iaan_dw/" target="_blank">
-							<svg xmlns="http://www.w3.org/2000/svg" width="23.528" height="23.523" viewBox="0 0 23.528 23.523">
-							  <path id="ico_ista_w" d="M11.209,7.7a5.739,5.739,0,1,0,4.067,1.681A5.739,5.739,0,0,0,11.209,7.7Zm0,9.485a3.737,3.737,0,1,1,3.737-3.737,3.737,3.737,0,0,1-3.737,3.737Zm7.324-9.72a1.338,1.338,0,1,1-.392-.949,1.338,1.338,0,0,1,.392.949Zm3.807,1.36a6.635,6.635,0,0,0-1.811-4.7,6.678,6.678,0,0,0-4.7-1.811c-1.851-.105-7.4-.105-9.25,0a6.669,6.669,0,0,0-4.7,1.806,6.657,6.657,0,0,0-1.8,4.7c-.1,1.851-.1,7.4,0,9.25a6.635,6.635,0,0,0,1.811,4.7,6.687,6.687,0,0,0,4.7,1.811c1.851.1,7.4.1,9.25,0a6.635,6.635,0,0,0,4.7-1.811,6.678,6.678,0,0,0,1.811-4.7c.1-1.851.1-7.394,0-9.245ZM19.949,20.056a3.783,3.783,0,0,1-2.131,2.131c-1.476.585-4.978.45-6.608.45s-5.138.13-6.608-.45A3.783,3.783,0,0,1,2.47,20.056c-.585-1.476-.45-4.978-.45-6.608S1.89,8.31,2.47,6.84A3.783,3.783,0,0,1,4.6,4.708c1.476-.585,4.978-.45,6.608-.45s5.138-.13,6.608.45a3.783,3.783,0,0,1,2.131,2.131c.585,1.476.45,4.978.45,6.608S20.534,18.585,19.949,20.056Z" transform="translate(0.552 -1.683)" fill="#fff" stroke="#fff" stroke-width="1"/>
-							</svg>
-						</a>
-					</li>
-					<li>
-						<a href="javascript:alert('준비중입니다')">
-							<svg id="ico_fb_w" xmlns="http://www.w3.org/2000/svg" width="23.134" height="23.134" viewBox="0 0 23.134 23.134">
-							  <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M9.734,9.131l.451-2.938H7.366V4.287A1.469,1.469,0,0,1,9.022,2.7H10.3V.2A15.627,15.627,0,0,0,8.029,0,3.587,3.587,0,0,0,4.19,3.954V6.193H1.609V9.131H4.19v7.1H7.366v-7.1Z" transform="translate(3.614 5.223)" fill="#fff"/>
-							  <g id="사각형_23876" data-name="사각형 23876" fill="none" stroke="#fff" stroke-width="2">
-								<rect width="23.134" height="23.134" rx="6" stroke="none"/>
-								<rect x="1" y="1" width="21.134" height="21.134" rx="5" fill="none"/>
-							  </g>
-							</svg>
-				
-						</a>
-					</li>
-					<li>
-						<a href="https://www.youtube.com/c/%EB%8C%80%EC%9A%B0%EC%82%B0%EC%97%85%EA%B0%9C%EB%B0%9C/featured" target="_blank">
-							<svg xmlns="http://www.w3.org/2000/svg" width="23.134" height="23.134" viewBox="0 0 23.134 23.134">
-							  <g id="ico_yt_w" transform="translate(-1085 -1164)">
-								<g id="사각형_23876" data-name="사각형 23876" transform="translate(1085 1164)" fill="none" stroke="#fff" stroke-width="2">
-								  <rect width="23.134" height="23.134" rx="6" stroke="none"/>
-								  <rect x="1" y="1" width="21.134" height="21.134" rx="5" fill="none"/>
-								</g>
-								<g id="Icon_feather-youtube" data-name="Icon feather-youtube" transform="translate(1049.154 1152.727)">
-								  <path id="패스_4" data-name="패스 4" d="M14.625,21.777l7.962-4.529L14.625,12.72Z" transform="translate(29.221 5.553)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-								</g>
-							  </g>
-							</svg>
-						</a>
-					</li>
-				</ul> -->
+				<P class="copyright">Copyright ⓒBestClass. All Rights Reserved.</P>
 			</div>
 		</footer>
+		<!-- 푸터 -->
 		<!-- 푸터 -->
 		  
 		<button type="button" id="top_btn">
