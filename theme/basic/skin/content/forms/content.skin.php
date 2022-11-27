@@ -62,7 +62,7 @@ if ($_program_detail == "202202") {
                 <div class="dep3_box" id="dep3_01">
                 <div class="sub_title pt-5">
                     <div class="line_wrap">
-                        <div class="text_wrap">사전 프로그램 예약신청</div>
+                        <div class="text_wrap">둔곡지구 청약신청</div>
                     </div>
                 </div>
 
