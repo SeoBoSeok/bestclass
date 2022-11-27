@@ -167,7 +167,7 @@ var isBrand = true;
 				<div class="txt_wrap txt4">
 					<div class="slogan">
 						<div class="text p1"><span>안이 다른 생활효율아파트  </span></div>
-						<div class="text p2"><span>best class(베스트클래스)에는 </span></div>
+						<!-- <div class="text p2"><span>best class(베스트클래스)에는 </span></div> -->
 					</div>
 					<div class="detail">
 						<div class="text p1"><span>라이프스타일에 대한 모든 가치가 담겨져 있습니다.</span></div>
