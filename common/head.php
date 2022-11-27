@@ -101,11 +101,11 @@
 						브랜드						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</a> -->
 					<div class="gnb_al_a ar">
-						<a href="brand/bestclass.php" target="_self">브랜드</a>
+						<a href="/brand/bestclass.php" target="_self">브랜드</a>
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 					<ul>
-						<li><a href="brand/bestclass.php" target="_self">베스트클래스</a></li>
+						<li><a href="/brand/bestclass.php" target="_self">베스트클래스</a></li>
 											<!-- <li><a href="brand/exordium.html" target="_self">베스트클래스</a></li> -->
 											<!-- <li><a href="brand/terradium.html" target="_self">Terradium</a></li> -->
 											<!-- <li><a href="brand/premium.html" target="_self">생활효율시스템</a></li> -->
