@@ -3,24 +3,6 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 ?>
 <!-- } 하단 끝 -->
 
-<div class="aside" id="rm">	
-    <div class="rightmenu">
-        <div class="inner">
-		            <div class="bf_login">
-                <h3 class="title">로그인해주세요</h3>
-                <p class="descr">회원가입하시고 다양한 혜택 및 소식을 누리세요.</p>
-                <div class="login_btn">
-                    <a href="#"><span class="white">로그인</span></a>
-                    <a href="#"><span class="navy">회원가입</span></a>
-                </div>
-            </div>
-		            <span class="close" id="my_close">
-                <img src="_imgs/btn_close.svg" alt="close button">
-            </span>
-        </div>
-    </div>
-	<div class="leftarea" id="leftarea"></div>
-</div>
 
 <!-- <div id="pop" class="gallery">
 	<span class="btn_close">
@@ -120,9 +102,60 @@ $(function() {
 });
 </script>
 <![endif]-->
+</div>
+<div id="ft">
 
+		<!-- 다크모드 출력 -->
+		<!-- <div class="select_mode on fixed">
+			<a class="mode_dark absolute" style="display: inline-block;">
+				<span class="wrap">
+					<span class="mode_icon"><img src="_imgs/ico_mode_moon.svg"></span>
+					<span class="mode_txt ellipsis_1">다크모드로 보기</span>
+				</span>
+			</a>
+			<a class="mode_light absolute" style="display: none;">
+				<span class="wrap">
+					<span class="mode_icon"><img src="_imgs/ico_mode_sun.svg"></span>
+					<span class="mode_txt ellipsis_1">라이트모드로 보기</span>
+				</span>
+			</a>
+		</div> -->
+		<!-- //다크모드 출력 -->
 
+		<!-- 푸터 -->
+		<!-- 푸터 -->
+		<footer class="footer">
+			<span class="logo"><img src="/_imgs/logo.png" alt="logo"></span>
+			<div class="middle">            
+				<div class="info">
+					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
+					<span class="m_af_line">베스트클래스개발주식회사</span>
+					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
+					<span>고객센터: 042-987-6620</span>
+				</div>
+				<p class="copyright">Copyright ⓒBestClass. All Rights Reserved.</p>
+			</div>
+		</footer>
+		<!-- 푸터 -->
+		<!-- 푸터 -->
+		  
+		<button type="button" id="top_btn">
+			<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
+		</button>
 
+		<script>
+		$(function() {
+			$("#top_btn").click(function(){		
+				$("html, body").animate({scrollTop:0}, '500');
+				return false;
+			});
+			$("#family_btn").click(function(){
+				$("#family .flist").slideToggle();
+			});
+
+		});
+		</script>
+	</div>
 </body>
 <!-- <script src="/js/common.js?ver=blot022819" /></script>
 <script src="/_js/common.js?ver=blot022819" /></script>

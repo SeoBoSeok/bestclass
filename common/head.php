@@ -43,7 +43,7 @@
                                                     <li class="gnb_1dli gnb_al_li_plus active" style="z-index:998">
                             <a href="/apt/dungok.php" target="_self" class="gnb_1da">단지정보</a>
                             <span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
-                                <li class="gnb_2dli active"><a href="/apt/dungok.php" target="_self" class="gnb_2da">둔곡 베스트클래스</a></li>
+                                <li class="gnb_2dli active"><a href="/apt/dungok.php" target="_self" class="gnb_2da">둔곡지구</a></li>
                             </ul></div>
                         </li>
                                                     <li class="gnb_1dli gnb_al_li_plus" style="z-index:997">

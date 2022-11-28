@@ -165,7 +165,7 @@ header.search_on #gnb {display:none;}
 body.up #sub_nav.fixed {position:fixed;top:80px;}
 /* body.down #sub_nav,body.up #sub_nav {position:fixed;top:81px;} */
 .header__logo {width: 100px;height: 34px;text-align:left;}
-.header__logo a{width:99px;height:auto;display:inline-block;}
+.header__logo a{width:150px;height:auto;display:inline-block;}
 .logo {width: 100%;height: 100%;}
 .nav__list {display: flex;flex-flow: row nowrap;justify-content: space-between;font-size: 20px;font-weight: 500;}
 .nav__item {margin-right: 50px;}

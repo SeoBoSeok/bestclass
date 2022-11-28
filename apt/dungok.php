@@ -262,7 +262,7 @@ $(function(){
 		</script>
 		<ul class="control">
 			<li>
-				<a href="javascript:void(0)" class="map" onclick="popMap('베스트클래스 테라디움 검단101', '37.59245200414396, 126.70938972703416', '인천광역시 서구 인천검단지구 택지개발사업 상업C12-4-1BL')">
+				<a href="https://map.naver.com/v5/directions/-/14177597.348221723,4363194.558317171,%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%91%94%EA%B3%A1%EB%8F%99%20426-2,,/-/car?c=14177597.3482217,4363194.5583170,15,0,0,0,dh" class="map" target="_blank">
 					<div class="icon">
 						<!-- <img src="/_imgs/icon_open-map-marker.svg" alt="homepage"> -->
 						<svg xmlns="http://www.w3.org/2000/svg" width="16.833" height="22.444" viewBox="0 0 16.833 22.444">
@@ -272,6 +272,14 @@ $(function(){
 					<span>위치보기</span>
 				</a>
 			</li>
+			<!-- <li>
+				<a href="/pdfviewer.php?filePath=/data/template1.pdf" class="map" target="_blank">
+					<div class="icon">
+						<img src="/data/icon-book.png" alt="homepage">
+					</div>
+					<span>분양 팜플렛</span>
+				</a>
+			</li> -->
 		</ul>
 	</div>
 	<div class="main_image">
@@ -301,11 +309,11 @@ $(function(){
 			<img src="/img/d5.png" alt="img1">
 		</div>
 
-		<iframe src="http://docs.google.com/gview?url=http://베스트클래스.com/_imgs/test2.pdf&embedded=true" style="width:100%; height:700px;" frameborder="0"></iframe>
-		<iframe src="http://docs.google.com/gview?url=http://베스트클래스.com/_imgs/test.pdf&embedded=true" style="width:100%; height:700px;" frameborder="0"></iframe>
+		<!-- <iframe src="http://docs.google.com/gview?url=http://베스트클래스.com/_imgs/test2.pdf&embedded=true" style="width:100%; height:700px;" frameborder="0"></iframe> -->
+		<!-- <iframe src="http://docs.google.com/gview?url=http://베스트클래스.com/_imgs/test.pdf&embedded=true" style="width:100%; height:700px;" frameborder="0"></iframe> -->
 	</div>
 		<div class="btn_area">
-		<button type="button" class="btn navy" onclick="location.href='/apt?ca_name=분양단지'">목록으로</button>
+		<!-- <button type="button" class="btn navy" onclick="location.href='/apt?ca_name=분양단지'">목록으로</button> -->
 			</div>
 
 	<!-- 이전글 / 다음글 총 3개 -->

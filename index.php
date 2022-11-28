@@ -202,7 +202,7 @@ include_once(G5_PATH.'/common/head.php');
     .contact_tit h4 { font-size: 22px; line-height: 100%; color: #000; font-weight: 500; }
     .contact_tit img { margin-top: 20px; }
     .contact_map_box { width: 100%; height: 427px; position: relative; display: flex; justify-content: space-around; margin-top: 90px; }
-    .contact_map { width: 40%; height: 100%; box-shadow: 0 0 40px rgba(0,0,0,0.12) }
+    .contact_map { width: 30%; height: 100%; box-shadow: 0 0 40px rgba(0,0,0,0.12) }
     /* .contact_map:nth-child(1) { transform: translateX(-50px); opacity: 0; } */
     /* .contact_map:nth-child(2) { transform: translateX(50px); opacity: 0; } */
     .contact_txt_box { width: 100%; height: 53px; position: relative; overflow: hidden; background-color: #1b2536; }
@@ -570,7 +570,7 @@ isMain = true;
                                 <h3>모델하우스</h3>
                                 <p>대전광역시</p>
                                 <div class="contact_bt">
-                                    <a href="https://naver.me/xEqjDNwZ" target="blank">
+                                    <a href="https://map.naver.com/v5/directions/-/14180836.789931607,4359916.009649975,%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%ED%85%8C%ED%81%AC%EB%85%B81%EB%A1%9C%2012-21,,/-/car?c=14180836.7899315,4359916.0096498,15,0,0,0,dh" target="blank">
                                         <p>견본주택 네이버 지도</p>
                                         <div class="contact_plus"></div>
                                     </a>
@@ -583,7 +583,7 @@ isMain = true;
                                 <h3>현&nbsp;&nbsp;&nbsp;장</h3>
                                 <p>대전광역시</p>
                                 <div class="contact_bt">
-                                    <a href="https://naver.me/GBlDs4AG" target="blank">
+                                    <a href="https://map.naver.com/v5/directions/-/14177597.348221723,4363194.558317171,%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%91%94%EA%B3%A1%EB%8F%99%20426-2,,/-/car?c=14177597.3482217,4363194.5583170,15,0,0,0,dh" target="blank">
                                         <p>현장 네이버 지도</p>
                                         <div class="contact_plus"></div>
                                     </a>
@@ -744,10 +744,14 @@ isMain = true;
 		</div>
 	</div>
 	<!-- } 콘텐츠 끝 -->
-
+	<a href="/pdfviewer.php?filePath=/data/template1.pdf" class="map" target="_blank" id="floating_menu">
+		<div class="icon">
+			<img src="/data/icon-book.png" alt="homepage">
+			<div>분양 팜플렛</div>
+		</div>
+	</a>
 	<!-- 하단 시작 { -->
 	<div id="ft">
-
 		<!-- 다크모드 출력 -->
 		<div class="select_mode">
 			<a class="mode_dark absolute">
@@ -860,14 +864,14 @@ isMain = true;
 		</script>
 	</div>
 </main>
-<script type="text/javascript" src="https://wcs.naver.net/wcslog.js"></script>
+<!-- <script type="text/javascript" src="https://wcs.naver.net/wcslog.js"></script>
 <script type="text/javascript">
 if(!wcs_add) var wcs_add = {};
 wcs_add["wa"] = "11bfcb003d97ed0";
 if(window.wcs) {
 wcs_do();
 }
-</script><!-- } 하단 끝 -->
+</script> -->
 
 
 <!-- } 하단 끝 -->

@@ -44,6 +44,7 @@ if ($_program_detail == "202202") {
         <div class="text-center fs-15 fc-gray"><span>HOME</span> &gt; <span>공지사항</span> &gt; <span>청약신청</span></div>
     </div>
 </div> -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <div class="container">
     <div class="row">
@@ -144,7 +145,32 @@ if ($_program_detail == "202202") {
                                     <input type="text" class="tel1_03" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)">
                                 </div>
                             </div>
-
+                            <div class="box5_03">
+                                <span>청약자 입금은행</span>
+                                <div class="tel1">
+                                    <input type="text" class="" name="rsv_bank1" placeholder="입금은행을 입력해주세요.">
+                                    <!-- <select name="rsv_tel1">
+                                        <option value="010">010</option>
+                                    </select>
+                                    <span>-</span>
+                                    <input type="text" class="tel1_02" name="rsv_tel2" maxlength="4" onkeyup="numChk(this)">
+                                    <span>-</span>
+                                    <input type="text" class="tel1_03" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)"> -->
+                                </div>
+                            </div>
+                            <div class="box5_03">
+                                <span>청약자 입금계좌</span>
+                                <div class="tel1">
+                                    <input type="text" class="" name="rsv_bank2" placeholder="입금계좌를 입력해주세요.">
+                                    <!-- <select name="rsv_tel1">
+                                        <option value="010">010</option>
+                                    </select>
+                                    <span>-</span>
+                                    <input type="text" class="tel1_02" name="rsv_tel2" maxlength="4" onkeyup="numChk(this)">
+                                    <span>-</span>
+                                    <input type="text" class="tel1_03" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)"> -->
+                                </div>
+                            </div>
                             <!-- <div class="box5_04"> -->
                                 <!-- <span>인원</span> -->
                                 <!-- <input type="text" id="sample6_postcode" placeholder="우편번호"> -->

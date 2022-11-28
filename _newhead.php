@@ -210,7 +210,24 @@ include_once(G5_PATH.'/common/head.php');
 
 
 <style>#main > section {height:100vh}
+.sub_visual.community:before {
+	position: relative;
+}
+.bestclass_menu {
+	position: absolute;
+	top: 200px;
+	left: 44%;
+	/* font-size: 2em; */
+	color: #fff;
+}
+.bestclass_menu h2 {
+	font-size: 50px;
+    font-weight: 500;
+}
 </style>
 <script>
 isMain = true;
 </script>
+<div class="sub_visual community on">
+	<nav class="bestclass_menu" id="nav2"><h2>청약신청</h2></nav>
+</div>
