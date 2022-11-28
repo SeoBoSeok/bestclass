@@ -360,7 +360,7 @@ isMain = true;
 
                     <div class="absolute news_area" id="notice_rolling">
                         <span class="name">NEWS&<br>NOTICE</span>
-                        <div class="list open-event fl">
+                        <!-- <div class="list open-event fl">
 							<ul class="notice-list">
 							
 								<li>
@@ -385,7 +385,7 @@ isMain = true;
 								</li>
 														</ul>
                             
-                        </div>
+                        </div> -->
                         <span class="arrows" id="notice_bt">
                             <a class="prev" href="javascript:void(0);"><img src="_imgs/icon_arrow_up.svg" alt="arrow up" class="arrow"></a>
                             <a class="next" href="javascript:void(0);"><img src="_imgs/icon_arrow_down.svg" alt="arrow down" class="arrow"></a>
