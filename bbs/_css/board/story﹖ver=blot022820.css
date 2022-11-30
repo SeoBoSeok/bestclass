@@ -1,0 +1,21 @@
+#story > .list {width: 100%;max-width: 1200px;display: flex;flex-flow: row wrap;justify-content: start;}
+#story > .list > .item {width: 33.33%;padding: 0 20px 70px 0;border: solid 1px #ccc;text-align: left;border: none;overflow: hidden; }
+#story .item:nth-child(3n) {margin: 0 0 0 0;}
+#story .image {width: 100%;height: auto;overflow: hidden;transition: transform .3s ease-out;}
+#story .content {margin-top: 33px;}
+#story .item .content .state {width: 68px;height: 30px;background-color: #01123f;font-size: 14px;font-weight: 500;text-align: center;color: #ffffff;}
+#story .item .content .title {font-size: 26px;font-weight: 500;color: #000000;margin: 8px 0 5px;}
+#story .item .content .description {font-size: 16px;text-align: left;color: #666666;}
+#story .item .content > .line {width: 317px;height: 1px;border-bottom: 1px solid #000;margin: 29px 0 30px;text-indent: -99999px;}
+#story .table {border-collapse: separate;border-spacing: 0 10px;}
+#story .table tr {width: 317px;height: 20px;text-align: left;margin-bottom: 10px;}
+#story .table th {width: 80px;font-size: 14px;font-weight: 500;color: #000000;}
+#story .table td {font-size: 14px;font-weight: 500;color: #666666;}
+#story .links {width: 326px;height: 48px;margin-top: 29px;padding: 15px 26px 14px 28px;opacity: 0.92;border: solid 1px #dbdbdb;line-height: 13px;}
+#story .links a {font-size: 14px;font-weight: 500;text-align: center;color: #333333;border: none;}
+#story .links .line {width: 1px;height: 14px;margin: 0 16px;color: #cfcfcf;text-indent: -99999px;}
+#story .progress {width: 100%;display: flex;flex-flow: row nowrap;justify-content: space-between;align-items: center;}
+#story .progress .bar {width: 192px;height: 6px;background-color: #fff;border: solid 1px #dfdfdf;margin-right: 10px;position: relative;}
+#story .progress .bar .state {max-width: 100%;height: 100%;position: absolute;top: 0;left: 0;background-color: #8bb929;}
+
+/* 통합검색 */

@@ -52,7 +52,7 @@ if ($_program_detail == "202202") {
 
         <?php if($_open) { ?>
 
-        <a href="<?php echo G5_URL.'/bbs/content.php?co_id=formscheck'; ?>"><button type="button" class="btn btn-info btn-lg float-right">청약신청확인</button></a>
+        <!-- <a href="<?php echo G5_URL.'/bbs/content.php?co_id=formscheck'; ?>"><button type="button" class="btn btn-info btn-lg float-right">청약신청확인</button></a> -->
         
 
 
@@ -136,9 +136,10 @@ if ($_program_detail == "202202") {
                                 <span>청약자 연락처</span>
                                 <div class="tel1">
                                     <!-- <input type="text" class="tel1_01" name="rsv_tel1" maxlength="3" onkeyup="numChk(this)" placeholder="연락처를 입력해 주세요."> -->
-                                    <select name="rsv_tel1">
+                                    <!-- <select class="tel1_02" name="rsv_tel1">
                                         <option value="010">010</option>
-                                    </select>
+                                    </select> -->
+                                    <input type="text" class="tel1_01" name="rsv_tel1" maxlength="3">
                                     <span>-</span>
                                     <input type="text" class="tel1_02" name="rsv_tel2" maxlength="4" onkeyup="numChk(this)">
                                     <span>-</span>
@@ -169,6 +170,19 @@ if ($_program_detail == "202202") {
                                     <input type="text" class="tel1_02" name="rsv_tel2" maxlength="4" onkeyup="numChk(this)">
                                     <span>-</span>
                                     <input type="text" class="tel1_03" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)"> -->
+                                </div>
+                            </div>
+                            <div class="box5_03">
+                                <span>계약 금액</span>
+                                <div class="tel1">
+                                    <!-- <select name="rsv_tel1">
+                                        <option value="010">010</option>
+                                    </select>
+                                    <span>-</span>
+                                    <input type="text" class="tel1_02" name="rsv_tel2" maxlength="4" onkeyup="numChk(this)">
+                                    <span>-</span>
+                                    <input type="text" class="tel1_03" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)"> -->
+                                    <input type="text" class="tel1_03" name="contract" value="30만원" style="border: 0;" readonly>
                                 </div>
                             </div>
                             <!-- <div class="box5_04"> -->
@@ -212,7 +226,7 @@ if ($_program_detail == "202202") {
                             </fieldset>
                             </div>
                             <div class="box5_05">
-                                <label><input type="checkbox" name="agree" id="agree" /> 개인정보 수집 동의</label>
+                                <label><input type="checkbox" name="agree" id="agree" checked/> 개인정보 수집 동의</label>
                             </div>
                         </td>
                     </tr>
@@ -385,7 +399,7 @@ if ($_program_detail == "202202") {
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">예약 되었습니다</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">신청이 완료 되었습니다</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -395,7 +409,6 @@ if ($_program_detail == "202202") {
         연락처 : <span class="check_tel"></span><br />
         <!-- 주소 : <span class="check_address"></span><br /> -->
         개인정보 동의 : <span class="check_agree">Y</span><br />
-        참여인원(팀) : <span class="check_count"></span>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -477,36 +490,38 @@ if ($_program_detail == "202202") {
 </script>
 <script>
     // document.getElementById("reservation_check").addEventListener("click", function(){
-    //     if(!$('input[name=rsv_name]').val()) {
-    //         alert('이름을 입력해주세요');
-    //         $('input[name=rsv_name]').focus();
-    //         return;
-    //     }
-    //     if(!$('input[name=rsv_tel2]').val()) {
-    //         alert('전화번호를 확인해주세요');
-    //         $('input[name=rsv_tel2]').focus();
-    //         return;
-    //     }
-    //     if(!$('input[name=rsv_address]').val()) {
-    //         alert('주소를 입력해주세요');
-    //         return;
-    //     }
-    //     console.log($('input:checkbox[name=agree]:checked').val());
-    //     if ($('input[name=agree]').val())
-    //     if ($('input:checkbox[name=agree]:checked').val()) {
-    //         $('.check_name').text($('input[name=rsv_name]').val());
-    //         $('.check_tel').text($('select[name=rsv_tel1]').val() + "-" + $('input[name=rsv_tel2]').val() + "-" + $('input[name=rsv_tel3]').val());
-    //         $('.check_address').text($('#rsv_address').val() + " " + $('#rsv_detailAddress').val());
-    //         $('.check_count').text($('#ride_adult_cnt').val());
-    //         $('#exampleModalCenter').modal('show');
-    //     } else {
-    //         alert("개인정보 수집 동의에 체크하셔야 합니다");
-    //     }
+        // if(!$('input[name=rsv_name]').val()) {
+        //     alert('이름을 입력해주세요');
+        //     $('input[name=rsv_name]').focus();
+        //     return;
+        // }
+        // if(!$('input[name=rsv_tel2]').val()) {
+        //     alert('전화번호를 확인해주세요');
+        //     $('input[name=rsv_tel2]').focus();
+        //     return;
+        // }
+        // if(!$('input[name=rsv_address]').val()) {
+        //     alert('주소를 입력해주세요');
+        //     return;
+        // }
+        // console.log($('input:checkbox[name=agree]:checked').val());
+        // if ($('input[name=agree]').val())
+        // if ($('input:checkbox[name=agree]:checked').val()) {
+        //     $('.check_name').text($('input[name=rsv_name]').val());
+        //     $('.check_tel').text($('select[name=rsv_tel1]').val() + "-" + $('input[name=rsv_tel2]').val() + "-" + $('input[name=rsv_tel3]').val());
+        //     $('.check_address').text($('#rsv_address').val() + " " + $('#rsv_detailAddress').val());
+        //     $('.check_count').text($('#ride_adult_cnt').val());
+        //     $('#exampleModalCenter').modal('show');
+        // } else {
+        //     alert("개인정보 수집 동의에 체크하셔야 합니다");
+        // }
     // });
     $(document).ready(function(){
-        $('#reservation_go').click(function(){   //submit 버튼을 클릭하였을 때
+        $('#reservation_check').click(function(){   //submit 버튼을 클릭하였을 때
             $('#exampleModalCenter').modal('hide');
             // let sendData = "username="+$('input[name=username]').val();   //폼의 이름 값을 변수 안에 담아줌
+            $('.check_name').text($('input[name=rsv_name]').val());
+            $('.check_tel').text($('input[name=rsv_tel1]').val() + "-" + $('input[name=rsv_tel2]').val() + "-" + $('input[name=rsv_tel3]').val());
             var sendData = $('#reserveForm').serialize();
             $.ajax({
                 type:'post',   //post 방식으로 전송

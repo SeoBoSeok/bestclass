@@ -77,7 +77,10 @@ include_once(G5_PATH.'/common/head.php');
 <script>
 	var isMain = false;
 </script>
-
+<style>
+#floating_menu {width: 88px; text-align: center; display: flex; justify-content: center; align-items: center; height: 88px; position: fixed; right: 50px; bottom: 100px; background-color: #fff; border-radius: 50%; z-index: 9999; font-size: 13px;}
+#floating_menu img {width: 40px;}
+</style>
 <!-- <script>
     
 $(function(){
@@ -232,7 +235,7 @@ $(function(){
 
 <div id="board_view">
 	<div class="title">
-		<h2>베스트클래스</h2>
+		<h2>둔곡 베스트클래스</h2>
 		<p>둔곡 원스톱생활권</p>
 	</div>
 	<div class="detail">
@@ -304,8 +307,8 @@ $(function(){
 	    <div class="apt_info">
 			<img src="/img/d1.png" alt="img1">
 			<img src="/img/d2.png" alt="img1">
-			<img src="/img/d3.png" alt="img1">
-			<img src="/img/d4.png" alt="img1">
+			<img src="/img/d3.png?v=1" alt="img1">
+			<!-- <img src="/img/d4.png" alt="img1"> -->
 			<img src="/img/d5.png" alt="img1">
 		</div>
 
@@ -402,7 +405,12 @@ function excute_good(href, $el, $tx)
 
 	<!-- 하단 시작 { -->
 	<div id="ft">
-
+	<a href="/pdfviewer.php?filePath=/data/template1.pdf" class="map" target="_blank" id="floating_menu">
+		<div class="icon">
+			<img src="/data/icon-book.png" alt="homepage">
+			<div>분양 팜플렛</div>
+		</div>
+	</a>
 		<!-- 다크모드 출력 -->
 		<div class="select_mode">
 			<a class="mode_dark absolute">

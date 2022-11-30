@@ -316,11 +316,25 @@ $(function(){
 			<div class="list" id="ajax_data">
 
 			<!-- 게시판 페이지 정보 및 버튼 시작 { -->
-								<a href="http://www.newstnt.com/news/articleView.html?idxno=231558" target="_blank">
-									<article class="item animated">
+				<a href="http://www.newstnt.com/news/articleView.html?idxno=231558" target="_blank">
+					<article class="item animated">
 						<p class="title ellipsis_2"><!-- []  -->유성 둔곡지구 초등학교 통학구역 설정 확정 공고</p>
 						<p class="content ellipsis_3" style="display:none">대전교육청, 유성 둔곡지구 초등학교 통학구역 설정 확정 공고</p>
 						<p class="date">2022-10-18</p>
+					</article>
+				</a>
+				<a href="https://www.youtube.com/watch?v=EQENA6wka_A" target="_blank">
+					<article class="item animated">
+						<p class="title ellipsis_2"><!-- []  -->focus뉴스라인 (유투브) - 10년 장기 임대 둔곡지구 베스트클레스 오피스텔 OPEN</p>
+						<p class="content ellipsis_3" style="display:none">10년 장기 임대 둔곡지구 베스트클레스 오피스텔 OPEN</p>
+						<p class="date">2022-08-08</p>
+					</article>
+				</a>
+				<a href="http://www.segyenewsagency.com/news/articleView.html?idxno=449332" target="_blank">
+					<article class="item animated">
+						<p class="title ellipsis_2"><!-- []  -->세계뉴스 - 대전 둔곡지구 ‘베스트클래스 오피스텔’ 임대 분양</p>
+						<p class="content ellipsis_3" style="display:none">대전 둔곡지구 ‘베스트클래스 오피스텔’ 임대 분양</p>
+						<p class="date">2022-08-08</p>
 					</article>
 				</a>
 										 </div>

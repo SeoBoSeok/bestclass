@@ -376,7 +376,7 @@ transition:background 0.3s ease-out;}
 /* 메인메뉴 */
 #gnb #gnb_1dul {display:inline-block;position:relative;font-size:0;line-height:1;vertical-align:top;}
 #gnb ul:after {display:block;visibility:hidden;clear:both;content:""}
-#gnb .gnb_1dli {display:inline-block;position:relative;line-height:1;padding:0px 44px;font-size:20px;position:relative;vertical-align:top;text-align:center;}
+#gnb .gnb_1dli {display:inline-block;position:relative;line-height:1;padding:0px 44px;font-size:20px;position:relative;vertical-align:top;text-align:center;width:200px;}
 #gnb .gnb_1dli:after {content:"";display:none;position:absolute;bottom:-1px;left:10%;width:80%;height:2px;background:#d10f1b;z-index:9;}
 .gnb_1dli .bg {display:none;position:absolute;top:32px;right:0;width:20px;height:20px;overflow:hidden;text-indent:-999px}
 .gnb_1dli .bg:before {content:"";display:block;position:absolute;top:50%;left:3px;width:8px;height:1px;background:#fff;-webkit-transform:rotate(45deg) translate(0, -50%);transform:rotate(45deg) translate(0, -50%);}

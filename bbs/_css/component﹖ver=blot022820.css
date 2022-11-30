@@ -1,0 +1,213 @@
+/* 시스템 셀렉트 */
+select::-ms-expand {
+  display: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select_system {
+  width: 223px;
+  height: 40px;
+  border: solid 1px #dddddd;
+  background-color: #ffffff;
+  font-size: 14px;
+  color: #000000;
+  background: url(../_imgs/icon_select_arrow_sm_dw.svg) no-repeat 95% 50%;
+  padding-left: 13px;
+}
+
+/* 셀렉트박스 커스텀1 */
+.select_white {width:33.33%}
+.select_white .box {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 64px;
+}
+.select_white .box .select {
+  position: relative;
+  border: solid 1px #d1d1d1;
+  background-color: #ffffff;
+  padding: 0 28px;
+  line-height: 3.6;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+	text-align: left;
+	cursor:pointer;
+	max-height: 66px;
+  overflow: hidden;
+}
+.select_white .box .select:after {
+  background: url(../_imgs/icon_select_arrow_dw.svg) no-repeat center;
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 28px;
+  content:'';
+  width:19px;
+  height:11px;
+-webkit-transition:transform .3s ease-out;
+-moz-transition:transform .3s ease-out;
+-o-transition:transform .3s ease-out;
+transition:transform .3s ease-out;
+}
+.select_white.on .box .select:after {
+  transform:rotate(180deg);
+
+}
+.select_white .box .slist {
+  /* display: none; */
+  visibility: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  z-index: 10;
+  border: 1px solid #d1d1d1;
+  border-top: 0;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  width: 100%;
+  /* max-height: 200px; */
+  transition: all 0.3s;
+  max-height: 0px;
+  background-color: #fff;
+	text-align: left;
+}
+.select_white .box .slist::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+.select_white .box .slist::-webkit-scrollbar-button:start:decrement,
+.select_white .box .slist::-webkit-scrollbar-button:end:increment {
+  display: block;
+  height: 0;
+}
+.select_white .box .slist::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.select_white .box .slist::-webkit-scrollbar-thumb {
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.select_white .box .slist > li {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 100%;
+  height: 40px;
+  line-height: 2.6;
+  cursor: pointer;
+}
+.select_white .box .slist > li:hover {
+  background-color: #f3f3f3;
+}
+.select_white .box .slist > li.selected {
+  background-color: #f3f3f3;
+}
+
+/* 셀렉트박스 커스텀2 */
+.select_navy{width:33.33%}
+.select_navy .box {
+  display: inline-block;
+  visibility: visible;
+  position: relative;
+  width: 100%;
+  height: 64px;
+}
+.select_navy .box .select {
+  position: relative;
+  background-color: #01123f;
+  padding: 0 28px;
+  line-height: 3.6;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #01123f;
+  border-bottom: 0px;
+	text-align: left;
+  cursor: pointer;
+	max-height: 66px;
+  overflow: hidden;
+
+}
+.select_navy .box .select:after {
+  background: url(../_imgs/icon_select_arrow_w_dw.svg) no-repeat center;
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 28px;
+  width:19px;
+  height:11px;
+  content:'';
+-webkit-transition:transform .3s ease-out;
+-moz-transition:transform .3s ease-out;
+-o-transition:transform .3s ease-out;
+transition:transform .3s ease-out;
+}
+.select_navy.on .box .select:after {
+  transform:rotate(180deg);
+}
+.select_navy .box .slist {
+  /* display: none; */
+  visibility: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  z-index: 10;
+  border-top: 0;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  width: 100%;
+  /* max-height: 200px; */
+  max-height: 0px;
+  transition: all 0.3s;
+  background-color: #01123f;
+  color: #fff;
+  border: 1px solid #01123f;
+  border-top: 0px;
+	text-align: left;
+}
+.select_navy .box .slist::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+.select_navy .box .slist::-webkit-scrollbar-button:start:decrement,
+.select_navy .box .slist::-webkit-scrollbar-button:end:increment {
+  /* display: block; */
+  visibility: visible;
+  max-height: 200px;
+}
+.select_navy .box .slist::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.select_navy .box .slist::-webkit-scrollbar-thumb {
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.select_navy .box .slist > li {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 100%;
+  height: 40px;
+  line-height: 2.6;
+  cursor: pointer;
+}
+.select_navy .box .slist > li:hover {
+  color: #8bb929;
+}
+.select_navy .box .slist > li.selected{
+	color: #8bb929;
+}

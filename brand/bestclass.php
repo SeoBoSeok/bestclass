@@ -58,11 +58,6 @@
 <script src="../js/common%EF%B9%96ver=blot022820.js" /></script>
 <script src="../_js/common%EF%B9%96ver=blot022820.js" /></script>
 
-
-<script>
-eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0 g="1://2.3.4.5";0 7="1://2.3.4.5/9";0 8="";0 a="";0 b="";0 c="";0 d="";0 e="";0 f="";0 6="";',17,17,'var|https|www|iaanapt|co|kr|g5_member|g5_bbs_url|g5_is_member|user|g5_is_admin|g5_is_mobile|g5_bo_table|g5_sca|g5_editor|g5_cookie_domain|g5_url'.split('|'),0,{}))
-</script>
-
 <!--[if lte IE 8]>
 <script src="https://www.iaanapt.co.kr/js/html5.js"></script>
 <![endif]-->
@@ -150,7 +145,10 @@ $(document).ready(function($){
 */
 var isBrand = true;
 </script>
-
+<style>
+#floating_menu {width: 88px; text-align: center; display: flex; justify-content: center; align-items: center; height: 88px; position: fixed; right: 50px; bottom: 100px; background-color: #fff; border-radius: 50%; z-index: 9999; font-size: 13px;}
+#floating_menu img {width: 40px;}
+</style>
 <div id="brand" class="brand">
 	<!-- Brand -->
 	<div class="inner">
@@ -200,7 +198,7 @@ var isBrand = true;
 				<!-- t2 -->
 				<div class="txt_wrap txt2">
 					<div class="slogan">
-						<div class="text p1"><span>best class(베스트클래스)은</span></div>
+						<div class="text p1"><span>Best Class(베스트클래스)는</span></div>
 					</div>
 					<div class="detail">
 						<div class="text p1"><span>사람이 살고 머무르는 물리적인 공간과 더불어</span></div>
@@ -310,7 +308,12 @@ var isBrand = true;
 
 	<!-- 하단 시작 { -->
 	<div id="ft">
-
+	<a href="/pdfviewer.php?filePath=/data/template1.pdf" class="map" target="_blank" id="floating_menu">
+		<div class="icon">
+			<img src="/data/icon-book.png" alt="homepage">
+			<div>분양 팜플렛</div>
+		</div>
+	</a>
 		<!-- 다크모드 출력 -->
 		<div class="select_mode">
 			<a class="mode_dark absolute">
@@ -423,14 +426,6 @@ var isBrand = true;
 		</script>
 	</div>
 </main>
-<script type="text/javascript" src="https://wcs.naver.net/wcslog.js"></script>
-<script type="text/javascript">
-if(!wcs_add) var wcs_add = {};
-wcs_add["wa"] = "11bfcb003d97ed0";
-if(window.wcs) {
-wcs_do();
-}
-</script><!-- } 하단 끝 -->
 
 
 <!-- } 하단 끝 -->

@@ -201,8 +201,8 @@ include_once(G5_PATH.'/common/head.php');
     .contact_tit { transform: translateY(-30px); opacity: 0; }
     .contact_tit h4 { font-size: 22px; line-height: 100%; color: #000; font-weight: 500; }
     .contact_tit img { margin-top: 20px; }
-    .contact_map_box { width: 100%; height: 427px; position: relative; display: flex; justify-content: space-around; margin-top: 90px; }
-    .contact_map { width: 30%; height: 100%; box-shadow: 0 0 40px rgba(0,0,0,0.12) }
+    .contact_map_box { width: 100%; height: 427px; position: relative; display: flex; justify-content: space-evenly; margin-top: 90px; }
+    .contact_map { width: 34%; height: 100%; box-shadow: 0 0 40px rgba(0,0,0,0.12) }
     /* .contact_map:nth-child(1) { transform: translateX(-50px); opacity: 0; } */
     /* .contact_map:nth-child(2) { transform: translateX(50px); opacity: 0; } */
     .contact_txt_box { width: 100%; height: 53px; position: relative; overflow: hidden; background-color: #1b2536; }
@@ -410,8 +410,8 @@ isMain = true;
 				                        <li class="item item1 swiper-slide" >
                             <div class="text_area animated delay-3s">
                                 <p class="state">분양중</p>
-                                <p class="title"><a href="apt/107%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">둔곡 베스트클래스</a></p>
-                                <p class="subscr"><a href="apt/107%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">국제 과학벨트 지정단지와 둔곡 베스트클래스</a></p>
+                                <p class="title"><a href="/apt/dungok.php">둔곡 베스트클래스</a></p>
+                                <p class="subscr"><a href="/apt/dungok.php">국제 과학벨트 지정단지와 둔곡 베스트클래스</a></p>
                                 <p class="date">2022. 11</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">
@@ -437,8 +437,8 @@ isMain = true;
 					                        <li class="item item2 swiper-slide" >
                             <div class="text_area animated delay-6s">
                                 <p class="state">분양예정</p>
-                                <p class="title"><a href="apt/10%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">아산 베스트클래스</a></p>
-                                <p class="subscr"><a href="apt/10%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">아산의 중심을 누리는 올인원 라이프</a></p>
+                                <p class="title"><a href="#;">아산 베스트클래스</a></p>
+                                <p class="subscr"><a href="#;">아산의 중심을 누리는 올인원 라이프</a></p>
                                 <p class="date">2023.01</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">
@@ -464,8 +464,8 @@ isMain = true;
 					                        <li class="item item3 swiper-slide" >
                             <div class="text_area animated delay-9s">
                                 <p class="state">분양예정</p>
-                                <p class="title"><a href="apt/7%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">제천 베스트클래스</a></p>
-                                <p class="subscr"><a href="apt/7%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html">제천의 중심을 누리는 올인원 라이프!</a></p>
+                                <p class="title"><a href="#">제천 베스트클래스</a></p>
+                                <p class="subscr"><a href="#">제천의 중심을 누리는 올인원 라이프!</a></p>
                                 <p class="date">2023.03</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">

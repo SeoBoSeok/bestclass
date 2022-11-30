@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* search */
+#search.inner {width:100%; }
+#search_all {width:100%; max-width: 1200px; padding: 100px 0 160px; margin: 0 auto;}
+#search_all .search_wrap {width: 790px; margin: 0 auto;}
+#search_all > .title {font-size: 38px; text-align: center; color: #000000;}
+#search_all .search {width: 790px;/* height: 66px; */margin: 45px 0 40px; position: relative;}
+#search_all .search .word {width: 100%; height: 100%; border: solid 1px #a8a8a8; background-color: transparent; padding: 20px 30px; font-size: 18px; font-weight: 500; text-align: left; color: #000000;}
+#search_all .search .btn {position: absolute; top: 20px; right: 25px;}
+#search_all .txt_green {color: #6a9b00; font-weight: bold;}
+#search_all .list {margin-top: 78px;}
+#search_all h3 {font-weight: bold; margin-bottom: 23px; text-align: left;}
+#search_all section {width: 100%; border-top: 2px solid #01123f;}
+#search_all section article {width: 100%; /* height: 75px; */ border-bottom: 1px solid #dddddd; text-align: left; font-size: 18px; text-align: left; color: #000000; padding: 22px 0;}
+#search_all section article .title{/* min-width:280px; display:inline-block;*/}
+#search_all .date {margin: 0 20px 0 20px;}
+#search_all .house {margin: 0 20px;}
+#search_all .more {cursor: pointer;display: block;}
+#search_all .more .icon {transition: all 300ms ease-in-out;cursor: pointer;}
+#search_all .more .icon:hover {transform: rotate(180deg);}

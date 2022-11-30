@@ -1,0 +1,217 @@
+
+
+
+#sell .search_wrap {display: flex;flex-flow: row nowrap;justify-content: center;}
+#sell .search_wrap .search {width: 33.33%;height: 66px;border: solid 1px #d1d1d1;background-color: #fff;position: relative;border-left: 0;}
+#sell .search_wrap .word {width: 100%;height: 100%;position: relative;left: 0;top: 0;border: none;padding: 19px 0 19px 30px;font-size: 18px;font-weight: 500;color: #000; max-height: 66px;
+    overflow: hidden;}
+#sell .search_wrap .btn {position: absolute;right: 18px;top: 50%; cursor: pointer;transform:translateY(-50%)}
+#sell .search_wrap .btn img{width:22px;height:auto}
+#sell /* > section > form >  */.list {width:calc(100% + 50px);display: flex;flex-flow: row wrap;justify-content: start;margin-top: 66px;margin-left:-25px;}
+
+/* #sell .goto {margin-right: 55px;}
+#sell .goto:nth-child(3n) {margin: 0 0 0 0;}
+ */
+#sell .item {width:calc(33.33% - 50px);margin: 0 25px 60px 25px;border: solid 1px #ccc;text-align: left;border: none;}
+#sell .item img {width: 100%;}
+/* #sell .list > a {width:calc(33.33% - 50px);margin: 0 25px 60px 25px;border: solid 1px #ccc;text-align: left;border: none;} */
+#sell .list > a:nth-child(3n) .item {margin-right: 0px;}
+#sell .list > .item:nth-child(3n){margin-right: 0px;}
+#sell .list > .item a .img{overflow:hidden; min-height:240px; max-height:360px; position:relative}
+#sell .list > .item a .img img{width:100%;position:absolute;left: 50%;top:50%;transform: translate(-50%,-50%) scale(1);transition: transform 1s ease;}
+#sell .list > .item a:hover .img img{transform: translate(-50%,-50%) scale(1.1);}
+
+#sell .img {width: 100%;}
+#sell .content {padding: 33px 20px 0 20px;}
+#sell .item .content .state {width: 68px;height: 30px;background-color: #01123f;font-size: 14px;font-weight: 500;text-align: center;color: #fff;}
+#sell .item .content .title {font-size: 26px;font-weight: 500;color: #000;margin: 8px 0 20px;}
+#sell .item .content .description {font-size: 16px;text-align: left;color: #666;display:none}
+#sell .item .content > .line {width: 100%;height: 1px;border-bottom: 2px solid #000;margin: 16px 0 20px;text-indent: -99999px;}
+#sell .table {border-collapse: separate;border-spacing: 0 10px;}
+#sell .table tr {width: 100%;height: 20px;text-align: left;margin-bottom: 10px;}
+#sell .table th {width: 80px;font-size: 14px;font-weight: 500;color: #000;vertical-align:top;}
+#sell .table td {font-size: 14px;font-weight: 500;color: #666;vertical-align:top}
+#sell .links {margin: 15px auto 0;padding: 10px 0;border: 1px solid #dbdbdb;text-align:center;width:calc(100% - 40px);}
+#sell .links a {font-size: 14px;font-weight: 500;text-align: center;color: #333;border: none;}
+/* #sell .links a.disabled {color: #666;pointer-events: none;} */
+#sell .links > a:after {content:'|';margin: 0 16px;color: #cfcfcf;}
+#sell .links.col2 > a:after{margin:0 1%;}
+#sell .links.col2 a span{width:45%;display:inline-block;}
+
+#sell .links a:last-of-type:after {display:none;}
+/* #sell .links .line {width: 1px;height: 14px;margin: 0 16px;color: #cfcfcf;} */
+#sell .progress {width: 100%;display: flex;flex-flow: row nowrap;justify-content: space-between;align-items: center;}
+#sell .progress .bar {width: 192px;height: 11px;background-color: #fff;border: solid 1px #dfdfdf;margin-right: 10px;position: relative;border-radius:20px}
+#sell .progress .bar .state {max-width: 100%;height: 100%;position: absolute;top: 0;left: 0;background-color: #8bb929;}
+#sell .more {cursor: pointer;display: inline-block;}
+#sell .more .icon {transition: all 300ms ease-in-out;text-align: center; margin: 0 auto;}
+#sell .more .icon:hover {transform: rotate(180deg);}
+#sell .more .icon > svg {max-width: 40px; max-height: 40px; }
+#sell .admin {width: 100%; text-align: center; margin-top: 3px;}
+
+#sell #select_area > li {opacity: 0.5;pointer-events: none;}
+#sell #select_area > li.on {opacity: 1;pointer-events: auto;}
+
+/* ���� ���ɴ��� */
+#sell.my_place {width: 100%;max-width: 1200px;margin: 0 auto;min-height: 400px;}
+
+/* ���� ������ */
+#apt .write .latlng {max-width: 70%;}
+#apt .write .latlng > span {float: left;display: inline-block;}
+#apt .write .latlng:after {clear: both; content: ''; display: none;}
+#apt .write .example_img {width: 100%; height: auto; border: 1px solid #444; display: none;}
+
+/* �������� */
+#board_view .title > h2 {font-size: 34px; font-weight: 500; text-align: left;}
+#board_view .title > p {font-size: 18px; font-weight: 500; text-align: left; color: #666; padding-bottom: 40px; border-bottom: 2px solid #000;}
+/* #board_view .detail {width: 100%; padding: 40px 0 90px;} */
+#board_view .info {width: 100%; display: flex;  padding: 40px 0 70px;  justify-content: flex-start;}
+#board_view .info > span {padding: 5px;}
+#board_view .where{flex-grow:2}
+
+
+#board_view .info dt {font-size: 16px; font-weight: 500; text-align: left; color:#000}
+#board_view .info dd {font-size: 16px; font-weight: 500;text-align: left; color: #666;}
+#board_view .info .house, #board_view .info .where {margin-left: 80px;}
+#board_view .control {display: flex; flex-flow: row nowrap;}
+#board_view .control li {margin-left: 20px;}
+#board_view .control li:first-child {margin-left: 0px;}
+#board_view .control li a {display: flex; flex-flow: row nowrap;align-items: center;}
+#board_view .control span {font-size: 14px; font-weight: 500; text-align: center; color: #333; margin-left: 10px;}
+#board_view .main_image {width:100%;max-width: 1400px; overflow: hidden; position: relative; left: 50%; transform: translate(-50%, 0); margin: 90px auto 100px;}
+#board_view .main_image .swiper-slide {width: 100% !important; max-height: 800px; margin-right: 0 !important;}
+#board_view .main_image img {max-width: 100%; }
+#board_view .progr {width: 100%;max-width:1200px; min-height: 50px; position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 0); color: #fff; font-size: 22px; z-index: 11;  background-color: rgba(0,0,0,.5)}
+#board_view .progr .bar {height: 100%; position: absolute; top: 0; left: 0; background-color: #8bb929;}
+#board_view .progr .rate {position: absolute; top: 50%; left: 15px; transform: translate(0, -50%); }
+#board_view .progr .txt {position: absolute; top: 50%; right: 15px; transform: translate(0, -50%); }
+/* #board_view .construct .c_title:after {display:none; clear:both; content:'';}
+#board_view .construct .view {float: left;}
+#board_view .construct .c_date {float: right;} */
+#board_view .construct .c_title {width: 100%; display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;}
+#board_view .construct .date {font-size: 27px; font-weight: 500;text-align: left; color: #000;}
+#board_view .construct .subject:before {content:'|'; padding: 0 12px;}
+#board_view .construct .subject {font-size: 16px; font-weight: 500; text-align: left; color: #666;}
+#board_view .descr {font-size: 16px; text-align: left; color: #666; margin: 40px 0}
+#board_view .construct .images{ padding:0 20px;}
+#board_view .construct .images > ul {display: flex; flex-flow: row wrap;margin:0 -40px;}
+#board_view .construct .images > ul  li {margin: 0 0 35px 0;width: 33.33%;padding:0 20px}
+#board_view .construct .images > ul  li > span { overflow: hidden;}
+#board_view .construct .images > ul  li > span img{width:100%;height:auto;}
+#board_view .construct .images > ul  li > h4 {font-size: 18px; font-weight: 500; text-align: left; color: #000; margin-top: 20px;}
+#board_view .btn_area{margin-top:70px;overflow:hidden;text-align:center;}
+
+#board_view .btn.navy {width: 290px; min-height: 65px; margin: 0 0 50px; background-color: #01123f;font-size: 19px; font-weight: 500; text-align: center; color: #fff;}
+
+#board_view .homepage svg,
+#board_view .cancel_int svg,
+#board_view .enroll_int svg,
+#board_view .map svg {fill: #000;vertical-align: middle;}
+
+@media all and (max-width:740px){
+
+	#sell .item{margin:0}
+	#sell .search_wrap{flex-flow:row wrap}
+	.search_wrap .box {height:auto}
+	.search_wrap .box .select{padding:0.8vw 3.24vw;font-size: 3.2vw;line-height:3;max-height:11.5vw;}
+	#sell .search_wrap .search{height:auto;width:100%;border-left:1px solid #d1d1d1;margin-top:1.35vw}
+	#sell .search_wrap .word{padding:0.8vw 3.24vw;font-size: 3.2vw;line-height:3;height:auto;}
+	#sell .search_wrap .btn{/* top:calc(50% - 11px); */right:3.78vw}
+
+	#sell > section > form > .list{margin-top:10.81vw;}
+	#sell .content{padding:0;}
+	#sell > section > form > .list {width:100%;margin-left:0}
+	#sell .item {width:100%}
+	#sell .item:not(:first-child) {margin-top: 10.81vw;}
+	#sell .item .content .title{font-size: 4.31vw;/* margin: 1vw 0; */margin: 4.86vw 0 0;}
+	#sell .item .content .description{font-size: 3.51vw;}
+	#sell .table tr {height: 2.70vw;  margin-bottom: 1.35vw;}
+	#sell .table th{font-size: 3.24vw;width:18.65vw;}
+	#sell .table td{font-size: 3.24vw;}
+	#sell .links {width:100%;margin:4vw 0;padding: 3vw 0}
+	#sell .links a{font-size: 3.24vw;}
+	#sell .links .line{font-size:3.24vw;margin:0 7.30vw;}
+	#sell .more{margin-top:10.81w;}
+	#sell .more .icon{/* width:10.81vw; */}
+	#sell .more .icon > svg {max-width: 8vw;max-height: 8vw;}
+	#sell .more p {margin-top: 1.35vw;}
+
+	#sell .search_wrap .btn img{width:22px;height:auto}
+	#sell .search_wrap .btn svg{width:20px;height:auto; vertical-align: middle;}
+	#sell .search_wrap .select_navy,
+	#sell .search_wrap .select_white{width:50%}
+	.search_wrap .box .slist > li{padding:0 0;height:auto;font-size:3.56vw;line-height:3;}
+	.search_wrap .box .slist{top:11vw}
+	.search_wrap .box .slist{max-height:40.54vw}
+	.search_wrap .box .select:after{right:3.78vw;width: 4.57vw;height: 3.49vw;}
+	#sell .links a:after{margin:0 5.4vw}
+	#sell .item .content > .line{margin:4.86vw 0}
+	#sell .item .content .description{height:auto}
+
+
+	#sell.view .item .content .title{font-size: 4.31vw;/* margin: 1vw 0; */margin: 2.4vw 0 0;}
+	#sell.view .item .content > .line{margin:2.4vw 0}
+	#sell .item .content .title{ font-size: 5.41vw;/* margin: 1vw 0; */margin: 4.86vw 0 0;}
+
+
+	#board_view .btn.navy {width: 35vw; min-height: 11.78vw; margin: 0;font-size: 3.57vw;}
+
+
+	/* ������� > �������� */
+	#board_view .title > h2 {font-size: 5.41vw; border-bottom: 2px solid #000; padding-bottom: 5.41vw}
+	#board_view .title > p {font-size: 3.5vw; padding-bottom: 5.41vw; display: none;}
+	#board_view .info {flex-flow: row wrap;}
+	#board_view .info > span {padding: 1vw 0;}
+	#board_view .info > span.where {order: 4;}
+	#board_view .info > span {margin-left: 0px !important;margin-right: 5.41vw;}
+	#board_view .info > span:nth-child(3) {margin-right: 0px !important;text-align:left;}
+	#board_view .info dt {font-size: 3.24vw;display: inline-block; margin-right: 2vw;}
+	#board_view .info dd {font-size: 3.24vw;/* margin-top: 1.2vw; */display: inline-block;}
+	#board_view .info {padding: 5.41vw 0;}
+	#board_view .control{border-top: 1px  solid #ccc; padding: 5vw  0;}
+	#board_view .control span {font-size: 2.70vw; margin-left: 1.35vw;}
+	#board_view .control li {margin-left: 2.70vw;}
+	#board_view .control li:first-child {margin-left: 0;}
+	#board_view .progr {min-height: 6.76vw; font-size: 3.24vw;}
+	#board_view .main_image {margin: 5.41vw auto;}
+	#board_view .construct .c_title {flex-flow: column wrap; align-items: flex-start;}
+	#board_view .construct .subject:before{display:none}
+	#board_view .construct .c_title .view {display: block;text-align:left}
+	#board_view .construct .date {font-size: 4.59vw;}
+	#board_view .descr {font-size: 3.24vw; line-height: 1.4; margin: 5.41vw 0;}
+	#board_view .construct .subject {font-size: 3.65vw;display:block;}
+	#board_view .construct .images{padding:0}
+	#board_view .construct .c_title select {width: 100%; margin-top: 4vw; text-align: left; padding: 0 4.73vw 0 1.35vw; height: 9.14vw;}
+	#board_view .construct .images > ul li {width: 50%; margin: 0 0 4.73vw 0; padding: 0 2.70vw;}
+	#board_view .construct .images > ul{margin:0 -2.73vw}
+	#board_view .construct .images > ul li > h4 {font-size: 3.24vw; margin-top: 2.70vw;}
+
+	#board_view #sell .list {width: 100%;flex-flow: row nowrap; justify-content: space-between; margin-left: 0;margin-top: 8.62vw;}
+	#board_view #sell .list .item {width: calc(50% - 1.5vw);}
+	#board_view #sell .list .item:nth-child(3n) {display: none;}
+	#board_view #sell .list .item .links {display: none;}
+	#board_view #sell .list > .item a .img {min-height: 32.43vw; max-height: 48.65vw;}
+
+	#board_view .progr .rate{left:2vw}
+	#board_view .progr .txt{right:2vw}
+
+	#board_view #sell .content_view {padding: 3vw 0 10.81vw;}
+	#board_view #sell .table,
+	#board_view #sell  tbody {width: 100%; display: block;}
+	#board_view #sell .table tr {width: 100%; min-height: 10vw;}
+	#board_view #sell .table th {font-size: 3.24vw;width:18.65vw; display: none;}
+	#board_view #sell .table td {font-size: 3.24vw; display: block;}
+	#board_view #sell .progress .bar {width: 100%; height: 1.49vw; margin-right: 1.35vw; border-radius: 2.70vw;}
+	#board_view #sell .item:not(:first-child) {margin-top: 0 !important;}
+	#board_view .btn_area{margin-top: 11.62vw;}
+
+	#pop #map {height: 81.08vw !important;}
+	#pop.map .txt_wrap {padding: 4.05vw 4.73vw !important;}
+	#pop.map .name{font-size: 3.51vw !important; margin-bottom: 1.35vw !important;}
+	#pop.map .address{font-size: 2.70vw !important;}
+	#pop .btn_close img {width: 6vw !important;}
+
+
+
+
+}

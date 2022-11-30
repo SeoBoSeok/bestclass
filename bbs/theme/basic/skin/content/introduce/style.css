@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* 내용관리 */
+#ctt {margin:10px 0;padding:20px;background:#fff}
+.ctt_admin {text-align:right}
+#ctt header h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#ctt_con {padding:10px 0;line-height:1.6em}
+#ctt_con img{max-width:100%;height:auto}
+.ctt_img {text-align:center}
+
+.poster_p {color: #232323}
+.black {color: #232323}
+.red {position: relative; color: #d10059; padding-left: 10px;}
+.red::after {
+  content: "*";
+  position: absolute;
+  left: 0; top: 3px;
+}
+.purple {color: #322290}
+
+.table_line {
+  width: 100%;
+  border-top: 1px solid #17182b;
+  table-layout: fixed;
+}
+.table_line th {
+  text-align: center;
+  font-weight: 600;
+  padding: 15px 10px;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+}
+.table_line td {
+  text-align: center;
+  padding: 15px 10px;
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+}
+
+#p8-right .table_line td {
+  padding: 10px 0;
+  word-wrap: break-all;
+}
+.poster_download {
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+.mo_br {
+  display: none;
+}
+#p8-right .table_line td:nth-child(3) {
+  display: none;
+}
+
+@media screen and (max-width:1268px) {
+  #page-8 .w-50.float-left:first-child {margin-top: 0;}
+  #page-8 .poster img {padding-top: 0;}
+}
+
+@media screen and (max-width:768px) {
+  .poster_download {bottom: -40px;}
+  #page-8 .w-50.float-left:not(:first-child) {
+    margin-top: 80px;
+  }
+  #page-8 .w-50:not(:first-child) {
+    height: 1050px;
+  }
+  #p8-right .inner {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width:540px) {
+  #page-8 .w-50:not(:first-child) {
+    height: 1140px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  #page-8 .w-50:not(:first-child) {
+    height: 1240px;
+  }
+  .mo_br {
+    display: block;
+  }
+}
+
+@media screen and (max-width:420px) {
+  #page-8 .w-50:not(:first-child) {
+    height: 1280px;
+  }
+  #p8-right .table_line td {
+    padding: 5px 0;
+  }
+}
+
+@media screen and (max-width:380px) {
+  #page-8 .w-50:not(:first-child) {
+    height: 1350px;
+  }
+}
