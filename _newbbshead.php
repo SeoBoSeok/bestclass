@@ -223,6 +223,10 @@ include_once(G5_PATH.'/common/head.php');
 .bestclass_menu h2 {
 	font-size: 50px;
     font-weight: 500;
+	color: white;
+}
+#bo_list {
+	width: 1200px;
 }
 </style>
 <script>

@@ -62,10 +62,6 @@ if($config['cf_add_meta'])
 if (defined('G5_IS_ADMIN')) {
     if(!defined('_THEME_PREVIEW_'))
         echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_ADMIN_URL.'/css/admin.css?ver='.G5_CSS_VER, G5_URL).'">'.PHP_EOL;
-} else {
-    $shop_css = '';
-    if (defined('_SHOP_')) $shop_css = '_shop';
-    echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_CSS_URL.'/'.(G5_IS_MOBILE?'mobile':'default').$shop_css.'.css?ver='.G5_CSS_VER, G5_URL).'">'.PHP_EOL;
 }
 ?>
 <!--[if lte IE 8]>
@@ -187,7 +183,7 @@ if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력�
 
 
 <script>
-eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0 g="1://2.3.4.5";0 7="1://2.3.4.5/9";0 8="";0 a="";0 b="";0 c="";0 d="";0 e="";0 f="";0 6="";',17,17,'var|https|www|iaanapt|co|kr|g5_member|g5_bbs_url|g5_is_member|user|g5_is_admin|g5_is_mobile|g5_bo_table|g5_sca|g5_editor|g5_cookie_domain|g5_url'.split('|'),0,{}))
+// eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0 g="1://2.3.4.5";0 7="1://2.3.4.5/9";0 8="";0 a="";0 b="";0 c="";0 d="";0 e="";0 f="";0 6="";',17,17,'var|https|www|iaanapt|co|kr|g5_member|g5_bbs_url|g5_is_member|user|g5_is_admin|g5_is_mobile|g5_bo_table|g5_sca|g5_editor|g5_cookie_domain|g5_url'.split('|'),0,{}))
 </script>
 
 <!--[if lte IE 8]>

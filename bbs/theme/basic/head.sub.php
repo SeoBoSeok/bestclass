@@ -103,9 +103,9 @@ eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/
 <script src="_js/main%EF%B9%96ver=blot0228193.js"></script>
 <script src="_js/instagramFeed.min%EF%B9%96ver=blot0228193.js"></script>
 <?php
-$shop_css = '';
-if (defined('_SHOP_')) $shop_css = '_shop';
-echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE?'mobile':'default').$shop_css.'.css?ver='.G5_CSS_VER, G5_THEME_URL).'">'.PHP_EOL;
+// $shop_css = '';
+// if (defined('_SHOP_')) $shop_css = '_shop';
+// echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE?'mobile':'default').$shop_css.'.css?ver='.G5_CSS_VER, G5_THEME_URL).'">'.PHP_EOL;
 ?>
 <!--[if lte IE 8]>
 <script src="<?php echo G5_JS_URL ?>/html5.js"></script>

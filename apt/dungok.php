@@ -80,6 +80,92 @@ include_once(G5_PATH.'/common/head.php');
 <style>
 #floating_menu {width: 88px; text-align: center; display: flex; justify-content: center; align-items: center; height: 88px; position: fixed; right: 50px; bottom: 100px; background-color: #fff; border-radius: 50%; z-index: 9999; font-size: 13px;}
 #floating_menu img {width: 40px;}
+.apt_info {margin-bottom: 50px;}
+ul.tabs {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  height: 41px;
+  border-bottom: 1px solid #333;
+  width: 100%;
+}
+
+ul.tabs li {
+  float: left;
+  margin: 0;
+  cursor: pointer;
+  padding: 0px 21px;
+  height: 40px;
+  width: 30%;
+  line-height: 40px;
+  border-top: 1px solid #333;
+  border-left: 1px solid #333;
+  border-bottom: 1px solid #333;
+  background-color: #666;
+  color: #ccc;
+  overflow: hidden;
+  position: relative;
+}
+
+.tab_last { border-right: 1px solid #333; }
+
+ul.tabs li:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+ul.tabs li.active {
+  background-color: #fff;
+  color: #333;
+  border-bottom: 1px solid #fff;
+  display: block;
+}
+
+.tab_container {
+  border: 1px solid #333;
+  border-top: none;
+  clear: both;
+  float: left;
+  width: 100%;
+  background: #fff;
+  overflow: auto;
+	margin-bottom: 50px;
+}
+
+.tab_content {
+  padding: 20px;
+  display: none;
+}
+.tab_content img {
+	width: 100%;
+}
+.tab_drawer_heading { display: none; }
+
+@media screen and (max-width: 480px) {
+  .tabs {
+    display: none;
+  }
+  .tab_drawer_heading {
+    background-color: #ccc;
+    color: #fff;
+    border-top: 1px solid #333;
+    margin: 0;
+    padding: 5px 20px;
+    display: block;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .d_active {
+    background-color: #666;
+    color: #fff;
+  }
+}
 </style>
 <!-- <script>
     
@@ -309,9 +395,30 @@ $(function(){
 			<img src="/img/d2.png" alt="img1">
 			<img src="/img/d3.png?v=1" alt="img1">
 			<!-- <img src="/img/d4.png" alt="img1"> -->
-			<img src="/img/d5.png" alt="img1">
 		</div>
-
+		<ul class="tabs">
+  <li class="active" rel="tab1">8평형</li>
+  <li rel="tab2">16평형</li>
+</ul>
+<div class="tab_container">
+  <h3 class="d_active tab_drawer_heading" rel="tab1">8평형</h3>
+  <div id="tab1" class="tab_content">
+  <h2>8평형</h2>
+  	<img src="/img/81.png" alt="img1">
+	<img src="/img/82.png" alt="img1">
+  </div>
+  <!-- #tab1 -->
+  <h3 class="tab_drawer_heading" rel="tab2">16평형</h3>
+  <div id="tab2" class="tab_content">
+  <h2>16평형</h2>
+	<img src="/img/161.png" alt="img1">
+	<img src="/img/162.png" alt="img1">
+	<img src="/img/163.png" alt="img1">
+  </div>
+  <!-- #tab2 -->
+</div>
+<!-- .tab_container -->
+</div>
 		<!-- <iframe src="http://docs.google.com/gview?url=http://베스트클래스.com/_imgs/test2.pdf&embedded=true" style="width:100%; height:700px;" frameborder="0"></iframe> -->
 		<!-- <iframe src="http://docs.google.com/gview?url=http://베스트클래스.com/_imgs/test.pdf&embedded=true" style="width:100%; height:700px;" frameborder="0"></iframe> -->
 	</div>
@@ -482,6 +589,47 @@ function excute_good(href, $el, $tx)
     </div>
 	<div class="leftarea" id="leftarea"></div>
 </div>
+
+<script>
+ // tabbed content
+    // http://www.entheosweb.com/tutorials/css/tabs.asp
+    $(".tab_content").hide();
+    $(".tab_content:first").show();
+
+  /* if in tab mode */
+    $("ul.tabs li").click(function() {
+    
+      $(".tab_content").hide();
+      var activeTab = $(this).attr("rel"); 
+      $("#"+activeTab).fadeIn();    
+    
+      $("ul.tabs li").removeClass("active");
+      $(this).addClass("active");
+
+    $(".tab_drawer_heading").removeClass("d_active");
+    $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+    
+    });
+  /* if in drawer mode */
+  $(".tab_drawer_heading").click(function() {
+      
+      $(".tab_content").hide();
+      var d_activeTab = $(this).attr("rel"); 
+      $("#"+d_activeTab).fadeIn();
+    
+    $(".tab_drawer_heading").removeClass("d_active");
+      $(this).addClass("d_active");
+    
+    $("ul.tabs li").removeClass("active");
+    $("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
+    });
+  
+  
+  /* Extra class "tab_last" 
+     to add border to right side
+     of last tab */
+  $('ul.tabs li').last().addClass("tab_last");	
+</script>
 
 <!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
 <!--[if lte IE 7]>
