@@ -91,7 +91,11 @@ include_once('./_common.php');
 <script>
 let isMain;
 </script>
-
+<?php
+    if(defined('_INDEX_')) { // index에서만 실행
+        include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
+    }
+?>
 <!-- 팝업레이어 시작 { -->
 
 <!-- <div id="m_pop">
