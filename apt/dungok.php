@@ -321,14 +321,14 @@ $(function(){
 
 <div id="board_view">
 	<div class="title">
-		<h2>둔곡 베스트클래스</h2>
-		<p>둔곡 원스톱생활권</p>
+		<h2>둔곡 베스트클래스 오피스텔 (분양중)</h2>
+		<p>국제 과학비즈니스벨트 중심생활권</p>
 	</div>
 	<div class="detail">
 		<div class="info">
 			<span class="when">
-				<dt>분양시기</dt>
-				<dd class="text_info">2022. 11</dd>
+				<dt>입주시기(예정)</dt>
+				<dd class="text_info">2023. 01</dd>
 			</span>
 			<span class="house">
 				<dt>세대수</dt>
@@ -340,7 +340,7 @@ $(function(){
 			</span>
 			<span class="tel">
 				<dt>문의</dt>
-				<dd class="text_info">1600-2540</dd>
+				<dd class="text_info">042-931-3600</dd>
 			</span>
 		</div>
 		<script>
@@ -358,7 +358,7 @@ $(function(){
 						  <path id="Icon_open-map-marker" data-name="Icon open-map-marker" d="M8.417,0A8.4,8.4,0,0,0,0,8.417c0,5.611,8.417,14.028,8.417,14.028s8.417-8.417,8.417-14.028A8.4,8.4,0,0,0,8.417,0Zm0,2.806A5.611,5.611,0,1,1,2.806,8.417,5.61,5.61,0,0,1,8.417,2.806Z"/>
 						</svg>
 					</div>
-					<span>위치보기</span>
+					<span>시공현장 위치보기</span>
 				</a>
 			</li>
 			<!-- <li>
@@ -380,10 +380,10 @@ $(function(){
 							</div>			
 		</div>
 				<div class="progr" id="construct">
-			<div class="bar" style="width: 100%">
+			<div class="bar" style="width: 40%">
 			</div>
-			<span class="rate">공정률</span>
-			<span class="txt">100%</span>
+			<span class="rate">공정률 (2022.12)</span>
+			<span class="txt">40%</span>
 		</div>
 			</div>
 		<div class="construct">
@@ -541,7 +541,7 @@ function excute_good(href, $el, $tx)
 			<div class="middle">            
 				<div class="info">
 					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
-					<span class="m_af_line">베스트클래스개발주식회사</span>
+					<span class="m_af_line">(주)베스트산업개발</span>
 					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
 					<span>고객센터: 042-987-6620</span>
 				</div>

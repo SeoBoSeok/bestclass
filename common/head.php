@@ -37,7 +37,7 @@
     -->							<li class="gnb_1dli gnb_al_li_plus" style="z-index:999">
                             <a href="/brand/bestclass.php" target="_self" class="gnb_1da">브랜드</a>
                             <span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
-                                <li class="gnb_2dli"><a href="/brand/bestclass.php" target="_self" class="gnb_2da">베스트클래스</a></li>
+                                <li class="gnb_2dli"><a href="/brand/bestclass.php" target="_self" class="gnb_2da">BEST CLASS</a></li>
                             </ul></div>
                         </li>
                                                     <li class="gnb_1dli gnb_al_li_plus" style="z-index:998">
@@ -60,7 +60,7 @@
                 </div>
             </nav>
             <div class="header_icon">
-                                <span class="search">
+                                <!-- <span class="search">
                     <a href="javascript:void(0);" id="btn_search"></a>
                     <a href="javascript:void(0);" id="btn_search_close"><img src="../_imgs/btn_close.svg" alt="search button" class="header__icon search_close"></a>
                 </span>
@@ -71,7 +71,7 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                </span>
+                </span> -->
             </div>
         </div>
     </header>
@@ -109,7 +109,7 @@
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 					<ul>
-						<li><a href="/brand/bestclass.php" target="_self">베스트클래스</a></li>
+						<li><a href="/brand/bestclass.php" target="_self">BEST CLASS</a></li>
 											<!-- <li><a href="brand/exordium.html" target="_self">베스트클래스</a></li> -->
 											<!-- <li><a href="brand/terradium.html" target="_self">Terradium</a></li> -->
 											<!-- <li><a href="brand/premium.html" target="_self">생활효율시스템</a></li> -->

@@ -129,7 +129,7 @@ $(function() {
 			<div class="middle">            
 				<div class="info">
 					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
-					<span class="m_af_line">베스트클래스개발주식회사</span>
+					<span class="m_af_line">(주)베스트산업개발</span>
 					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
 					<span>고객센터: 042-987-6620</span>
 				</div>

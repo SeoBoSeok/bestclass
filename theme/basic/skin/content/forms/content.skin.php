@@ -182,7 +182,7 @@ if ($_program_detail == "202202") {
                                     <input type="text" class="tel1_02" name="rsv_tel2" maxlength="4" onkeyup="numChk(this)">
                                     <span>-</span>
                                     <input type="text" class="tel1_03" name="rsv_tel3" maxlength="4" onkeyup="numChk(this)"> -->
-                                    <input type="text" class="tel1_03" name="contract" value="30만원" style="border: 0;" readonly>
+                                    <input type="text" class="tel1_03" name="contract" value="30만원" style="border: 0; font-size: 18px; font-weight: 700;" readonly>
                                 </div>
                             </div>
                             <!-- <div class="box5_04"> -->

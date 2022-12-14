@@ -24,18 +24,18 @@ include_once('./_common.php');
 <meta http-equiv="imagetoolbar" content="no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="베스트클래스아파트">
-<meta name="description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta name="description" content="(주)베스트산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <link rel="canonical" href="index.html">
 <meta property="og:image" content="_imgs/logo.png">
 <meta property="og:keywords" content="베스트클래스아파트">
 <meta property="og:title" content="베스트클래스아파트- 안이 다른 아파트 베스트클래스">
-<meta property="og:description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta property="og:description" content="(주)베스트산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <meta property="og:url" content="index.html" />
 <meta property="og:type" content="website" />
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="베스트클래스아파트 - 안이 다른 아파트 베스트클래스">
-<meta name="twitter:description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta name="twitter:description" content="(주)베스트산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <meta name="twitter:image" content="_imgs/logo.png">
 <meta name="twitter:url" content="index.html" />
 
@@ -293,8 +293,8 @@ isMain = true;
                                         </div> 
                                         <div id="slide" class="slide3 swiper-slide" >
                                             <div class="txt_wrap">
-												<p class="title"><span class="ani fadeInUp_L delay-0s">나는 <b>BEST</b>를 만듭니다.</span></p>
-                                                <p class="title"><span class="ani fadeInUp_L delay-2s">나는 <b>BEST CLASS</b>입니다.</span></p>
+												<p class="title"><span class="ani fadeInUp_L delay-0s">우리는 <b>BEST</b>를 만듭니다.</span></p>
+                                                <p class="title"><span class="ani fadeInUp_L delay-2s">당신을 <b>BEST CLASS</b>로 초대합니다.</span></p>
                                             </div>
 											<div class="swiper_btn_wrap">
 												<div class="swiper-button-prev"></div>
@@ -427,7 +427,7 @@ isMain = true;
 				                        <li class="item item1 swiper-slide" >
                             <div class="text_area animated delay-3s">
                                 <p class="state">분양중</p>
-                                <p class="title"><a href="/apt/dungok.php">둔곡 베스트클래스</a></p>
+                                <p class="title"><a href="/apt/dungok.php">둔곡 베스트클래스 오피스텔<br>(10년 장기임대)</a></p>
                                 <p class="subscr"><a href="/apt/dungok.php">국제 과학벨트 지정단지와 둔곡 베스트클래스</a></p>
                                 <p class="date">2022. 11</p>
                                 <div class="line m_hide"></div>
@@ -454,7 +454,7 @@ isMain = true;
 					                        <li class="item item2 swiper-slide" >
                             <div class="text_area animated delay-6s">
                                 <p class="state">분양예정</p>
-                                <p class="title"><a href="#;">아산 베스트클래스</a></p>
+                                <p class="title"><a href="#;">아산 베스트클래스 아파트</a></p>
                                 <p class="subscr"><a href="#;">아산의 중심을 누리는 올인원 라이프</a></p>
                                 <p class="date">2023.01</p>
                                 <div class="line m_hide"></div>
@@ -527,7 +527,7 @@ isMain = true;
 				<div class="inner">
 					<h2 class="title animated delay-0s">베스트클래스 소식</h2>
 					<span class="desc animated delay-2s">
-						대한민국 국가 기간 산업의 중심 & 노벨물리학상의 교두보<br>둔곡베스트클래스 오피스텔른 과학의 중심에 위치하고있습니다.			
+						대한민국 국가 기간 산업의 중심 & 노벨물리학상의 교두보<br>둔곡 베스트클래스 오피스텔은 과학비즈니스벨트 중심에 위치하고 있습니다.
 					</span>
 <!-- //////////////////////// 20220616 dewbian 
      instafeedjs이용해서 instagram basic display api 연동  
@@ -542,13 +542,13 @@ isMain = true;
 						<li>
 							<a href="https://www.youtube.com/c/%EB%8C%80%EC%9A%B0%EC%82%B0%EC%97%85%EA%B0%9C%EB%B0%9C/featured" target="_blank">
 								<span><img src="_imgs/img_sns6.png"></span>
-								<span class="bestchip">살수록 커지는 만족, 살수록 느끼는 가치 베스트클래스 아산지구 최고거래가 갱신</span>
+								<span class="bestchip">최고의 가치를 추구하는<br>아산 베스트클래스 아파트 분양 예정</span>
 							</a>
 						</li>
 						<li>
 							<a href="https://pf.kakao.com/_Axcvcxb" target="_blank">
 								<span><img src="_imgs/img_sns5.png"></span>
-								<span class="bestchip">살수록 커지는 만족, 살수록 느끼는 가치</span>
+								<span class="bestchip">살수록 커지는 만족, 알수록 더해가는 가치</span>
 							</a>
 						</li>
 					</ul>
@@ -585,7 +585,7 @@ isMain = true;
                             <img src="img/contact1.png" alt="">
                             <div class="contact_txt_box">
                                 <h3>모델하우스</h3>
-                                <p>대전광역시</p>
+                                <p>대전광역시 유성구 테크노1로 12-21</p>
                                 <div class="contact_bt">
                                     <a href="https://map.naver.com/v5/directions/-/14180836.789931607,4359916.009649975,%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%ED%85%8C%ED%81%AC%EB%85%B81%EB%A1%9C%2012-21,,/-/car?c=14180836.7899315,4359916.0096498,15,0,0,0,dh" target="blank">
                                         <p>견본주택 네이버 지도</p>
@@ -598,7 +598,7 @@ isMain = true;
                             <img src="img/contact2.png" alt="">
                             <div class="contact_txt_box">
                                 <h3>현&nbsp;&nbsp;&nbsp;장</h3>
-                                <p>대전광역시</p>
+                                <p>대전광역시 유성구 둔곡동 426-2</p>
                                 <div class="contact_bt">
                                     <a href="https://map.naver.com/v5/directions/-/14177597.348221723,4363194.558317171,%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EB%91%94%EA%B3%A1%EB%8F%99%20426-2,,/-/car?c=14177597.3482217,4363194.5583170,15,0,0,0,dh" target="blank">
                                         <p>현장 네이버 지도</p>
@@ -796,7 +796,7 @@ isMain = true;
 				</ul> -->
 				<div class="info">
 					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
-					<span class="m_af_line">베스트클래스개발주식회사</span>
+					<span class="m_af_line">(주)베스트산업개발</span>
 					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
 					<span>고객센터: 042-987-6620</span>
 				</div>
@@ -811,7 +811,7 @@ isMain = true;
 				</div>
 				<ul class="flist" style="display:none;">
 					<a href="http://www.dwconstruction.co.kr" class="item" target="_blank">
-						<li>대우산업개발</li>
+						<li>(주)베스트산업개발</li>
 					</a>
 					<a href="http://briochedoree.co.kr" class="item" target="_blank">
 						<li>브리오슈도레</li>
@@ -944,7 +944,7 @@ wcs_do();
 					<a href="javascript: void(0);" class="arrow_down"></a>
 				</div>
 				<div class="agree_cont">
-					대우산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
+					(주)베스트산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
 					회사의 "개인정보처리방침"은 관련 법률 및 지침의 변경 또는 내부운영 방침의 변경에 따라 변경 될 수 있습니다. 회사의 "개인정보처리방침"이 변경될 경우 변경된 회사의 "개인정보처리방침"을 영업장에 비치하거나 변경된 사항을 회사 홈페이지(http://www.dwconstruction.com)를 통하여 공지합니다. 
 				</div>
 			</div>
@@ -954,7 +954,7 @@ wcs_do();
 					<a href="javascript: void(0);" class="arrow_down"></a>
 				</div>
 				<div class="agree_cont">
-					대우산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
+					(주)베스트산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
 					회사의 "개인정보처리방침"은 관련 법률 및 지침의 변경 또는 내부운영 방침의 변경에 따라 변경 될 수 있습니다. 회사의 "개인정보처리방침"이 변경될 경우 변경된 회사의 "개인정보처리방침"을 영업장에 비치하거나 변경된 사항을 회사 홈페이지(http://www.dwconstruction.com)를 통하여 공지합니다. 
 				</div>
 			</div>

@@ -8,18 +8,18 @@
 <meta http-equiv="imagetoolbar" content="no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="베스트클래스아파트">
-<meta name="description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta name="description" content="(주)베스트산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <link rel="canonical" href="../index.html">
 <meta property="og:image" content="https://www.iaanapt.co.kr/_imgs/logo_ori.svg">
 <meta property="og:keywords" content="베스트클래스아파트">
 <meta property="og:title" content="베스트클래스아파트- 안이 다른 아파트 베스트클래스">
-<meta property="og:description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta property="og:description" content="(주)베스트산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <meta property="og:url" content="../index.html" />
 <meta property="og:type" content="website" />
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="베스트클래스아파트 - 안이 다른 아파트 베스트클래스">
-<meta name="twitter:description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta name="twitter:description" content="(주)베스트산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <meta name="twitter:image" content="https://www.iaanapt.co.kr/_imgs/logo_ori.svg">
 <meta name="twitter:url" content="../index.html" />
 
@@ -168,7 +168,7 @@ var isBrand = true;
 						<!-- <div class="text p2"><span>best class(베스트클래스)에는 </span></div> -->
 					</div>
 					<div class="detail">
-						<div class="text p1"><span>라이프스타일에 대한 모든 가치가 담겨져 있습니다.</span></div>
+						<div class="text p1"><span>거주자의 만족을 최우선으로 하는 베스트산업개발의<br>라이프스타일에 대한 모든 철학과 가치가 담겨져 있습니다.</span></div>
 					</div>
 				</div>
 				<div class="bg bg4">
@@ -203,7 +203,7 @@ var isBrand = true;
 					<div class="detail">
 						<div class="text p1"><span>사람이 살고 머무르는 물리적인 공간과 더불어</span></div>
 						<div class="text p2"><span>그 안에서 일어나는 라이프스타일에 대한</span></div>
-						<div class="text p3"><span>대우산업개발만의 깊이 있는 주거 철학과 통찰력을 담은 브랜드입니다.</span></div>
+						<div class="text p3"><span>(주)베스트산업개발만의 깊이 있는 주거 철학과 통찰력을 담은 브랜드입니다.</span></div>
 					</div>
 				</div>
 				<div class="bg bg2">
@@ -341,7 +341,7 @@ var isBrand = true;
 				</ul> -->
 				<div class="info">
 					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
-					<span class="m_af_line">베스트클래스개발주식회사</span>
+					<span class="m_af_line">(주)베스트산업개발</span>
 					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
 					<span>고객센터: 042-987-6620</span>
 				</div>
@@ -356,7 +356,7 @@ var isBrand = true;
 				</div>
 				<ul class="flist" style="display:none;">
 					<a href="http://www.dwconstruction.co.kr" class="item" target="_blank">
-						<li>대우산업개발</li>
+						<li>(주)베스트산업개발</li>
 					</a>
 					<a href="http://briochedoree.co.kr" class="item" target="_blank">
 						<li>브리오슈도레</li>
@@ -481,7 +481,7 @@ var isBrand = true;
 					<a href="javascript: void(0);" class="arrow_down"></a>
 				</div>
 				<div class="agree_cont">
-					대우산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
+					(주)베스트산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
 					회사의 "개인정보처리방침"은 관련 법률 및 지침의 변경 또는 내부운영 방침의 변경에 따라 변경 될 수 있습니다. 회사의 "개인정보처리방침"이 변경될 경우 변경된 회사의 "개인정보처리방침"을 영업장에 비치하거나 변경된 사항을 회사 홈페이지(http://www.dwconstruction.com)를 통하여 공지합니다. 
 				</div>
 			</div>
@@ -491,7 +491,7 @@ var isBrand = true;
 					<a href="javascript: void(0);" class="arrow_down"></a>
 				</div>
 				<div class="agree_cont">
-					대우산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
+					(주)베스트산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
 					회사의 "개인정보처리방침"은 관련 법률 및 지침의 변경 또는 내부운영 방침의 변경에 따라 변경 될 수 있습니다. 회사의 "개인정보처리방침"이 변경될 경우 변경된 회사의 "개인정보처리방침"을 영업장에 비치하거나 변경된 사항을 회사 홈페이지(http://www.dwconstruction.com)를 통하여 공지합니다. 
 				</div>
 			</div>
