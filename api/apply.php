@@ -48,6 +48,8 @@ $rsv_detailAddress = $_POST['rsv_detailAddress'];
 $ride_adult_cnt = $_POST['ride_adult_cnt'];
 $memo = $_POST['memo'];
 $agree = $_POST['agree'];
+$rsv_bank1 = $_POST['rsv_bank1'];
+$rsv_bank2 = $_POST['rsv_bank2'];
 
 $return = array();
 

@@ -155,7 +155,7 @@
 #location .list.hover .item.on:after{opacity:0}
 
 #location .list .item * {-webkit-box-sizing: border-box;  box-sizing: border-box;  }
-#location .list .item img {width: auto;  height: auto;  min-height: 105%;  min-width:30vw;  position: absolute;  opacity: 1;  transform: translate(-50%,0);  left: 50%;bottom:0}
+#location .list .item img {width: auto;  height: auto;  min-height: 105%;  min-width:30vw;  position: absolute;  opacity: 1;  transform: translate(-50%,0);  left: 50%;}
 #location .list .item .text_area {width: 100%;height: 409px;position: absolute;top: 8%;transform: translate(-50%,0);-webkit-transform: translate(-50%,0);opacity: 0;z-index:30;transition: all 0.5s ease-in-out;}
 #location .list.hover .item .text_area{opacity:.7 !important;}
 #location .list.hover .item.on .text_area{opacity:1 !important;}

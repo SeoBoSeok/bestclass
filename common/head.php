@@ -44,7 +44,7 @@
                             <a href="/apt/dungok.php" target="_self" class="gnb_1da">단지정보</a>
                             <span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">
                                 <li class="gnb_2dli"><a href="/apt/dungok.php" target="_self" class="gnb_2da">둔곡 베스트클래스<br>오피스텔</a></li>
-                                <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da">아산 베스트클래스<br>(분양예정)</a></li>
+                                <li class="gnb_2dli"><a href="/apt/asan.php" target="_self" class="gnb_2da">아산 베스트클래스<br>아파트<br>(분양예정)</a></li>
                                 <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da">제천 베스트클래스<br>(분양예정)</a></li>
                             </ul></div>
                         </li>

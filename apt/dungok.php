@@ -22,7 +22,7 @@
 <meta name="twitter:url" content="www.베스트클래스.com" />
 
 <meta name="naver-site-verification" content="5f12603bfbaa32862e9dfaf621d29d1f75737aa7" />
-<title>베스트클래스 | 둔곡지구</title>
+<title>베스트클래스 오피스텔 | 둔곡지구</title>
  
 <link rel="shortcut icon" href="../_imgs/favicon.png" />
 <link rel="stylesheet" href="../_css/mode%EF%B9%96ver=%3C%EF%B9%96php%20echo%20G5_CSS_VER%EF%B9%94%20%EF%B9%96%3E.css" />
@@ -165,7 +165,14 @@ ul.tabs li.active {
     background-color: #666;
     color: #fff;
   }
+  .tab_content {
+	display: block!important;
+  }
 }
+</style>
+<style>
+	.select_mode {display: none;}
+	.bing {padding: 12px; border-radius: 50%; background: red; color: white; display: inline-block;}
 </style>
 <!-- <script>
     
@@ -321,7 +328,7 @@ $(function(){
 
 <div id="board_view">
 	<div class="title">
-		<h2>둔곡 베스트클래스 오피스텔 (분양중)</h2>
+		<h2>둔곡 베스트클래스 오피스텔 <span class="bing">분양중</span></h2>
 		<p>국제 과학비즈니스벨트 중심생활권</p>
 	</div>
 	<div class="detail">
@@ -404,16 +411,20 @@ $(function(){
   <h3 class="d_active tab_drawer_heading" rel="tab1">8평형</h3>
   <div id="tab1" class="tab_content">
   <h2>8평형</h2>
+  	<img src="/img/80.png" alt="img1">
   	<img src="/img/81.png" alt="img1">
 	<img src="/img/82.png" alt="img1">
+	<img src="/img/83.png" alt="img1">
   </div>
   <!-- #tab1 -->
   <h3 class="tab_drawer_heading" rel="tab2">16평형</h3>
   <div id="tab2" class="tab_content">
   <h2>16평형</h2>
+	<img src="/img/160.png" alt="img1">
 	<img src="/img/161.png" alt="img1">
 	<img src="/img/162.png" alt="img1">
 	<img src="/img/163.png" alt="img1">
+	<img src="/img/164.png" alt="img1">
   </div>
   <!-- #tab2 -->
 </div>
@@ -543,7 +554,7 @@ function excute_good(href, $el, $tx)
 					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
 					<span class="m_af_line">(주)베스트산업개발</span>
 					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
-					<span>고객센터: 042-987-6620</span>
+					<span>고객센터: 042-931-3600</span>
 				</div>
 				<P class="copyright">Copyright ⓒBestClass. All Rights Reserved.</P>
 			</div>

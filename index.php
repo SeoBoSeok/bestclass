@@ -454,8 +454,8 @@ isMain = true;
 					                        <li class="item item2 swiper-slide" >
                             <div class="text_area animated delay-6s">
                                 <p class="state">분양예정</p>
-                                <p class="title"><a href="#;">아산 베스트클래스 아파트</a></p>
-                                <p class="subscr"><a href="#;">아산의 중심을 누리는 올인원 라이프</a></p>
+                                <p class="title"><a href="/apt/asan.php">아산 베스트클래스 아파트</a></p>
+                                <p class="subscr"><a href="/apt/asan.php">아산의 중심을 누리는 올인원 라이프</a></p>
                                 <p class="date">2023.01</p>
                                 <div class="line m_hide"></div>
                                 <div class="buttons">
@@ -798,7 +798,7 @@ isMain = true;
 					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
 					<span class="m_af_line">(주)베스트산업개발</span>
 					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
-					<span>고객센터: 042-987-6620</span>
+					<span>고객센터: 042-931-3600</span>
 				</div>
 				<P class="copyright">CopyrightⓒBestclass. All Rights Reserved.</P>
 			</div>
