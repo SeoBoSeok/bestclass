@@ -534,19 +534,19 @@ isMain = true;
 //-->
 					<ul class="animated delay-3s">						
 						<li>
-							<a href="#;" target="_blank">
+							<a href="/brand/bestclass.php" target="_blank">
 								<span><img src="_imgs/img_sns7.png"></span>
 								<span class="bestchip">제무재표 AAA( 1등급) 통과 베스트산업개발</span>
 							</a>
 						</li>
 						<li>
-							<a href="#;" target="_blank">
+							<a href="/apt/asan.php" target="_blank">
 								<span><img src="_imgs/img_sns6.png"></span>
 								<span class="bestchip">최고의 가치를 추구하는<br>아산 베스트클래스 아파트 분양 예정</span>
 							</a>
 						</li>
 						<li>
-							<a href="#;" target="_blank">
+							<a href="/news.php" target="_blank">
 								<span><img src="_imgs/img_sns5.png"></span>
 								<span class="bestchip">살수록 커지는 만족, 알수록 더해가는 가치</span>
 							</a>
@@ -797,7 +797,7 @@ isMain = true;
 				<div class="info">
 					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
 					<span class="m_af_line">(주)베스트산업개발</span>
-					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
+					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전광역시 유성구 테크노1로 12-21</span>
 					<span>고객센터: 042-931-3600</span>
 				</div>
 				<P class="copyright">CopyrightⓒBestclass. All Rights Reserved.</P>

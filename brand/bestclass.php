@@ -345,7 +345,7 @@ var isBrand = true;
 				<div class="info">
 					<span class="m_af_line">사업자등록번호 : 122-23-45677</span>
 					<span class="m_af_line">(주)베스트산업개발</span>
-					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전시 유성구 베스트대로 17 타워 11층</span>
+					<span class="pc_af_line break"><span class="m_hide">주소 : </span>대전광역시 유성구 테크노1로 12-21</span>
 					<span>고객센터: 042-931-3600</span>
 				</div>
 				<P class="copyright">CopyrightⓒBestclass. All Rights Reserved.</P>
