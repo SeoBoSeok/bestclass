@@ -478,7 +478,7 @@ isMain = true;
                             </div>
 								<img src="data/file/apt/group2.jpg" alt="background image">
                         </li>
-					                        <li class="item item3 swiper-slide" >
+					                        <li class="item item3 swiper-slide" style="background-color: black!important;">
                             <div class="text_area animated delay-9s">
                                 <p class="state">분양예정</p>
                                 <p class="title"><a href="#">제천 베스트클래스</a></p>
@@ -503,7 +503,7 @@ isMain = true;
 																	});
 								</script>
                             </div>
-								<img src="data/file/apt/group3.png" alt="background image">
+								<img src="data/file/apt/group3.png" alt="background image" style="background-color: black!important; display: none;">
                         </li>
 					                    </ul>
 					<div class="paging">
