@@ -6,6 +6,9 @@ include_once(G5_CAPTCHA_PATH.'/captcha.lib.php');
 // 토큰체크
 check_write_token($bo_table);
 
+// print_r($_POST);
+// exit;
+
 $g5['title'] = '게시글 저장';
 
 $msg = array();

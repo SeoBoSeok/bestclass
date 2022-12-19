@@ -222,7 +222,7 @@ box-shadow:1px 1px 5px 0px hsl(232, 36%, 96%)}
 
 #bo_v_con {margin:10px 0 30px;width:100%;line-height:1.7em;min-height:200px;word-break:break-all;overflow:hidden}
 #bo_v_con a {color:#000;text-decoration:underline}
-#bo_v_con img {max-width:100%;height:auto}
+#bo_v_con img {max-width:100%;height:auto;width:100%;}
 
 #bo_v_act {margin-bottom:30px;text-align:center}
 #bo_v_act .bo_v_act_gng {position:relative}
