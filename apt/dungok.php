@@ -262,43 +262,6 @@ $(function(){
 	<div class="main__inner aptinfo">
 <script src="../js/viewimageresize.js"></script>
 
-<div id="pop" class="interest">	
-	<div class="inner">
-		<span class="btn_close">
-			<a href="javascript:void(0);" onclick="close_pop('#pop.interest');"><img src="../_imgs/icon-material-close.svg"></a>
-		</span>
-		<div id="interest" style="width: 100%;min-height: 630px;">
-			<h2 class="title">관심단지 등록</h2>
-			<p class="subscr">관심단지로 등록하시면 단지의 정보를 SMS로 보내드립니다.</p>
-			<h3 class="agree_title">약관동의</h3>
-			<div class="agree">
-				<div class="agree_top">
-					<p>마케팅 목적에 따른 개인정보 수집 이용 동의 (필수)</p>
-					<a href="javascript: void(0);" class="arrow_down"></a>
-				</div>
-				<div class="agree_cont">
-					대우산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
-					회사의 "개인정보처리방침"은 관련 법률 및 지침의 변경 또는 내부운영 방침의 변경에 따라 변경 될 수 있습니다. 회사의 "개인정보처리방침"이 변경될 경우 변경된 회사의 "개인정보처리방침"을 영업장에 비치하거나 변경된 사항을 회사 홈페이지(http://www.dwconstruction.com)를 통하여 공지합니다. 
-				</div>
-			</div>
-			<div class="agree">
-				<div class="agree_top">
-					<p>개인정보 처리업무 위탁 안내 (필수)</p>
-					<a href="javascript: void(0);" class="arrow_down"></a>
-				</div>
-				<div class="agree_cont">
-					대우산업개발주식회사는 (이하 '회사' 라 칭함) 「개인정보보호법」, 「정보통신망 이용촉진 및 정보보호에 관한 법률」을 준수하고 있으며, 정보주체의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 개인정보처리방침을 제정하고 이를 준수하고 있습니다. 
-					회사의 "개인정보처리방침"은 관련 법률 및 지침의 변경 또는 내부운영 방침의 변경에 따라 변경 될 수 있습니다. 회사의 "개인정보처리방침"이 변경될 경우 변경된 회사의 "개인정보처리방침"을 영업장에 비치하거나 변경된 사항을 회사 홈페이지(http://www.dwconstruction.com)를 통하여 공지합니다. 
-				</div>
-			</div>
-			<p class="agree_check">
-				<input type="radio" name="interest_agree" value="1" id="agree">
-				<label for="agree">개인정보 수집 이용에 모두 동의합니다</label>
-			</p>
-		</div>
-	</div>
-</div>
-
 <div id="pop" class="result">
 	<div class="inner">
 		<span class="btn_close">
@@ -382,7 +345,7 @@ $(function(){
 		<div class="wrap">
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
-									<div class="swiper-slide"><a href="javascript:void(0)"><img src="../data/file/apt/2087697396_rjvWA3ei_196863486100c9e66ac36d7b74a1a5f6f2f0ab4a.jpg"></a></div>
+									<div class="swiper-slide"><a href="javascript:void(0)"><img src="/data/file/apt/2087697396_4CSKyr9U_414e78be5c6addda6498cecc4d2374984ab52e89.jpg"></a></div>
 								</div>
 							</div>			
 		</div>
@@ -420,7 +383,7 @@ $(function(){
   <h3 class="tab_drawer_heading" rel="tab2">16평형</h3>
   <div id="tab2" class="tab_content">
   <h2>16평형</h2>
-	<img src="/img/160.png" alt="img1">
+	<!-- <img src="/img/160.png" alt="img1"> -->
 	<img src="/img/161.png" alt="img1">
 	<img src="/img/162.png" alt="img1">
 	<img src="/img/163.png" alt="img1">

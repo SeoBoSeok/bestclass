@@ -534,19 +534,19 @@ isMain = true;
 //-->
 					<ul class="animated delay-3s">						
 						<li>
-							<a href="https://www.youtube.com/c/%EB%8C%80%EC%9A%B0%EC%82%B0%EC%97%85%EA%B0%9C%EB%B0%9C/featured" target="_blank">
+							<a href="#;" target="_blank">
 								<span><img src="_imgs/img_sns7.png"></span>
 								<span class="bestchip">제무재표 AAA( 1등급) 통과 베스트산업개발</span>
 							</a>
 						</li>
 						<li>
-							<a href="https://www.youtube.com/c/%EB%8C%80%EC%9A%B0%EC%82%B0%EC%97%85%EA%B0%9C%EB%B0%9C/featured" target="_blank">
+							<a href="#;" target="_blank">
 								<span><img src="_imgs/img_sns6.png"></span>
 								<span class="bestchip">최고의 가치를 추구하는<br>아산 베스트클래스 아파트 분양 예정</span>
 							</a>
 						</li>
 						<li>
-							<a href="https://pf.kakao.com/_Axcvcxb" target="_blank">
+							<a href="#;" target="_blank">
 								<span><img src="_imgs/img_sns5.png"></span>
 								<span class="bestchip">살수록 커지는 만족, 알수록 더해가는 가치</span>
 							</a>
