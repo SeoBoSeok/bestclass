@@ -11,13 +11,13 @@
 <meta property="og:image" content="www.베스트클래스.com/_imgs/logo_ori.svg">
 <meta property="og:keywords" content="베스트클래스아파트">
 <meta property="og:title" content="베스트클래스아파트- 안이 다른 아파트 베스트클래스">
-<meta property="og:description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta property="og:description" content="(주)베스트산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <meta property="og:url" content="www.베스트클래스.com" />
 <meta property="og:type" content="website" />
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="베스트클래스아파트 - 안이 다른 아파트 베스트클래스">
-<meta name="twitter:description" content="대우산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
+<meta name="twitter:description" content="(주)베스트산업개발 베스트클래스 분양, 공사, 입주, A/S, 견본주택, 브랜드 안내">
 <meta name="twitter:image" content="www.베스트클래스.com/_imgs/logo_ori.svg">
 <meta name="twitter:url" content="www.베스트클래스.com" />
 
