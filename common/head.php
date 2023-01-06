@@ -66,12 +66,12 @@
                 </span>
                 <span class="member" id="member">
                     <a href="javascript:void(0);" id="btn_user"></a>
-                </span>
+                </span> -->
                 <span class="gnb_all_mob_open mobile open" id="m_btn_menu">
                     <span></span>
                     <span></span>
                     <span></span>
-                </span> -->
+                </span>
             </div>
         </div>
     </header>
@@ -124,7 +124,9 @@
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 					<ul>
-						<li><a href="/apt/dungok.php" target="_self">분양단지</a></li>
+						<li><a href="/apt/dungok.php" target="_self">둔곡베스트클래스<br>(오피스텔)</a></li>
+                        <li><a href="/apt/asan.php" target="_self">아산베스트클래스<br>(아파트)</a></li>
+                        <li><a href="#;" target="_self">제천베스트클래스<br>(분양예정)</a></li>
 											<!-- <li><a href="apt%EF%B9%96ca_name=%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self">공사단지</a></li>
 											<li><a href="apt%EF%B9%96ca_name=%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%B5.html" target="_self">입주단지</a></li> -->
 					</ul>
@@ -138,6 +140,7 @@
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 					<ul>
+						<li><a href="/bbs/board.php?bo_table=free" target="_self">공지사항</a></li>
 						<li><a href="news.php" target="_self">뉴스룸</a></li>
 						<li><a href="/bbs/content.php?co_id=forms" target="_self">청약신청</a></li>
 											<!-- <li><a href="gallery.html" target="_self">갤러리</a></li>

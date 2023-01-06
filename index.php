@@ -375,7 +375,7 @@ isMain = true;
                         </div>
                     </div> -->
 
-                    <div class="absolute news_area" id="notice_rolling">
+                    <div class="absolute news_area" id="notice_rolling" style="display: none;">
                         <span class="name">NEWS&<br>NOTICE</span>
                         <!-- <div class="list open-event fl">
 							<ul class="notice-list">

@@ -86,7 +86,7 @@ ul.tabs {
   padding: 0;
   float: left;
   list-style: none;
-  height: 41px;
+  height: 51px;
   border-bottom: 1px solid #333;
   width: 100%;
 }
@@ -95,8 +95,8 @@ ul.tabs li {
   float: left;
   margin: 0;
   cursor: pointer;
-  padding: 0px 21px;
-  height: 40px;
+  padding: 5px 21px;
+  height: 50px;
   width: 30%;
   line-height: 40px;
   border-top: 1px solid #333;
@@ -106,6 +106,7 @@ ul.tabs li {
   color: #ccc;
   overflow: hidden;
   position: relative;
+  font-size: 1.7rem;
 }
 
 .tab_last { border-right: 1px solid #333; }
@@ -205,9 +206,9 @@ $(function(){
 					</div>
 					<ul>
 						<li><a href="../brand/bestclass.html" target="_self">iaan</a></li>
-											<li><a href="../brand/exordium.html" target="_self">Exordium</a></li>
-											<li><a href="../brand/terradium.html" target="_self">Terradium</a></li>
-											<li><a href="../brand/premium.html" target="_self">생활효율시스템</a></li>
+						<li><a href="../brand/exordium.html" target="_self">Exordium</a></li>
+						<li><a href="../brand/terradium.html" target="_self">Terradium</a></li>
+						<li><a href="../brand/premium.html" target="_self">생활효율시스템</a></li>
 					</ul>
 				</li>
 								<li class="gnb_al_li ar">
@@ -229,9 +230,9 @@ $(function(){
 					</div>
 					<ul>
 						<li><a href="../news.html" target="_self">뉴스룸</a></li>
-											<li><a href="../gallery.html" target="_self">갤러리</a></li>
-											<li><a href="../iaanstory/index.html" target="_self">베스트클래스스토리</a></li>
-											<li><a href="../event.html" target="_self">이벤트</a></li>
+						<li><a href="../gallery.html" target="_self">갤러리</a></li>
+						<li><a href="../iaanstory/index.html" target="_self">베스트클래스스토리</a></li>
+						<li><a href="../event.html" target="_self">이벤트</a></li>
 					</ul>
 				</li>
 				<li class="gnb_al_li ar">
@@ -373,7 +374,7 @@ $(function(){
 <div class="tab_container">
   <h3 class="d_active tab_drawer_heading" rel="tab1">8평형</h3>
   <div id="tab1" class="tab_content">
-  <h2>8평형</h2>
+  <!-- <h2>8평형</h2> -->
   	<img src="/img/80.png" alt="img1">
   	<img src="/img/81.png" alt="img1">
 	<img src="/img/82.png" alt="img1">
@@ -382,7 +383,7 @@ $(function(){
   <!-- #tab1 -->
   <h3 class="tab_drawer_heading" rel="tab2">16평형</h3>
   <div id="tab2" class="tab_content">
-  <h2>16평형</h2>
+  <!-- <h2>16평형</h2> -->
 	<!-- <img src="/img/160.png" alt="img1"> -->
 	<img src="/img/161.png" alt="img1">
 	<img src="/img/162.png" alt="img1">

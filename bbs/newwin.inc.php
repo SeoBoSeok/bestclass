@@ -13,7 +13,14 @@ $sql = " select * from {$g5['new_win_table']}
           order by nw_id asc ";
 $result = sql_query($sql, false);
 ?>
-
+<style>
+    @media all and (max-width:760px){
+        #hd_pops_2 {
+            top: 800px!important;
+            left: 10px!important;
+        }
+    }
+</style>
 <!-- 팝업레이어 시작 { -->
 <div id="hd_pop">
     <h2>팝업레이어 알림</h2>
