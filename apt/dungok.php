@@ -78,7 +78,7 @@ include_once(G5_PATH.'/common/head.php');
 	var isMain = false;
 </script>
 <style>
-#floating_menu {width: 88px; text-align: center; display: flex; justify-content: center; align-items: center; height: 88px; position: fixed; right: 50px; bottom: 100px; background-color: #fff; border-radius: 50%; z-index: 9999; font-size: 13px;}
+#floating_menu {width: 88px; text-align: center; display: flex; justify-content: center; align-items: center; height: 88px; position: fixed; right: 50px; bottom: 100px; background-color: #fff; border-radius: 50%; z-index: 9999; font-size: 13px; box-shadow: 0px 0px 16px rgb(47 83 109 / 20%);}
 #floating_menu img {width: 40px;}
 .apt_info {margin-bottom: 50px;}
 ul.tabs {
@@ -346,7 +346,7 @@ $(function(){
 		<div class="wrap">
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
-									<div class="swiper-slide"><a href="javascript:void(0)"><img src="/data/file/apt/2087697396_4CSKyr9U_414e78be5c6addda6498cecc4d2374984ab52e89.jpg"></a></div>
+									<div class="swiper-slide" style="background: url('/data/file/apt/d1main.jpg') center center no-repeat; background-size: cover;"><a href="javascript:void(0)"></a></div> <!-- <img src="/data/file/apt/d1main.jpg"> -->
 								</div>
 							</div>			
 		</div>

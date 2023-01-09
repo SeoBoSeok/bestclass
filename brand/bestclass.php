@@ -149,7 +149,7 @@ $(document).ready(function($){
 var isBrand = true;
 </script>
 <style>
-#floating_menu {width: 88px; text-align: center; display: flex; justify-content: center; align-items: center; height: 88px; position: fixed; right: 50px; bottom: 100px; background-color: #fff; border-radius: 50%; z-index: 9999; font-size: 13px;}
+#floating_menu {width: 88px; text-align: center; display: flex; justify-content: center; align-items: center; height: 88px; position: fixed; right: 50px; bottom: 100px; background-color: #fff; border-radius: 50%; z-index: 9999; font-size: 13px; box-shadow: 0px 0px 16px rgb(47 83 109 / 20%);}
 #floating_menu img {width: 40px;}
 </style>
 <div id="brand" class="brand">

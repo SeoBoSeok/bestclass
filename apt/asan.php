@@ -78,7 +78,7 @@ include_once(G5_PATH.'/common/head.php');
 	var isMain = false;
 </script>
 <style>
-#floating_menu {width: 88px; text-align: center; display: flex; justify-content: center; align-items: center; height: 88px; position: fixed; right: 50px; bottom: 100px; background-color: #fff; border-radius: 50%; z-index: 9999; font-size: 13px;}
+#floating_menu {width: 88px; text-align: center; display: flex; justify-content: center; align-items: center; height: 88px; position: fixed; right: 50px; bottom: 100px; background-color: #fff; border-radius: 50%; z-index: 9999; font-size: 13px; box-shadow: 0px 0px 16px rgb(47 83 109 / 20%);}
 #floating_menu img {width: 40px;}
 .apt_info {margin-bottom: 50px;}
 ul.tabs {
@@ -388,15 +388,16 @@ $(function(){
 		<div class="wrap">
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
-									<div class="swiper-slide"><a href="javascript:void(0)"><img src="/data/file/apt/group2.jpg"></a></div>
-								</div>
-							</div>			
+				<div class="swiper-slide"><a href="javascript:void(0)"><img src="/data/file/apt/group2.jpg"></a></div>
+				<div class="swiper-slide"><a href="javascript:void(0)"><img src="/data/file/apt/new_asan.jpg"></a></div>
+			</div>
+		</div>			
 		</div>
 				<div class="progr" id="construct">
-			<!-- <div class="bar" style="width: 40%">
-			</div> -->
-			<!-- <span class="rate">공정률 (2022.12)</span>
-			<span class="txt">40%</span> -->
+			<div class="bar" style="width: 100%">
+			</div>
+			<span class="rate">아산베스트클래스 (아파트)</span>
+			<span class="txt"></span>
 		</div>
 			</div>
 		<div class="construct">
@@ -435,6 +436,9 @@ $(function(){
   <!-- #tab2 -->
 </div>
 <!-- .tab_container -->
+<div class="main_image">
+	<img src="/data/file/apt/new_asan.jpg" alt="아산베스트클래스">
+</div>
 </div>
 		<!-- <iframe src="http://docs.google.com/gview?url=http://베스트클래스.com/_imgs/test2.pdf&embedded=true" style="width:100%; height:700px;" frameborder="0"></iframe> -->
 		<!-- <iframe src="http://docs.google.com/gview?url=http://베스트클래스.com/_imgs/test.pdf&embedded=true" style="width:100%; height:700px;" frameborder="0"></iframe> -->

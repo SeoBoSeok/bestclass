@@ -424,7 +424,7 @@ isMain = true;
             <section class="panel" id="location" style="display:block" >
                 <div class="inner swiper-container locationSwiper">
                     <ul class="list swiper-wrapper">
-				                        <li class="item item1 swiper-slide" >
+							<li class="item item1 swiper-slide" style="background: url('data/file/apt/d1main.jpg') center center no-repeat; background-size: cover;">
                             <div class="text_area animated delay-3s">
                                 <p class="state">분양중</p>
                                 <p class="title"><a href="/apt/dungok.php">둔곡 베스트클래스 오피스텔<br>(10년 장기임대)</a></p>
@@ -449,9 +449,9 @@ isMain = true;
 																	});
 								</script>
                             </div>
-								<img src="data/file/apt/2087697396_4CSKyr9U_414e78be5c6addda6498cecc4d2374984ab52e89.jpg" alt="background image">
+								<!-- <img src="data/file/apt/2087697396_4CSKyr9U_414e78be5c6addda6498cecc4d2374984ab52e89.jpg" alt="background image"> -->
                         </li>
-					                        <li class="item item2 swiper-slide" >
+						<li class="item item2 swiper-slide" style="background: url('data/file/apt/group2.jpg') center center no-repeat;">
                             <div class="text_area animated delay-6s">
                                 <p class="state">분양예정</p>
                                 <p class="title"><a href="/apt/asan.php">아산 베스트클래스 아파트</a></p>
@@ -476,9 +476,9 @@ isMain = true;
 																	});
 								</script>
                             </div>
-								<img src="data/file/apt/group2.jpg" alt="background image">
+								<!-- <img src="data/file/apt/group2.jpg" alt="background image"> -->
                         </li>
-					                        <li class="item item3 swiper-slide" style="background-color: black!important;">
+							<li class="item item3 swiper-slide" style="background-color: black!important;">
                             <div class="text_area animated delay-9s">
                                 <p class="state">분양예정</p>
                                 <p class="title"><a href="#">제천 베스트클래스</a></p>
@@ -503,7 +503,7 @@ isMain = true;
 																	});
 								</script>
                             </div>
-								<img src="data/file/apt/group3.png" alt="background image" style="background-color: black!important; display: none;">
+								<!-- <img src="data/file/apt/group3.png" alt="background image" style="background-color: black!important; display: none;"> -->
                         </li>
 					                    </ul>
 					<div class="paging">

@@ -79,7 +79,7 @@
 #board_view .control li a {display: flex; flex-flow: row nowrap;align-items: center;}
 #board_view .control span {font-size: 14px; font-weight: 500; text-align: center; color: #333; margin-left: 10px;}
 #board_view .main_image {width:100%;max-width: 1400px; overflow: hidden; position: relative; left: 50%; transform: translate(-50%, 0); margin: 90px auto 100px;}
-#board_view .main_image .swiper-slide {width: 100% !important; max-height: 800px; margin-right: 0 !important;}
+#board_view .main_image .swiper-slide {width: 100% !important; max-height: 850px; height: 850px; margin-right: 0 !important;}
 #board_view .main_image img {max-width: 100%; }
 #board_view .progr {width: 100%;max-width:1200px; min-height: 50px; position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 0); color: #fff; font-size: 22px; z-index: 11;  background-color: rgba(0,0,0,.5)}
 #board_view .progr .bar {height: 100%; position: absolute; top: 0; left: 0; background-color: #8bb929;}
@@ -166,7 +166,8 @@
 	#board_view .info {flex-flow: row wrap;}
 	#board_view .info > span {padding: 1vw 0;}
 	#board_view .info > span.where {order: 4;}
-	#board_view .info > span {margin-left: 0px !important;margin-right: 5.41vw;}
+	#board_view .info .house {text-align: left!important;}
+	#board_view .info > span {margin-left: 0px !important;margin-right: 5.41vw; margin-right: 0;}
 	#board_view .info > span:nth-child(3) {margin-right: 0px !important;text-align:left;}
 	#board_view .info dt {font-size: 3.24vw;display: inline-block; margin-right: 2vw;}
 	#board_view .info dd {font-size: 3.24vw;/* margin-top: 1.2vw; */display: inline-block;}
