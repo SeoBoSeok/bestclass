@@ -346,7 +346,7 @@ $(function(){
 		<div class="wrap">
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
-									<div class="swiper-slide" style="background: url('/data/file/apt/d1main.jpg') center center no-repeat; background-size: cover;"><a href="javascript:void(0)"></a></div> <!-- <img src="/data/file/apt/d1main.jpg"> -->
+									<div class="swiper-slide" style="background: url('/data/file/apt/d1main.jpg') center center no-repeat; background-size: contain;"><a href="javascript:void(0)"></a></div> <!-- <img src="/data/file/apt/d1main.jpg"> -->
 								</div>
 							</div>			
 		</div>
