@@ -142,6 +142,24 @@ ul.tabs li.active {
 }
 .tab_drawer_heading { display: none; }
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 @media screen and (max-width: 480px) {
   .tabs {
     display: none;
@@ -358,9 +376,9 @@ $(function(){
 		<!-- </div> -->
 		<script>
 		$(function(){
-							$("#apt_remove_4").hide();
+			$("#apt_remove_4").hide();
 				$("#apt_add_4").show();
-					});
+			});
 		</script>
 		<ul class="control">
 			<!-- <li>
@@ -436,6 +454,13 @@ $(function(){
   <!-- #tab2 -->
 </div>
 <!-- .tab_container -->
+<div class="main_image" style="padding-top: 30px; padding-bottom: 30px;">
+
+	<div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YzpwLtrGoX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+	</div>
+
+</div>
 <div class="main_image">
 	<img src="/data/file/apt/new_asan.jpg" alt="아산베스트클래스">
 </div>
