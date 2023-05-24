@@ -375,10 +375,10 @@ $(function(){
   <h3 class="d_active tab_drawer_heading" rel="tab1">8평형</h3>
   <div id="tab1" class="tab_content">
   <!-- <h2>8평형</h2> -->
-  	<img src="/img/80.png" alt="img1">
-  	<img src="/img/81.png" alt="img1">
-	<img src="/img/82.png" alt="img1">
-	<img src="/img/83.png" alt="img1">
+  	<img src="/img/80.png?v=1" alt="img1">
+  	<img src="/img/81.png?v=1" alt="img1">
+	<img src="/img/82.png?v=1" alt="img1">
+	<img src="/img/83.png?v=1" alt="img1">
   </div>
   <!-- #tab1 -->
   <h3 class="tab_drawer_heading" rel="tab2">16평형</h3>
