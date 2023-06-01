@@ -363,7 +363,7 @@ $(function(){
 		
 	    <div class="apt_info">
 			<img src="/img/d1.png" alt="img1">
-			<img src="/img/d2.png" alt="img1">
+			<!-- <img src="/img/d2.png" alt="img1"> -->
 			<img src="/img/d3.png?v=1" alt="img1">
 			<!-- <img src="/img/d4.png" alt="img1"> -->
 		</div>
